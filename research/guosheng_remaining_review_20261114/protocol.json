@@ -1,0 +1,19 @@
+{
+  "task": "Final review of remaining components with a bounded economic hypothesis set",
+  "knowledge": "All historical inputs and prior experiments have been seen. These are conditional diagnostics, not fresh OOS evidence.",
+  "main_policy": "Keep original monthly basket and 63-day history; current six ETFs and macro rules unchanged",
+  "hypotheses": {
+    "inverse_vol": "Remove correlation estimation from weights; exactly equivalent to two-asset long-only ERC, changes only three-asset baskets. No tuned shrinkage coefficient.",
+    "equal": "Remove risk forecasting and allocate equal capital within selected basket. Exposes the return-versus-risk tradeoff, not presumed improvement.",
+    "same_day_cash": "ETF sale proceeds are generally usable the same day. Match broker actual available cash after fills; quote model with extra buy-side friction tests sensitivity. Not a prediction of free extra alpha.",
+    "input_governance": "Audit missing versus unchanged versus expired versus redefined policy indicators, historical collector boundaries and unmatched macro state persistence. A source-validity correction is not a return optimization."
+  },
+  "weight_rules": ["erc","inverse_vol","equal"],
+  "windows": {"amount":["2014-01-02","2020-01-02"],"actual":["2025-06-04","2025-11-06"]},
+  "cost": {"capital":500000,"commission_rate":0.00015,"minimum":5,"slip_bp":[9,20]},
+  "transfer": ["old_dividend","old_value","listed","normalized"],
+  "execution_controls": {"same_day_cash":true,"extra_buy_slip_bp":[0,9,20],"weight_rule":"erc","base_slip_bp":9},
+  "max_accounts":56,
+  "decision": "Keep ERC unless a coherent improvement transfers across starts, non-overlapping periods and asset-history controls without a disproportionate increase in volatility or drawdown. Keep failures; do not optimize a mixing coefficient after seeing results. Execution choices follow actual funds availability, not the more profitable historical convention.",
+  "unchanged_by_design": "No new asset selection, leverage, trend overlay, stop loss, macro threshold, policy weight or calendar optimization. The current user asks whether such changes are necessary, not permission to deploy them."
+}

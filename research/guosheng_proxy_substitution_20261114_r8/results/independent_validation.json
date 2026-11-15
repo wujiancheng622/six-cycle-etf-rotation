@@ -1,0 +1,8 @@
+{
+  "accounts": 56,
+  "account_days": 122916,
+  "orders": 29372,
+  "max_nav_error": 1.6670674085617065e-07,
+  "metric_checks": 448,
+  "max_metric_error": 1.7763568394002505e-15
+}

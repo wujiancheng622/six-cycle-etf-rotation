@@ -1,0 +1,11 @@
+{
+  "accounts": 137,
+  "amount_accounts": 119,
+  "actual_accounts": 18,
+  "account_days": 298848,
+  "orders": 83785,
+  "metric_checks": 3264,
+  "max_metric_error": 1.7763568394002505e-15,
+  "amount_nav_max_error": 1.7276033759117126e-07,
+  "actual_scope": "Saved daily P&L and log-link identity only; no new independent intraday quote rebuild"
+}

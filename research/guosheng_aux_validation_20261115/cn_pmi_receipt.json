@@ -1,0 +1,8 @@
+{
+  "endpoint": "cn_pmi",
+  "fields": "month,pmi010500",
+  "rows": 202,
+  "retrieved": "2026-11-15T03:21:28.935917+00:00",
+  "quality": "current vintage, historical release versions NOT certified",
+  "sha256": "e91bf397bcbf8dede0578853f32cd3d3addc6c64066fe61a87de7b9c8513e4db"
+}

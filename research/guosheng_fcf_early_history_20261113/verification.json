@@ -1,0 +1,33 @@
+{
+  "first_run": "2011-04-15",
+  "risk_ready": "2011-04-13",
+  "first_stage": "2011-04-14",
+  "legacy_first_stage": "2012-06-11",
+  "legacy_first_run": "2012-06-12",
+  "first_credit_observation": "2011-03",
+  "first_credit_release": "2011-04-14",
+  "first_growth_available": "2011-04-03",
+  "early_missing_direct_gold_pairs": [
+    "2011-01-04"
+  ],
+  "early_fcf_perturbation_invariant": true,
+  "cutoff_parent_2013_reproduced": true,
+  "sources": {
+    "legacy_gs_returns": "a17c50be0280b561263e2e3673ff359a9118880f1bc14eb7422e33bb55c431f2",
+    "legacy_v12_returns": "4600f63042bbff81a50621456800fedeea187a8cf97f08e30c9e441f2c69ac99",
+    "legacy_phases": "04b9e95d77ddacf2efaf41bf7940b502aec4ccfde73d2a59d65b8a69d28afaad",
+    "legacy_credit": "dfb5d63a7a393c1a76ecd640d8c1143d8892a19040bf850b84ebcb25d4fa07e3",
+    "legacy_credit_values": "253fa296642697c74f9990cafa5e80d2a36318fe7586246fa6ccda81ad358918",
+    "legacy_pmi": "330575caf42db8c0d154fd6d51c6dbb46093e946cf3648ffa0bcac4085f3a09f",
+    "cn_pmi": "acdf20d204a28f3e12b4d93959afd83f7cf619ad7b18e9ca9d05eb1be7de8350",
+    "hsbc_pmi_calendar": "b073fedabc9044ec41c4e9a70a12d74b4d1d989bc04fe4faa2bac713f563fdbc",
+    "credit_2009": "3fa9cf27dc2de31b6ba73b03c260700c1beb89a3db701494357f24f7e8c416b1",
+    "calendar": "f12192ac6574588f2cacae58afab1f6c7eb4f6a51b746f9838abc2d908f6917d",
+    "early_growth": "b8bcb4819ea7434c40a4f4b1a24e00975f54f43b7c1783d38be7c130fadb4ae1",
+    "early_growth_etf": "8ccd98a69b7d8771334512710d26f5fb13479c2ac99aed545ac853d105042fd5",
+    "early_gold": "190889748813caea2f2d2a7762d8d9b29647a0c1a7e6f0cc268190f4f24d92a6",
+    "early_gold_audited": "913ceb73f6607219d1b9b3d4773f392ada60a0afe328072a9e8b06c85759cc94",
+    "early_dividend": "f25de2ac09e5eeaf63b05b30e41732f8f3a87a29c754b0a1c8ec210adcaf9ebb",
+    "early_bond": "7e5cf2b6f2be490d9064a07c78f9a2a471d7050ed9c1c6e72f78269bd9847c74"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "GS_V12_P0_channels_round4_20261113",
+  "created_before_new_account_results": true,
+  "history_already_seen": true,
+  "primary": {
+    "start": "2013-04-12",
+    "end": "2026-11-12",
+    "capital": 500000,
+    "slip_bps": [
+      9,
+      20
+    ]
+  },
+  "cold_starts": [
+    "2025-06-04",
+    "2025-07-01"
+  ],
+  "cutoffs": {
+    "fcf_rule_effective": "2024-08-15",
+    "dividend_index_publication": "2017-05-26",
+    "bond_index_publication": "2021-07-09",
+    "ETF": "Existing archived actual_return_from; not claimed to be exact legal listing date"
+  },
+  "mechanism_groups": [
+    "FCF",
+    "THREE_INDEX",
+    "ALL_ETF"
+  ],
+  "per_group": [
+    "legacy_hold_only_date_gate",
+    "matched_proxy_risk_reference_cash",
+    "matched_proxy_risk_equal_cash",
+    "matched_eligible_risk_reference_cash",
+    "matched_eligible_risk_equal_cash"
+  ],
+  "common_eligibility": "Matched four cells in each group use identical eligibility: 63 common post-cutoff valid one-session returns. Legacy hold-only cells preserve the old calendar-date gate without new 63-day gate to isolate the bridge.",
+  "cash": "GS equal: available_count/requested_count; reference: sum original full-proxy ERC weights of eligible assets. V12 preserves original BASE weights of eligible assets without renormalizing and its original covariance/12% scale/5% buffer.",
+  "risk": "GS eligible ERC estimated only on jointly valid eligible dates; proxy uses original full-basket ERC then normalizes selected weights. Reference cash deliberately retains proxy information and is not a fully isolated arm.",
+  "benchmark": [
+    "V12_original",
+    "V12_earlier_actual",
+    "V12_ETF_available"
+  ],
+  "macro_lag": {
+    "sessions": 1,
+    "case": "GS_ALL_ETF_eligible_equal_macro_lag1",
+    "implementation": "Reindex complete macro panel to GS return trading calendar, shift every column one row, discard empty first row, no backfill and no state recomputation; usual known=previous session remains.",
+    "scope": "Single conservative information-delay sensitivity, not a verified vintage repair or uniquely correct announcement policy"
+  },
+  "engine": "Same existing economic_masked amount ledger for all accounts, prior-close known inputs, next-close amount fills, fractional units, original fees and next-session sell-cash constraint; not actual opening fills.",
+  "commission_rate": 0.00015,
+  "minimum_commission_cny": 5,
+  "target_cache": "Target computations depend only on case/start/known date and fixed inputs, not capital or NAV. Cache separately by case+start for reuse across 9/20bp; execution/affordability/fees are recomputed in each account. Never reuse cache across altered inputs.",
+  "expected_accounts": 48,
+  "run_order": "All 9bp main cases and 9bp cold starts, then 20bp; persist every account immediately.",
+  "validation": [
+    "Input/source SHA before and after",
+    "Known strictly before date and identical calendar within paired account windows",
+    "Cash nonnegative; weights sum1; previous NAV+P&L-cost=NAV",
+    "Independent metrics from daily ledgers to be checked separately",
+    "Reuse existing strict source perturbation tests; new lag sidecar exposes full-source date shift"
+  ],
+  "failure_policy": "Preserve all exceptions and partial outputs; no input invention or winner selection; missing evidence remains unresolved.",
+  "unresolved": [
+    "Original macro first-release and revision vintages",
+    "Historical strategy/universe selection",
+    "Identity/version of earliest fcf-labelled proxy",
+    "Executable opening depth and actual costs",
+    "Independent unseen confirmation"
+  ],
+  "interpretation": "This measures fixed historical channel and budget effects, not total P0 bias, causal alpha, future performance, or full original-vintage reconstruction."
+}

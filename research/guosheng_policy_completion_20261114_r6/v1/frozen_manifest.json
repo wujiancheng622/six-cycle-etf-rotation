@@ -1,0 +1,8 @@
+{
+  "guosheng_six_regime_long_20261112\\data\\returns_gs.parquet": "a17c50be0280b561263e2e3673ff359a9118880f1bc14eb7422e33bb55c431f2",
+  "guosheng_six_regime_long_20261112\\data\\returns_v12.parquet": "4600f63042bbff81a50621456800fedeea187a8cf97f08e30c9e441f2c69ac99",
+  "guosheng_six_regime_long_20261112\\data\\macro.parquet": "04b9e95d77ddacf2efaf41bf7940b502aec4ccfde73d2a59d65b8a69d28afaad",
+  "guosheng_original_reconstruction_20261114\\results\\policy_events_used.csv": "b029fea95aa898f84d5f4a61cc944cdab004d81438f53121a848a1d9c1d4d50b",
+  "guosheng_policy_completion_20261114_r6\\protocol.json": "5907d3a17683766d586f367c3c9ac68d7de78dea430dcc2a295818ed2ee7b932",
+  "guosheng_policy_completion_20261114_r6\\replay_policy.py": "14dbcda8db7d8a1190adcd2ed6ab2013f5920a784bb6eff4447bf3c50ac3d6b7"
+}

@@ -1,0 +1,21 @@
+{
+  "frozen_utc": "2026-11-15T03:30:20.627301+00:00",
+  "hashes": {
+    "guosheng_h1_h2_validation_20261115_r13\\protocol.json": "fd90d7321c745082c961e684bf4a849860781751ded83a762b960b858c46752c",
+    "guosheng_data_expansion_review_20261115\\国盛新增分析数据源整改方案_R2交叉评审修订稿.md": "5c6526b8f0c31bd14e7c2205229757da8e653118ac9df6e9d10c980fb312d6a0",
+    "guosheng_data_expansion_review_20261115\\网页端第二轮修订条款原文.md": "586547503b4db4aadf2b617c8b7b983ed6ad8a426adbdd3b0bfb0cf627d75a9a",
+    "guosheng_data_expansion_review_20261115\\网页端第二轮评审逐项回应.md": "79e436044694e31e3ce0821c320940809859cbfccadb19bb0d53e22841572a19",
+    "guosheng_final_decision_20261114\\study.py": "813d4ea96ced5b3faf51edfc2c2c60ab0a13a331bb3a07f655ebcf22390e5175",
+    "guosheng_timing_attribution_20261115\\results\\month_detail.csv": "163f9a2aa6055a86bdc7df03b93411d0a7117d8d5be709496b47f23673de9cce",
+    "guosheng_timing_attribution_20261115\\results\\asset_month_detail.csv": "5a5fac4910b70f83912e8651bb9332c602d06e6f7834331e23edac960d8aefd6",
+    "guosheng_macro_auxiliary_20261115\\decision_date_credit.csv": "0261238ad77eeedc4f9c033be8e3a2885240ce320e77cdbf8a1788d8969fe402",
+    "guosheng_final_decision_20261114\\results\\accounts\\monthly_2014-01-02_9bp\\ledger.parquet": "119cd349ce0a177450e2390e0113746d02c25dde0fb9f670a65abccc41586ac2",
+    "guosheng_final_decision_20261114\\results\\accounts\\monthly_2014-01-02_9bp\\signals.parquet": "9978cafe45f873c86001b9bb8d7ae5fc3988395158b1cef795750d34561aeb4b",
+    "guosheng_final_decision_20261114\\results\\accounts\\monthly_2014-01-02_9bp\\meta.json": "df79c6a252d78646fee4dcfb53afc40de8b104fd14c79c15582aee3b2b848f48",
+    "guosheng_final_decision_20261114\\results\\accounts\\V12_2014-01-02_9bp\\ledger.parquet": "b4d897f9c74789ffb3631518098262e70880668de1657c7b8cd480d63546693b",
+    "guosheng_final_decision_20261114\\results\\accounts\\V12_2014-01-02_9bp\\signals.parquet": "cc9171fd6491b8494dff42f117885a1b1b6430fc8a12a84a555931fb7a780931",
+    "guosheng_final_decision_20261114\\results\\accounts\\V12_2014-01-02_9bp\\meta.json": "df79c6a252d78646fee4dcfb53afc40de8b104fd14c79c15582aee3b2b848f48"
+  },
+  "prior_status": "No new H1/H2 features or fitted results read in this run; prior strategy and existing credit diagnostics already known",
+  "no_other_models_guarantee": "Cannot certify experiments in uninspected outside work"
+}

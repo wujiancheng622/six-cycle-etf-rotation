@@ -1,0 +1,12 @@
+{
+  "FCF_strict_perturbation_invariant": true,
+  "conditional_missing_quote_handling": {
+    "missing": {
+      "bond10": [
+        "2018-08-17"
+      ]
+    },
+    "policy": "carry adjusted last mark, forbid fills, retain next-quote cumulative P&L, exclude missing/resumption observations from daily covariance; not proof of actual halt"
+  },
+  "symmetric_scope": "Actual ETF eligibility/63-day risk mask; macro vintages and current asset-map selection remain unverified"
+}

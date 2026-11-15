@@ -1,0 +1,279 @@
+{
+  "accounts": {
+    "accounts/actual/2025-07-01/GS_DR007_monthly_9bp": {
+      "sessions": 333,
+      "trades": 58,
+      "ending": 1582181.16611,
+      "ledger_sha256": "9a4cbfb0129288521a9ed2b718d7eb78034d7d7541f9b494fe1304715b4a54cc"
+    },
+    "accounts/actual/2025-07-01/GS_monthly_20bp": {
+      "sessions": 333,
+      "trades": 60,
+      "ending": 1559123.32431,
+      "ledger_sha256": "936350b97a55c8db114dab428325f7b080ef58ea43e2da1d21d3f3ff6267e59a"
+    },
+    "accounts/actual/2025-07-01/GS_monthly_9bp": {
+      "sessions": 333,
+      "trades": 58,
+      "ending": 1582181.16611,
+      "ledger_sha256": "9a4cbfb0129288521a9ed2b718d7eb78034d7d7541f9b494fe1304715b4a54cc"
+    },
+    "accounts/actual/2025-07-01/GS_stage_switch_9bp": {
+      "sessions": 333,
+      "trades": 74,
+      "ending": 1678445.8568499996,
+      "ledger_sha256": "c9ee4cebaf6ecceb2ba2bc0df6d389bef3c846edc1f333124a6abe6560886f41"
+    },
+    "accounts/actual/2025-07-01/Six_asset_ERC_9bp": {
+      "sessions": 333,
+      "trades": 127,
+      "ending": 1098152.0006549999,
+      "ledger_sha256": "d4b407eef3b8390a575ddc73636e6fc94c8425f4ed3232b094aa3708328e2fcc"
+    },
+    "accounts/actual/2025-07-01/V12_20bp": {
+      "sessions": 333,
+      "trades": 206,
+      "ending": 1179902.276305,
+      "ledger_sha256": "2fcda68226c083c0f0dff4ef31d89f7a0738f93f4deb07a398beb357d7c8fb68"
+    },
+    "accounts/actual/2025-07-01/V12_9bp": {
+      "sessions": 333,
+      "trades": 211,
+      "ending": 1184449.9110349999,
+      "ledger_sha256": "e2915f0d7d42d7c4f826ec72dda8ec0f41ca12c6044d9b15d83f4777fece9ba3"
+    },
+    "accounts/actual/2025-11-06/GS_DR007_monthly_9bp": {
+      "sessions": 247,
+      "trades": 47,
+      "ending": 1203996.4675499997,
+      "ledger_sha256": "d6d7fc928a08676e7c95260d0f50d358c790b7161d2ba5555694573cd26e3b93"
+    },
+    "accounts/actual/2025-11-06/GS_monthly_20bp": {
+      "sessions": 247,
+      "trades": 47,
+      "ending": 1189667.5921949993,
+      "ledger_sha256": "f99ea1926b8d90e627a2bbaaf5bc2024ce39808230b556b93b66f4d120ae90c6"
+    },
+    "accounts/actual/2025-11-06/GS_monthly_9bp": {
+      "sessions": 247,
+      "trades": 47,
+      "ending": 1203996.4675499997,
+      "ledger_sha256": "d6d7fc928a08676e7c95260d0f50d358c790b7161d2ba5555694573cd26e3b93"
+    },
+    "accounts/actual/2025-11-06/GS_stage_switch_9bp": {
+      "sessions": 247,
+      "trades": 62,
+      "ending": 1332204.4595749998,
+      "ledger_sha256": "5346876ee42462d1b7cc2ca9fd3dd5722aca5f97ead894d5597fbd5551acd056"
+    },
+    "accounts/actual/2025-11-06/Six_asset_ERC_9bp": {
+      "sessions": 247,
+      "trades": 93,
+      "ending": 1034107.430885,
+      "ledger_sha256": "8557d4da2e1bcee8137b82aa328d1a10a7018c57b02f5678c3b389109e45f5d5"
+    },
+    "accounts/actual/2025-11-06/V12_20bp": {
+      "sessions": 247,
+      "trades": 179,
+      "ending": 1061408.4613450002,
+      "ledger_sha256": "4da344105ee8ddafce89f87355fa13988adfda4bdbc9df00133ffefe5a8f50f0"
+    },
+    "accounts/actual/2025-11-06/V12_9bp": {
+      "sessions": 247,
+      "trades": 179,
+      "ending": 1063835.635575,
+      "ledger_sha256": "944d7a624b72a38979736ed8f9d9dd178f48d74650008c8dd6e6877e002074a8"
+    },
+    "accounts/amount/2016-01-04/GS_DR007_monthly_9bp": {
+      "sessions": 2637,
+      "trades": 475,
+      "ending": 9539649.373883948,
+      "ledger_sha256": "60c846c00045226acba1506ca83630723519dc86d8d9c7c555bb668ebbe79967"
+    },
+    "accounts/amount/2016-01-04/GS_monthly_20bp": {
+      "sessions": 2637,
+      "trades": 473,
+      "ending": 8435828.693369152,
+      "ledger_sha256": "5c757c149774ece714d74d2822e9aa25d04c2839c01dd8f418c9b86e49e2ff79"
+    },
+    "accounts/amount/2016-01-04/GS_monthly_9bp": {
+      "sessions": 2637,
+      "trades": 478,
+      "ending": 9073979.956318673,
+      "ledger_sha256": "e9cd40896409cab0bc0635a83d392ae31bfd4aa7df33e8d52f7890fe8586d750"
+    },
+    "accounts/amount/2016-01-04/GS_stage_switch_9bp": {
+      "sessions": 2637,
+      "trades": 626,
+      "ending": 8081151.504151375,
+      "ledger_sha256": "ef590cf237bccae74b44de97c76e492b688cee6e053e8c384f67c5161dcd0432"
+    },
+    "accounts/amount/2016-01-04/Six_asset_ERC_9bp": {
+      "sessions": 2637,
+      "trades": 957,
+      "ending": 2748004.9980721246,
+      "ledger_sha256": "97438d2a6506635c5dd596bd7695314a3a2dd31f386c5ea6a75dfa94f0da28e1"
+    },
+    "accounts/amount/2016-01-04/V12_20bp": {
+      "sessions": 2637,
+      "trades": 1215,
+      "ending": 3366621.9929401875,
+      "ledger_sha256": "be6bd310d8b1c9cc571989e24970b62d1df0441ef71ccd8c2185167816ed4c51"
+    },
+    "accounts/amount/2016-01-04/V12_9bp": {
+      "sessions": 2637,
+      "trades": 1229,
+      "ending": 3406026.3034851933,
+      "ledger_sha256": "723eca7a6cf57409818d1ef46857814a66cca7eb845584c2db66937c3c624e96"
+    },
+    "accounts/amount/2020-01-02/GS_DR007_monthly_9bp": {
+      "sessions": 1662,
+      "trades": 299,
+      "ending": 4187307.7897998122,
+      "ledger_sha256": "97e08470eee25be1909d94cfa57e608327b04c0958c569778c5ca77d9e0f1119"
+    },
+    "accounts/amount/2020-01-02/GS_monthly_20bp": {
+      "sessions": 1662,
+      "trades": 305,
+      "ending": 3787499.7609327147,
+      "ledger_sha256": "100a6e9267c539b7043dd90dbd293ab346269abc3def6130b7d9e8e65c2f3b62"
+    },
+    "accounts/amount/2020-01-02/GS_monthly_9bp": {
+      "sessions": 1662,
+      "trades": 305,
+      "ending": 3968269.042954955,
+      "ledger_sha256": "f6d44f1f4ecdfd7da6dc78f339e74f39102cb324220d51cdd7c90a410e20847b"
+    },
+    "accounts/amount/2020-01-02/GS_stage_switch_9bp": {
+      "sessions": 1662,
+      "trades": 394,
+      "ending": 3829581.003358118,
+      "ledger_sha256": "d3395b8a2876fd1001250abbe7d8dc9bdff61ebdcf62860dabef2ce23d659536"
+    },
+    "accounts/amount/2020-01-02/Six_asset_ERC_9bp": {
+      "sessions": 1662,
+      "trades": 612,
+      "ending": 2084345.8132974699,
+      "ledger_sha256": "0aef6a40afbe4570236d9485c957892c75919c000df8a6b3013af859e84bcfd7"
+    },
+    "accounts/amount/2020-01-02/V12_20bp": {
+      "sessions": 1662,
+      "trades": 935,
+      "ending": 2145870.097461516,
+      "ledger_sha256": "c7f4cfbc1ae8b7b9965e133cb002325b47f0dd3a6ceb621887894d404cd165ff"
+    },
+    "accounts/amount/2020-01-02/V12_9bp": {
+      "sessions": 1662,
+      "trades": 951,
+      "ending": 2164007.9717447367,
+      "ledger_sha256": "8db3a3ce7b48443b7417dc1aa7fd5645744028dc16dc31110738d743468b75b9"
+    },
+    "accounts/amount/2022-01-04/GS_DR007_monthly_9bp": {
+      "sessions": 1176,
+      "trades": 214,
+      "ending": 2599234.9228870235,
+      "ledger_sha256": "119f07a793383e957df9dbd7f64eb99d71c45fcaf16ae74a70056d6121cd5ab8"
+    },
+    "accounts/amount/2022-01-04/GS_monthly_20bp": {
+      "sessions": 1176,
+      "trades": 220,
+      "ending": 2342516.1889793053,
+      "ledger_sha256": "54c592df995c3e2cf4e9fe90240a70797c4bf4d73e23a92671317b81654ca7e3"
+    },
+    "accounts/amount/2022-01-04/GS_monthly_9bp": {
+      "sessions": 1176,
+      "trades": 219,
+      "ending": 2421128.328390003,
+      "ledger_sha256": "c2e3e3fbc88b238dc7bfa48b4787aaf531d710c8a2086ccafdc2389a657e5b94"
+    },
+    "accounts/amount/2022-01-04/GS_stage_switch_9bp": {
+      "sessions": 1176,
+      "trades": 284,
+      "ending": 2273088.886174543,
+      "ledger_sha256": "28bd8fe1dd5e976d31159bb31d59baf6901941de4810e11f8f83c22d0ed8c7c0"
+    },
+    "accounts/amount/2022-01-04/Six_asset_ERC_9bp": {
+      "sessions": 1176,
+      "trades": 435,
+      "ending": 1666457.7157193446,
+      "ledger_sha256": "abed00c1514b24905c161ec8aa05f09a9decb468b6e979c5f041b807751be8e8"
+    },
+    "accounts/amount/2022-01-04/V12_20bp": {
+      "sessions": 1176,
+      "trades": 588,
+      "ending": 1640237.8623803798,
+      "ledger_sha256": "c8a3ad43ca02accbdc0ab579976f75d7afbc1262f3aedbda57034700e3ea60f5"
+    },
+    "accounts/amount/2022-01-04/V12_9bp": {
+      "sessions": 1176,
+      "trades": 588,
+      "ending": 1648499.5537142004,
+      "ledger_sha256": "b90e16bc463a96e0d470ede29371f94b2e375d194a819b424f0cf768a7e48a14"
+    }
+  },
+  "micro_state_cases": 9,
+  "future_data_perturbation_invariant": true,
+  "weights_sum": 1.0,
+  "qmt_unadjusted": {
+    "growth": {
+      "code": "159915.SZ",
+      "matched": 248,
+      "only_qmt": 0,
+      "only_tushare": 0,
+      "max_difference": {
+        "open": 8.881784197001252e-16,
+        "close": 8.881784197001252e-16
+      }
+    },
+    "gold": {
+      "code": "518880.SH",
+      "matched": 248,
+      "only_qmt": 0,
+      "only_tushare": 0,
+      "max_difference": {
+        "open": 1.7763568394002505e-15,
+        "close": 1.7763568394002505e-15
+      }
+    },
+    "metals": {
+      "code": "159980.SZ",
+      "matched": 248,
+      "only_qmt": 0,
+      "only_tushare": 0,
+      "max_difference": {
+        "open": 0.0,
+        "close": 0.0
+      }
+    },
+    "fcf": {
+      "code": "159201.SZ",
+      "matched": 248,
+      "only_qmt": 0,
+      "only_tushare": 0,
+      "max_difference": {
+        "open": 2.220446049250313e-16,
+        "close": 0.0
+      }
+    },
+    "bond": {
+      "code": "511090.SH",
+      "matched": 248,
+      "only_qmt": 0,
+      "only_tushare": 0,
+      "max_difference": {
+        "open": 0.0,
+        "close": 0.0
+      }
+    },
+    "dividend": {
+      "code": "515100.SH",
+      "matched": 248,
+      "only_qmt": 0,
+      "only_tushare": 0,
+      "max_difference": {
+        "open": 0.0,
+        "close": 0.0
+      }
+    }
+  }
+}

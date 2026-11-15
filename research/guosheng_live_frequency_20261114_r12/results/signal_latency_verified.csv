@@ -1,0 +1,17 @@
+case,mode,start,strategy,days,state_spells,missed_spells_ex_initial,stale_target_days,stale_target_fraction,mean_matched_delay_sessions,max_matched_delay_sessions
+actual_2025-06-04_9bp_daily,actual,2025-06-04,daily,352,9,0,0,0.0,0.0,0
+actual_2025-06-04_9bp_month_and_switch,actual,2025-06-04,month_and_switch,352,9,0,0,0.0,0.0,0
+actual_2025-06-04_9bp_monthly,actual,2025-06-04,monthly,352,9,0,86,0.24431818181818182,10.75,21
+actual_2025-06-04_9bp_weekly,actual,2025-06-04,weekly,352,9,0,9,0.02556818181818182,1.125,4
+actual_2025-11-06_9bp_daily,actual,2025-11-06,daily,247,7,0,0,0.0,0.0,0
+actual_2025-11-06_9bp_month_and_switch,actual,2025-11-06,month_and_switch,247,7,0,0,0.0,0.0,0
+actual_2025-11-06_9bp_monthly,actual,2025-11-06,monthly,247,7,0,54,0.21862348178137653,9.0,20
+actual_2025-11-06_9bp_weekly,actual,2025-11-06,weekly,247,7,0,5,0.020242914979757085,0.8333333333333334,2
+amount_2014-01-02_9bp_daily,amount,2014-01-02,daily,3126,49,0,0,0.0,0.0,0
+amount_2014-01-02_9bp_month_and_switch,amount,2014-01-02,month_and_switch,3126,49,0,0,0.0,0.0,0
+amount_2014-01-02_9bp_monthly,amount,2014-01-02,monthly,3126,49,3,580,0.1855406269993602,12.28888888888889,21
+amount_2014-01-02_9bp_weekly,amount,2014-01-02,weekly,3126,49,0,97,0.031030070377479207,2.0208333333333335,4
+amount_2020-01-02_9bp_daily,amount,2020-01-02,daily,1662,27,0,0,0.0,0.0,0
+amount_2020-01-02_9bp_month_and_switch,amount,2020-01-02,month_and_switch,1662,27,0,0,0.0,0.0,0
+amount_2020-01-02_9bp_monthly,amount,2020-01-02,monthly,1662,27,2,317,0.190734055354994,12.625,21
+amount_2020-01-02_9bp_weekly,amount,2020-01-02,weekly,1662,27,0,53,0.031889290012033694,2.0384615384615383,4

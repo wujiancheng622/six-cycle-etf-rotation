@@ -1,0 +1,13 @@
+{
+  "seed": 20261114,
+  "paths": 60,
+  "maps_per_path": 120,
+  "source_block_days": 20,
+  "original_cagr": 0.2200679050490102,
+  "real_best_cagr": 0.2200679050490102,
+  "noise_best_median": 0.1270890768612879,
+  "noise_best_q95": 0.18461330704777734,
+  "noise_best_max": 0.20016857782286546,
+  "best_exceeds_observed_fraction": 0.0,
+  "scope": "Only this declared 120-basket-map search, preserving sampled joint returns and recomputing risk, costs and fills. Author-wide selection remains unknown."
+}

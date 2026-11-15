@@ -1,0 +1,7 @@
+{
+  "guosheng_six_regime_long_20261112\\data\\returns_gs.parquet": "a17c50be0280b561263e2e3673ff359a9118880f1bc14eb7422e33bb55c431f2",
+  "guosheng_six_regime_long_20261112\\data\\returns_v12.parquet": "4600f63042bbff81a50621456800fedeea187a8cf97f08e30c9e441f2c69ac99",
+  "guosheng_policy_completion_20261114_r6\\v2\\expanded_policy_only_signals.parquet": "ba286b2e6cdec7e423bd4bf01e6bc8d25ad53deb8f76b140cb53ec114df5221a",
+  "guosheng_proxy_substitution_20261114_r8\\run_tests.py": "9a8272f59c991024ddcd9955e0ea0744087a1a13070127e5d03893f188772291",
+  "guosheng_proxy_substitution_20261114_r8\\protocol.json": "59790e5dc5db5bd15feb622d608b93381d58bfb412ba4d42f069b79bfd3aa7fc"
+}

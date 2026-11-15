@@ -1,0 +1,17 @@
+chart,mode,guard_days,dates,readable,exact_phase,same_basket
+2024_fig24,daily,0,2654,2613,2183,2250
+2024_fig24,daily,5,2654,2371,2004,2061
+2024_fig24,daily,10,2654,2135,1828,1874
+2024_fig24,daily,20,2654,1707,1485,1515
+2024_fig24,monthly_known,0,131,127,103,108
+2024_fig24,monthly_known,5,131,122,100,105
+2024_fig24,monthly_known,10,131,110,93,97
+2024_fig24,monthly_known,20,131,83,72,75
+2026_fig2,daily,0,2876,2824,2367,2446
+2026_fig2,daily,5,2876,2538,2163,2229
+2026_fig2,daily,10,2876,2271,1953,2003
+2026_fig2,daily,20,2876,1841,1618,1647
+2026_fig2,monthly_known,0,142,142,118,124
+2026_fig2,monthly_known,5,142,130,107,113
+2026_fig2,monthly_known,10,142,122,102,107
+2026_fig2,monthly_known,20,142,87,75,79

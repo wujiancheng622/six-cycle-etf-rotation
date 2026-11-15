@@ -1,0 +1,13 @@
+{
+  "study": "Frequency sensitivity of the frozen local Guosheng model, not selection of new parameters",
+  "schedules": ["monthly","weekly","daily","month_and_switch","week_and_switch"],
+  "weekly": "First actual exchange session in each Monday-Sunday week",
+  "daily": "Recompute target each exchange session; fresh target supersedes any previous refill",
+  "switch": "Check daily, trigger only on changed basket in addition to scheduled reweights",
+  "frozen": "Same asset universe, signal, previous-session cutoff, 63-day covariance, 500000 yuan, 1.5bp commission min 5, sell proceeds convention",
+  "starts": {"amount":["2014-01-02","2020-01-02"],"actual":["2025-06-04","2025-11-06"]},
+  "end": "2026-11-12",
+  "slippage_each_side_bp": [0,9,20,50],
+  "extra_macro_delay_calendar_days": [1,3,7],
+  "other_controls": "9bp previous-session sale funds versus same-day sale funds in the recent real-ETF quote model. Measure different targets and realized costs, not frequency alone."
+}

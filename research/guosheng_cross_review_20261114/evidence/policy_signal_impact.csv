@@ -1,0 +1,7 @@
+comparison,period,days,different_money,different_phase,different_possible_basket
+R6_web_vs_sparse,paper,2876,472,414,278
+R6_web_vs_sparse,full,3126,472,414,278
+R6_web_vs_sparse,recent,247,0,0,0
+R6_on_latest_local,paper,2876,137,135,135
+R6_on_latest_local,full,3126,137,135,135
+R6_on_latest_local,recent,247,0,0,0

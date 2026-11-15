@@ -1,0 +1,22 @@
+{
+  "completed_accounts": 2,
+  "failures": [],
+  "changed_inputs": [],
+  "unchanged_non_growth_columns": [
+    "lpr_1y",
+    "lpr_5y",
+    "rrr_B",
+    "rrr_S",
+    "market",
+    "money_score",
+    "money",
+    "credit",
+    "credit_pulse",
+    "credit_published"
+  ],
+  "monthly_decisions": 164,
+  "monthly_stage_changes": 1,
+  "monthly_basket_changes": 1,
+  "first_vintage_repair_claim": false,
+  "main_48_unchanged": true
+}

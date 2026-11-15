@@ -1,0 +1,647 @@
+{
+  "readiness": [
+    {
+      "case": "GS_ETF_available",
+      "asset": "growth",
+      "first_actual_return": "2011-12-12",
+      "risk63_known": "2013-04-11",
+      "first_eligible_execution_day": "2013-04-12"
+    },
+    {
+      "case": "GS_ETF_available",
+      "asset": "gold",
+      "first_actual_return": "2013-07-30",
+      "risk63_known": "2013-11-04",
+      "first_eligible_execution_day": "2013-11-05"
+    },
+    {
+      "case": "GS_ETF_available",
+      "asset": "metals",
+      "first_actual_return": "2019-12-25",
+      "risk63_known": "2020-03-31",
+      "first_eligible_execution_day": "2020-04-01"
+    },
+    {
+      "case": "GS_ETF_available",
+      "asset": "fcf",
+      "first_actual_return": "2025-02-28",
+      "risk63_known": "2025-06-03",
+      "first_eligible_execution_day": "2025-06-04"
+    },
+    {
+      "case": "GS_ETF_available",
+      "asset": "bond",
+      "first_actual_return": "2023-06-14",
+      "risk63_known": "2023-09-12",
+      "first_eligible_execution_day": "2023-09-13"
+    },
+    {
+      "case": "GS_ETF_available",
+      "asset": "dividend",
+      "first_actual_return": "2020-07-06",
+      "risk63_known": "2020-09-30",
+      "first_eligible_execution_day": "2020-10-09"
+    },
+    {
+      "case": "V12_ETF_available",
+      "asset": "csi300",
+      "first_actual_return": "2013-01-07",
+      "risk63_known": "2013-04-12",
+      "first_eligible_execution_day": "2013-04-15"
+    },
+    {
+      "case": "V12_ETF_available",
+      "asset": "csi1000",
+      "first_actual_return": "2016-11-07",
+      "risk63_known": "2017-02-09",
+      "first_eligible_execution_day": "2017-02-10"
+    },
+    {
+      "case": "V12_ETF_available",
+      "asset": "divlow",
+      "first_actual_return": "2019-01-21",
+      "risk63_known": "2019-04-25",
+      "first_eligible_execution_day": "2019-04-26"
+    },
+    {
+      "case": "V12_ETF_available",
+      "asset": "bond10",
+      "first_actual_return": "2017-08-25",
+      "risk63_known": "2017-11-28",
+      "first_eligible_execution_day": "2017-11-29"
+    },
+    {
+      "case": "V12_ETF_available",
+      "asset": "gold",
+      "first_actual_return": "2013-07-30",
+      "risk63_known": "2013-11-04",
+      "first_eligible_execution_day": "2013-11-05"
+    },
+    {
+      "case": "V12_ETF_available",
+      "asset": "metals",
+      "first_actual_return": "2019-12-25",
+      "risk63_known": "2020-03-31",
+      "first_eligible_execution_day": "2020-04-01"
+    },
+    {
+      "case": "V12_ETF_available",
+      "asset": "energy",
+      "first_actual_return": "2020-01-20",
+      "risk63_known": "2020-04-24",
+      "first_eligible_execution_day": "2020-04-27"
+    },
+    {
+      "case": "V12_ETF_available",
+      "asset": "soy",
+      "first_actual_return": "2019-12-06",
+      "risk63_known": "2020-03-12",
+      "first_eligible_execution_day": "2020-03-13"
+    },
+    {
+      "case": "V12_ETF_available",
+      "asset": "nasdaq",
+      "first_actual_return": "2013-05-16",
+      "risk63_known": "2013-08-15",
+      "first_eligible_execution_day": "2013-08-16"
+    },
+    {
+      "case": "V12_ETF_available",
+      "asset": "sp500",
+      "first_actual_return": "2014-01-16",
+      "risk63_known": "2014-04-22",
+      "first_eligible_execution_day": "2014-04-23"
+    }
+  ],
+  "cash_statistics": [
+    {
+      "case": "GS_ETF_available",
+      "year": "2014",
+      "days": 115,
+      "realized_cash_mean": 0.9315289282860483,
+      "scheduled_cash_mean": 0.9333333333333332,
+      "cash_max": 1.0
+    },
+    {
+      "case": "GS_ETF_available",
+      "year": "2015",
+      "days": 244,
+      "realized_cash_mean": 0.4492974167871494,
+      "scheduled_cash_mean": 0.45696721311475413,
+      "cash_max": 0.6840598631919141
+    },
+    {
+      "case": "GS_ETF_available",
+      "year": "2016",
+      "days": 244,
+      "realized_cash_mean": 0.7330744984322953,
+      "scheduled_cash_mean": 0.735655737704918,
+      "cash_max": 1.0
+    },
+    {
+      "case": "GS_ETF_available",
+      "year": "2017",
+      "days": 244,
+      "realized_cash_mean": 0.9088699262578126,
+      "scheduled_cash_mean": 0.9098360655737705,
+      "cash_max": 1.0
+    },
+    {
+      "case": "GS_ETF_available",
+      "year": "2018",
+      "days": 243,
+      "realized_cash_mean": 0.6656249933121299,
+      "scheduled_cash_mean": 0.6666666666666666,
+      "cash_max": 0.672876383860794
+    },
+    {
+      "case": "GS_ETF_available",
+      "year": "2019",
+      "days": 244,
+      "realized_cash_mean": 0.11649679375718414,
+      "scheduled_cash_mean": 0.11475409836065573,
+      "cash_max": 0.6735315311884522
+    },
+    {
+      "case": "GS_ETF_available",
+      "year": "2020",
+      "days": 243,
+      "realized_cash_mean": 0.288085665561483,
+      "scheduled_cash_mean": 0.2880658436213992,
+      "cash_max": 0.6059773408929294
+    },
+    {
+      "case": "GS_ETF_available",
+      "year": "2021",
+      "days": 243,
+      "realized_cash_mean": 0.3362381046306768,
+      "scheduled_cash_mean": 0.33813443072702326,
+      "cash_max": 0.6770673055585045
+    },
+    {
+      "case": "GS_ETF_available",
+      "year": "2022",
+      "days": 242,
+      "realized_cash_mean": 0.2976174469259519,
+      "scheduled_cash_mean": 0.2961432506887052,
+      "cash_max": 0.6654751958543946
+    },
+    {
+      "case": "GS_ETF_available",
+      "year": "2023",
+      "days": 242,
+      "realized_cash_mean": 0.011225294112020834,
+      "scheduled_cash_mean": 1.9727103330116417e-17,
+      "cash_max": 0.9998746669436188
+    },
+    {
+      "case": "GS_ETF_available",
+      "year": "2024",
+      "days": 242,
+      "realized_cash_mean": 0.11022281971083853,
+      "scheduled_cash_mean": 0.10743801652892566,
+      "cash_max": 0.5179377800717836
+    },
+    {
+      "case": "GS_ETF_available",
+      "year": "2025",
+      "days": 243,
+      "realized_cash_mean": 0.09200727677512022,
+      "scheduled_cash_mean": 0.08230452674897122,
+      "cash_max": 0.7799320370857367
+    },
+    {
+      "case": "GS_ETF_available",
+      "year": "2026",
+      "days": 207,
+      "realized_cash_mean": 0.026669520102943784,
+      "scheduled_cash_mean": 1.12631321338784e-17,
+      "cash_max": 0.9235570380119795
+    },
+    {
+      "case": "GS_ETF_available",
+      "year": "before_2020",
+      "days": 1334,
+      "realized_cash_mean": 0.6053680113380411,
+      "scheduled_cash_mean": 0.6074462768615694,
+      "cash_max": 1.0
+    },
+    {
+      "case": "GS_ETF_available",
+      "year": "2020_pre_complete",
+      "days": 75,
+      "realized_cash_mean": 0.3791975249331809,
+      "scheduled_cash_mean": 0.38666666666666666,
+      "cash_max": 0.5877463679637289
+    },
+    {
+      "case": "GS_ETF_available",
+      "year": "2020_after_complete",
+      "days": 168,
+      "realized_cash_mean": 0.24741072834197503,
+      "scheduled_cash_mean": 0.24404761904761904,
+      "cash_max": 0.6059773408929294
+    },
+    {
+      "case": "GS_ETF_available",
+      "year": "2021_2024",
+      "days": 969,
+      "realized_cash_mean": 0.18897804450615768,
+      "scheduled_cash_mean": 0.1855865153078775,
+      "cash_max": 0.9998746669436188
+    },
+    {
+      "case": "GS_ETF_available",
+      "year": "2025_onward",
+      "days": 450,
+      "realized_cash_mean": 0.06195190870591906,
+      "scheduled_cash_mean": 0.04444444444444447,
+      "cash_max": 0.9235570380119795
+    },
+    {
+      "case": "GS_ETF_available",
+      "year": "all_assets_after_ready",
+      "days": 352,
+      "realized_cash_mean": 0.038695153914523675,
+      "scheduled_cash_mean": 0.017992424242424258,
+      "cash_max": 0.9235570380119795
+    },
+    {
+      "case": "GS_ETF_available",
+      "year": "after_GS_monthly_next_signal",
+      "days": 333,
+      "realized_cash_mean": 0.02206098350449571,
+      "scheduled_cash_mean": 7.001406461600086e-18,
+      "cash_max": 0.9235570380119795
+    },
+    {
+      "case": "V12_ETF_available",
+      "year": "2014",
+      "days": 115,
+      "realized_cash_mean": 0.3617707530106876,
+      "scheduled_cash_mean": 0.3624999999999999,
+      "cash_max": 0.3718573406222609
+    },
+    {
+      "case": "V12_ETF_available",
+      "year": "2015",
+      "days": 244,
+      "realized_cash_mean": 0.36757921283044215,
+      "scheduled_cash_mean": 0.36442605909264925,
+      "cash_max": 0.4068985106670947
+    },
+    {
+      "case": "V12_ETF_available",
+      "year": "2016",
+      "days": 244,
+      "realized_cash_mean": 0.3626984366150738,
+      "scheduled_cash_mean": 0.3624999999999999,
+      "cash_max": 0.37507616393978155
+    },
+    {
+      "case": "V12_ETF_available",
+      "year": "2017",
+      "days": 244,
+      "realized_cash_mean": 0.3296470026321628,
+      "scheduled_cash_mean": 0.33033811475409836,
+      "cash_max": 0.36859977593918103
+    },
+    {
+      "case": "V12_ETF_available",
+      "year": "2018",
+      "days": 243,
+      "realized_cash_mean": 0.2092709172800325,
+      "scheduled_cash_mean": 0.21500000000000002,
+      "cash_max": 0.2248589542485737
+    },
+    {
+      "case": "V12_ETF_available",
+      "year": "2019",
+      "days": 244,
+      "realized_cash_mean": 0.17652127960764236,
+      "scheduled_cash_mean": 0.18057377049180331,
+      "cash_max": 0.22031806219491473
+    },
+    {
+      "case": "V12_ETF_available",
+      "year": "2020",
+      "days": 243,
+      "realized_cash_mean": 0.1807171607078434,
+      "scheduled_cash_mean": 0.17699937431188717,
+      "cash_max": 0.4029515366306404
+    },
+    {
+      "case": "V12_ETF_available",
+      "year": "2021",
+      "days": 243,
+      "realized_cash_mean": 0.003106889844233039,
+      "scheduled_cash_mean": 0.0,
+      "cash_max": 0.017648465251527665
+    },
+    {
+      "case": "V12_ETF_available",
+      "year": "2022",
+      "days": 242,
+      "realized_cash_mean": 0.03286237279321134,
+      "scheduled_cash_mean": 0.03114030251497536,
+      "cash_max": 0.1391448495393955
+    },
+    {
+      "case": "V12_ETF_available",
+      "year": "2023",
+      "days": 242,
+      "realized_cash_mean": 0.0031542522052560537,
+      "scheduled_cash_mean": 0.0,
+      "cash_max": 0.014218680624558732
+    },
+    {
+      "case": "V12_ETF_available",
+      "year": "2024",
+      "days": 242,
+      "realized_cash_mean": 0.007551443790873411,
+      "scheduled_cash_mean": 0.004836655639304475,
+      "cash_max": 0.05681002006307981
+    },
+    {
+      "case": "V12_ETF_available",
+      "year": "2025",
+      "days": 243,
+      "realized_cash_mean": 0.07783831871525089,
+      "scheduled_cash_mean": 0.07397436873839805,
+      "cash_max": 0.31003548016808036
+    },
+    {
+      "case": "V12_ETF_available",
+      "year": "2026",
+      "days": 207,
+      "realized_cash_mean": 0.04831447197072561,
+      "scheduled_cash_mean": 0.04571657310883263,
+      "cash_max": 0.21451388541540217
+    },
+    {
+      "case": "V12_ETF_available",
+      "year": "before_2020",
+      "days": 1334,
+      "realized_cash_mean": 0.29546422550711793,
+      "scheduled_cash_mean": 0.2968253061608744,
+      "cash_max": 0.4068985106670947
+    },
+    {
+      "case": "V12_ETF_available",
+      "year": "2020_pre_complete",
+      "days": 75,
+      "realized_cash_mean": 0.23783719200833295,
+      "scheduled_cash_mean": 0.24167395100632605,
+      "cash_max": 0.39916899934464944
+    },
+    {
+      "case": "V12_ETF_available",
+      "year": "2020_after_complete",
+      "days": 168,
+      "realized_cash_mean": 0.15521714673441053,
+      "scheduled_cash_mean": 0.14812679543044127,
+      "cash_max": 0.4029515366306404
+    },
+    {
+      "case": "V12_ETF_available",
+      "year": "2021_2024",
+      "days": 969,
+      "realized_cash_mean": 0.011659903900071314,
+      "scheduled_cash_mean": 0.008984957557622,
+      "cash_max": 0.1391448495393955
+    },
+    {
+      "case": "V12_ETF_available",
+      "year": "2025_onward",
+      "days": 450,
+      "realized_cash_mean": 0.06425734921276927,
+      "scheduled_cash_mean": 0.06097578274879795,
+      "cash_max": 0.31003548016808036
+    },
+    {
+      "case": "V12_ETF_available",
+      "year": "all_assets_after_ready",
+      "days": 1587,
+      "realized_cash_mean": 0.04177109935494407,
+      "scheduled_cash_mean": 0.03845672825621231,
+      "cash_max": 0.4029515366306404
+    },
+    {
+      "case": "V12_ETF_available",
+      "year": "after_GS_monthly_next_signal",
+      "days": 333,
+      "realized_cash_mean": 0.03660222471436171,
+      "scheduled_cash_mean": 0.033889641816382786,
+      "cash_max": 0.28066700656924004
+    }
+  ],
+  "gs_2019_2020_signals": [
+    {
+      "date": "2019-10-08",
+      "known": "2019-09-30",
+      "phase": 1,
+      "requested": "growth/gold",
+      "selected": "growth/gold",
+      "first_return": "2019-07-03",
+      "last_return": "2019-09-30",
+      "cash_target": 0.0,
+      "growth": 0.47739343644976623,
+      "gold": 0.5226065635502337,
+      "metals": 0.0,
+      "fcf": 0.0,
+      "bond": 0.0,
+      "dividend": 0.0
+    },
+    {
+      "date": "2019-11-01",
+      "known": "2019-10-31",
+      "phase": 1,
+      "requested": "growth/gold",
+      "selected": "growth/gold",
+      "first_return": "2019-07-29",
+      "last_return": "2019-10-31",
+      "cash_target": 0.0,
+      "growth": 0.4689746146007701,
+      "gold": 0.5310253853992299,
+      "metals": 0.0,
+      "fcf": 0.0,
+      "bond": 0.0,
+      "dividend": 0.0
+    },
+    {
+      "date": "2019-12-02",
+      "known": "2019-11-29",
+      "phase": 1,
+      "requested": "growth/gold",
+      "selected": "growth/gold",
+      "first_return": "2019-08-27",
+      "last_return": "2019-11-29",
+      "cash_target": 0.0,
+      "growth": 0.3959266741721612,
+      "gold": 0.6040733258278388,
+      "metals": 0.0,
+      "fcf": 0.0,
+      "bond": 0.0,
+      "dividend": 0.0
+    },
+    {
+      "date": "2020-01-02",
+      "known": "2019-12-31",
+      "phase": 2,
+      "requested": "growth/metals",
+      "selected": "growth",
+      "first_return": "2019-09-27",
+      "last_return": "2019-12-31",
+      "cash_target": 0.5,
+      "growth": 0.5,
+      "gold": 0.0,
+      "metals": 0.0,
+      "fcf": 0.0,
+      "bond": 0.0,
+      "dividend": 0.0
+    },
+    {
+      "date": "2020-02-03",
+      "known": "2020-01-23",
+      "phase": 2,
+      "requested": "growth/metals",
+      "selected": "growth",
+      "first_return": "2019-10-28",
+      "last_return": "2020-01-23",
+      "cash_target": 0.5,
+      "growth": 0.5,
+      "gold": 0.0,
+      "metals": 0.0,
+      "fcf": 0.0,
+      "bond": 0.0,
+      "dividend": 0.0
+    },
+    {
+      "date": "2020-03-02",
+      "known": "2020-02-28",
+      "phase": 2,
+      "requested": "growth/metals",
+      "selected": "growth",
+      "first_return": "2019-11-25",
+      "last_return": "2020-02-28",
+      "cash_target": 0.5,
+      "growth": 0.5,
+      "gold": 0.0,
+      "metals": 0.0,
+      "fcf": 0.0,
+      "bond": 0.0,
+      "dividend": 0.0
+    },
+    {
+      "date": "2020-04-01",
+      "known": "2020-03-31",
+      "phase": 1,
+      "requested": "growth/gold",
+      "selected": "growth/gold",
+      "first_return": "2019-12-25",
+      "last_return": "2020-03-31",
+      "cash_target": 0.0,
+      "growth": 0.3797361664640182,
+      "gold": 0.6202638335359818,
+      "metals": 0.0,
+      "fcf": 0.0,
+      "bond": 0.0,
+      "dividend": 0.0
+    },
+    {
+      "date": "2020-05-06",
+      "known": "2020-04-30",
+      "phase": 1,
+      "requested": "growth/gold",
+      "selected": "growth/gold",
+      "first_return": "2020-02-03",
+      "last_return": "2020-04-30",
+      "cash_target": 0.0,
+      "growth": 0.3744562288134382,
+      "gold": 0.6255437711865618,
+      "metals": 0.0,
+      "fcf": 0.0,
+      "bond": 0.0,
+      "dividend": 0.0
+    },
+    {
+      "date": "2020-06-01",
+      "known": "2020-05-29",
+      "phase": 1,
+      "requested": "growth/gold",
+      "selected": "growth/gold",
+      "first_return": "2020-02-27",
+      "last_return": "2020-05-29",
+      "cash_target": 0.0,
+      "growth": 0.42473781862881693,
+      "gold": 0.5752621813711831,
+      "metals": 0.0,
+      "fcf": 0.0,
+      "bond": 0.0,
+      "dividend": 0.0
+    },
+    {
+      "date": "2020-07-01",
+      "known": "2020-06-30",
+      "phase": 2,
+      "requested": "growth/metals",
+      "selected": "growth/metals",
+      "first_return": "2020-03-26",
+      "last_return": "2020-06-30",
+      "cash_target": 0.0,
+      "growth": 0.3964264602029291,
+      "gold": 0.0,
+      "metals": 0.603573539797071,
+      "fcf": 0.0,
+      "bond": 0.0,
+      "dividend": 0.0
+    }
+  ],
+  "v12_common_start_exact": [
+    {
+      "start": "2020-04-27",
+      "bps": 9,
+      "other": "V12_earlier_actual",
+      "exact_tables": [
+        "ledger",
+        "weights",
+        "pnl",
+        "trades"
+      ]
+    },
+    {
+      "start": "2020-04-27",
+      "bps": 9,
+      "other": "V12_ETF_available",
+      "exact_tables": [
+        "ledger",
+        "weights",
+        "pnl",
+        "trades"
+      ]
+    },
+    {
+      "start": "2020-04-27",
+      "bps": 20,
+      "other": "V12_earlier_actual",
+      "exact_tables": [
+        "ledger",
+        "weights",
+        "pnl",
+        "trades"
+      ]
+    },
+    {
+      "start": "2020-04-27",
+      "bps": 20,
+      "other": "V12_ETF_available",
+      "exact_tables": [
+        "ledger",
+        "weights",
+        "pnl",
+        "trades"
+      ]
+    }
+  ],
+  "note": "Scheduled cash is signal cash target forward-filled over trading dates; realized cash is close ledger fraction. Ready dates are within the archived panel, which begins in 2013 for GS and therefore cannot establish the earliest growth ETF readiness in 2012. GS 2025-06-04 FCF readiness still waits for 2025-07-01 monthly rebalance. Eligibility alone does not establish old macro vintage or asset-selection validity."
+}

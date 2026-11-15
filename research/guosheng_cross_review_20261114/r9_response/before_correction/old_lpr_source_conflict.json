@@ -1,0 +1,14 @@
+{
+  "source": "https://www.boc.cn/fimarkets/lilv/fd32/201310/t20131028_2578984.html",
+  "instrument": "旧制1年期贷款基础利率",
+  "date": "2018-04-08",
+  "bank_archive": {
+    "value_pct": 4.3,
+    "change_bp": 0
+  },
+  "r6_vendor_snapshot": {
+    "value_pct": 4.31,
+    "change_bp": 1
+  },
+  "treatment": "原样复跑网页端事件表。另做排除全部13条旧LPR的敏感性，不自动以任何一方为标准。"
+}

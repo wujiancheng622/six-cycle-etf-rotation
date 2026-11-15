@@ -1,0 +1,28 @@
+{
+  "accounts": 318,
+  "metric_values_checked": 23094,
+  "max_metric_error": 5.820766091346741e-11,
+  "source_sha256": {
+    "protocol.json": "b56b36cc233462902500cb4a9966612383bd2a40f893b20db66406eb099b18d2",
+    "input_uncertainty.json": "4d7f88ed1971e39b21f99171837cb039cb5d9058cbd70ef35cdc64224ca92098",
+    "final_joint_protocol.json": "1eb883cd339c87ccf064727a37041b097f020d02d61713c7e702debb43f22615",
+    "chart_sensitivity_protocol.json": "e27af95c5bb84af202e65bb1de2e62ed761fea50c54d273414f8e47da6378894",
+    "audit_coverage.py": "9d78c6371ac258d100c4e509f542876d4d6af2b9df5caa1e48e3fe1e73afc88e",
+    "calendar_information.py": "cea1aefdde4775f11a25d35435e98d5b67fbcab1914d7f6e3f2822ac8fe4400a",
+    "chart_sensitivity.py": "71c1f8f7b9201c942023de0c7cb6a0328533732c5ca48a35f5a2ad09acecb4cf",
+    "collect_metals.py": "6f0dceb7fe52685c62e896f9d6f71a5bcb98939c0360fca476cfc738b2856a38",
+    "concentration.py": "94e72ae16ca179751da16c0815c629bf9726c614c4de83ae6ac3fba863541696",
+    "diagnostics.py": "ac2a2e788fd38b83b70f9fb126127bce50621cf2f67a654a6069f5ad0c232db5",
+    "execution_prices.py": "fd0bf14c35c03104a1a7094fcde429575b1ff57bb041502d789ec60b520e1b25",
+    "exposure_checks.py": "8f5ebf477f31afa2b36ea569d36aef46bf1c759e2983e3a25c23213231c7b1ff",
+    "fairness.py": "3670fcd6f6fd5a56ee397ad4e4b8ed196b3aefafa145de399d56f97c82daa1bf",
+    "final_joint_uncertainty.py": "f3841c717461d9026350a72335c089112eca22b9570eb6e06800e42a2def6730",
+    "joint_stress.py": "7edfcee8b36a1a8e955fa5c5a860ef5b919376c2a2748f4867b20cdd0c3713b3",
+    "noise_search.py": "01eba45dd9e29f0fbd861bbee443bd3db3baaeb33ab7461d02fd620c8e8c558a",
+    "postprocess.py": "6122c75cff476f22dcd53c336b78cf6778ada45d6642a679b3cd764dd08ee0d4",
+    "study.py": "813d4ea96ced5b3faf51edfc2c2c60ab0a13a331bb3a07f655ebcf22390e5175",
+    "validate_and_stress.py": "9f3fabd47ef0bd42c1a8e143b3658a656eea43353aee64ec1de08b44452e7c9b",
+    "verify_tables.py": "1bbeebeb610f11149291c24e9aa1672a17c0224d387cb21307977b8eeb3cc8b0",
+    "input\\shfe_index.csv": "4132201b61f390e67dc4942afffd23a8b7eee845c93d6c0d08ff89c1ae69451a"
+  }
+}

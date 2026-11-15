@@ -1,0 +1,11 @@
+{
+  "endpoint": "fund_nav",
+  "args": {
+    "start_date": "20160101",
+    "end_date": "20181231",
+    "ts_code": "518880.SH"
+  },
+  "rows": 738,
+  "sha256": "8cdee22a4c1b8b58a1f722c423776c292c00e8a87d16ee3b8815e3d3e40c9955",
+  "retrieved": "2026-11-13T00:24:43.064123+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Guosheng versus V12 under lower premium dependence and historical return anchors",
+  "study_date": "2026-11-13",
+  "common_end": "2026-11-04",
+  "reason_for_cutoff": "Match the V12 20-year study and its published recent figures. All comparisons use the same window.",
+  "strategies": "Reuse the frozen high-risk GS_monthly and frozen V12 from the last matched study. No asset selection or parameter fitting.",
+  "comparison_starts": ["2014-01-02", "2020-07-30", "2023-01-03", "2025-11-06"],
+  "account": "Same fractional-amount replay, RMB one million, 1.5bp commission minimum CNY5 and 9bp modeled one-way slippage. Recalculate covariance, position, fees, and performance for each scenario. Compare actual-share frozen parent separately only if useful.",
+  "premium": "GS: close-to-close total-return process with the listed funds' same-valuation-day NAV returns, retaining actual original economic proxies until two valid consecutive valuation-date observations. V12: reuse the two QDII close-time fair series based on already published NAV and the last completed US/FX session from the user's earlier comparison. Replace each series with its fixed historic median premium, which cancels from fractional daily returns. Treat NAV replacement as an attribution counterfactual, never a signal or available fill.",
+  "anchors": {
+    "whole": "Gold and V12 US assets from the audited ~20-year RMB anchors. GS growth the longest available ChiNext total-return series since 2010 (use the ETF since listing if unavailable). Industrial metals from the existing ~20-year RMB V12 economic series if the official index is unavailable. 30-year Treasury from the official wealth index since its available base. Do not assign a long-term target to free cash flow or low-volatility dividend in the main case.",
+    "pre2020": "Use the same source choices ending 2019-12-31. No rule or asset change.",
+    "symmetric_drift": "Match each targeted asset to the historical CAGR with a constant elapsed-calendar-time shift in daily log returns and re-run the original strategy. Positive as well as negative shifts are allowed. Do not replace volatility or drawdown with individual-asset medians."
+  },
+  "proxy_stress": "After the above, mark original pre-ETF positions as cash using the original six-leg covariance rule, as in the earlier audit. Report separately from the NAV and CAGR change.",
+  "alignment": "Secondary descriptive control of the timing inference. Circularly shift both complete six/ten-asset joint return matrices together by 252 trading days times each integer 1 through 11 on common full 2014-2025 sessions. Preserve joint daily returns, approximately preserve their serial ordering except one wrap, apply a preceding 63-day circular warmup, align by Chinese trading date, keep macro dates fixed, recalculate the same rules. Include unshifted control with identical circular warmup. No p-values.",
+  "output": "All scenario rows, historical anchor definitions, NAV coverage and price/NAV decomposition, and the matched controls with one chart and a concise report."
+}

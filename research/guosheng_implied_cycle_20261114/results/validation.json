@@ -1,0 +1,10 @@
+{
+  "protocol_sha256": "cbfbc21aa8724ab90feefe00ae1406ef72c78c34faed5cf9badd1c7c31802eb1",
+  "verified_generated_accounts": 48,
+  "report_macro_match": 14,
+  "report_argmax_match": 3,
+  "weekly_examples": 14,
+  "report_expansion_agrees_without_rounding": 11,
+  "report_expansion_compared": 13,
+  "daily_nav_fills_limits": "Price/volume and completed-cash accounting validated by engine and replay; no exchange fill guarantee."
+}

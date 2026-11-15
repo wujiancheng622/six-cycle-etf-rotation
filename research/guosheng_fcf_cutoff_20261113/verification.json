@@ -1,0 +1,37 @@
+{
+  "index_clean_start": "2024-08-16",
+  "etf_clean_start": "2025-02-28",
+  "old_mask_reproduced": true,
+  "controls": {
+    "fcf_from_published_index": {
+      "targets": 164,
+      "frozen_out_targets": 43,
+      "first_fcf_target": "2025-04-01",
+      "earliest_allowed_rebalance_day_for_fcf": "2024-11-22",
+      "passed_early_fcf_perturbation": true
+    },
+    "fcf_from_published_index_reallocate": {
+      "targets": 164,
+      "frozen_out_targets": 43,
+      "first_fcf_target": "2025-04-01",
+      "earliest_allowed_rebalance_day_for_fcf": "2024-11-22",
+      "passed_early_fcf_perturbation": true
+    },
+    "fcf_from_etf": {
+      "targets": 164,
+      "frozen_out_targets": 46,
+      "first_fcf_target": "2026-08-03",
+      "earliest_allowed_rebalance_day_for_fcf": "2025-06-04",
+      "passed_early_fcf_perturbation": true
+    },
+    "fcf_excluded_throughout": {
+      "targets": 164,
+      "frozen_out_targets": 49,
+      "first_fcf_target": null,
+      "earliest_allowed_rebalance_day_for_fcf": null,
+      "passed_early_fcf_perturbation": true
+    }
+  },
+  "protocol_sha256": "81893a63761b7099d7af1906a2ac879cc4baab8f4daa6f8de48c5ab609eaacd6",
+  "returns_sha256": "a17c50be0280b561263e2e3673ff359a9118880f1bc14eb7422e33bb55c431f2"
+}

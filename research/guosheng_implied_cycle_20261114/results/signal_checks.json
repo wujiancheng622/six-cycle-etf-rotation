@@ -1,0 +1,52 @@
+{
+  "protocol_sha256": "cbfbc21aa8724ab90feefe00ae1406ef72c78c34faed5cf9badd1c7c31802eb1",
+  "inputs_sha256": {
+    "yuanda_dividend_momentum_20261114/data/probe/trade_cal.parquet": "ac62aece8ac3fbb79f1f68ebdb4a7193b542954513600d5a9766d6956c0b1818",
+    "guosheng_implied_cycle_20261114/data/stock_all_early.parquet": "4a7eea90c68eb7a75c6182f9411be2c0b48e1d486f05c20c0580b88518410c17",
+    "guosheng_implied_cycle_20261114/data/stock_all_late.parquet": "c0782825bf53faf04970da09c96b32de97114e1559a868793cde8cede459f56d",
+    "guosheng_implied_cycle_20261114/data/cni_growth_early.parquet": "d387120d7982211bc672ecc75bdc8661275267d8632aae8e3b49c095e72b2e6b",
+    "guosheng_implied_cycle_20261114/data/cni_growth_late.parquet": "3128ba9bc575ed66f8573e716b4d9aaed7606ee666e916f807211a696500e430",
+    "guosheng_implied_cycle_20261114/data/cni_value_early.parquet": "940b7f903c0970e78fe878f3a1b93acefa42ea3b7f1b365e865e6fd7cfedee60",
+    "guosheng_implied_cycle_20261114/data/cni_value_late.parquet": "363279a222f9c28ecf4cd843f973083d48f057135535ed4d38ef3807626a9f6a",
+    "guosheng_implied_cycle_20261114/data/nanhua_early.parquet": "5325ed67b64245e8c6b5403ea38f0a4151a1e3c6e70c99f732973f93651a92f1",
+    "guosheng_implied_cycle_20261114/data/nanhua_late.parquet": "5b656b1502652251a923b176356c8c9f6d70b8c02211f46d0413b3e7f6227ba5",
+    "guosheng_implied_cycle_20261114/data/gold_early.parquet": "1695f9381120ff6e194b047e2797dca68c76376f12394235327ce7c09abb8aa8",
+    "guosheng_implied_cycle_20261114/data/gold_late.parquet": "4a13c9874d301f65e9262a358a71df840cce20756b4acb398d39617bb0df1498",
+    "guosheng_implied_cycle_20261114/data/equity_tr_early.parquet": "a9dc733facfca5e4251d2093b48395f845fd2d97dcc5fa56dc7dff0e99a145a2",
+    "guosheng_implied_cycle_20261114/data/equity_tr_late.parquet": "e74e3bd3d0cdb8ce48f3d8843009666813e9bda1c77baa5d3a41685445a0ea71",
+    "guosheng_implied_cycle_20261114/data/chinabond_7_10.json": "e9e0c05b1e1521ef53319672e2c4289259f4cc5e057690ba1daad9c95ccab699",
+    "guosheng_fcf_early_history_20261113/phases.csv": "4409b8e5c9011602af4197fe1f08096852336cdfcc1630d8aab098ea9abe06ad",
+    "guosheng_original_reconstruction_20261114/results/daily_signal.csv": "ce583318f86c5a9b64befc8bace82ff15816cdcdf57495472d1d9adad78b50a7",
+    "guosheng_original_reconstruction_20261114/results/policy_events_used.csv": "b029fea95aa898f84d5f4a61cc944cdab004d81438f53121a848a1d9c1d4d50b"
+  },
+  "documented_gold_vendor_gap": {
+    "date": "2022-08-12",
+    "close": 390.17,
+    "source": "https://www.sge.com.cn/upload/file/202208/16/b4e30b078b584a199c44f0e4cf238bb0.pdf"
+  },
+  "first_training": "2011-09-02",
+  "initial_training_rows": 171,
+  "initial_class_counts": [
+    14,
+    31,
+    44,
+    25,
+    1,
+    56
+  ],
+  "first_week": "2015-01-09",
+  "last_forecast": "2026-11-06",
+  "weeks": 606,
+  "monthly_fits": 143,
+  "probability_gap_figure19": 0.26753333333333335,
+  "prefix_check": "2024-09-30",
+  "all_mapping_history_observed": true,
+  "expanding_full_diversification": 50,
+  "direct_label_accuracy": 0.25742574257425743,
+  "four_quadrants": {
+    "recovery": 192,
+    "overheated": 155,
+    "depressed": 141,
+    "overcold": 118
+  }
+}

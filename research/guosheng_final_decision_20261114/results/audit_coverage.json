@@ -1,0 +1,492 @@
+[
+  {
+    "rule": "QG-01",
+    "status": "通过",
+    "grade": "P0",
+    "reason": "模型已知日期严格早于成交，6个截点扰动未来收益和阶段均不影响当前目标。来源首发版本仍另列限制。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\causality_checks.csv"
+  },
+  {
+    "rule": "QG-02",
+    "status": "通过",
+    "grade": "P0",
+    "reason": "已保存账户逐日旧持仓收益、费用、现金与净值闭合。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\account_validation.csv"
+  },
+  {
+    "rule": "QG-03",
+    "status": "通过",
+    "grade": "P0",
+    "reason": "核对信号滚动方向与未来后缀扰动。验证程序因果性。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\causality_checks.csv"
+  },
+  {
+    "rule": "QG-04",
+    "status": "通过",
+    "grade": "P0",
+    "reason": "事件以可用日向后匹配。代理/缺档状态有明确口径，未以未来观察向前填值。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_policy_completion_20261114_r6\\v2\\events_used.csv"
+  },
+  {
+    "rule": "QG-05",
+    "status": "通过",
+    "grade": "P0",
+    "reason": "风险矩阵仅取当时已知63个收益，新版和原版月频账本完全对上。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\study.py"
+  },
+  {
+    "rule": "QG-06",
+    "status": "命中",
+    "grade": "P0",
+    "reason": "仅针对把2014金额代理成绩宣称为当时可投资实绩的用法。实际未来成分/财报前视尚无证据定罪；规则晚发布本身不足以定罪。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\symmetric_listing_comparison.csv"
+  },
+  {
+    "rule": "QG-07",
+    "status": "通过",
+    "grade": "P0",
+    "reason": "长期代理明确用于假设研究，另提供双方上市后自身历史、缺位现金的同口径账户和真实ETF短段。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\symmetric_listing_comparison.csv"
+  },
+  {
+    "rule": "QG-08",
+    "status": "通过",
+    "grade": "P0/P1",
+    "reason": "真实报价用原始价算股数并单独处理公司行为；沿用已独立对过的行情。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_six_regime_long_20261112\\audit_checks.json"
+  },
+  {
+    "rule": "QG-09",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "GS及替代ETF风险窗口剔除停牌/复牌跨日收益；新上市资格控制从自身历史满63天启用。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\study.py"
+  },
+  {
+    "rule": "QG-10",
+    "status": "未查",
+    "grade": "P0",
+    "reason": "本轮120个映射与既有96组邻域有分布；作者及跨窗口全部搜索次数无法重建。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\mapping_negative_controls.csv"
+  },
+  {
+    "rule": "QG-11",
+    "status": "通过",
+    "grade": "P0",
+    "reason": "主版预定月频，保留各局部变动及失败，分段是已见历史回放，未选择全期最优参数重新命名样本外。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\protocol.json"
+  },
+  {
+    "rule": "QG-12",
+    "status": "命中",
+    "grade": "P0",
+    "reason": "仅针对独立最终确认的声明。全部可得历史已经参与研究，V12接受同样限制，继续历史敏感性分析不创造新确认样本。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\protocol.json"
+  },
+  {
+    "rule": "QG-13",
+    "status": "不适用",
+    "grade": "P0",
+    "reason": "固定宏观状态机，无随机训练/验证切分。置换仅用于明确的负对照。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\study.py"
+  },
+  {
+    "rule": "QG-14",
+    "status": "不适用",
+    "grade": "P0",
+    "reason": "固定策略没有用前瞻收益标签训练或择参。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\study.py"
+  },
+  {
+    "rule": "QG-15",
+    "status": "通过",
+    "grade": "P0/P1",
+    "reason": "佣金含最低5元，9/20/50bp滑点，整数份额和ADV约束，替代品金额限量另列。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\main_comparison.csv"
+  },
+  {
+    "rule": "QG-16",
+    "status": "未查",
+    "grade": "P1",
+    "reason": "不利价值替代模型相对V12有利20bp基准在118–119bp归零，真实券商滑点与冲击缺对账记录。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\joint_cost_break_even.csv"
+  },
+  {
+    "rule": "QG-17",
+    "status": "未查",
+    "grade": "P0",
+    "reason": "报价模型含停牌限价整手和可用资金；真实开盘深度、失败/部分成交处置缺真实委托验证。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\account_validation.csv"
+  },
+  {
+    "rule": "QG-18",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "范围限50万元，真实报价1%与0.1%过去ADV及替代品1%金额限量均有账户。更大资金未外推。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\main_comparison.csv"
+  },
+  {
+    "rule": "QG-19",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "高年化作代理、均值回归、输入噪声和成本压力，保留2023与2026下半年失败区间。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\main_comparison.csv"
+  },
+  {
+    "rule": "QG-20",
+    "status": "命中",
+    "grade": "P1",
+    "reason": "创业板和黄金约60.2%净对数收益，两者预算留现金后年化8.74%，为敞口依赖诊断。双向删32日已同时给出。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\main_concentration.csv"
+  },
+  {
+    "rule": "QG-21",
+    "status": "通过",
+    "grade": "P0",
+    "reason": "日期×资产宽表，输入哈希验证，120映射向量化引擎与逐账户完整重放收益和回撤一致。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\local_search_noise_summary.json"
+  },
+  {
+    "rule": "QG-22",
+    "status": "通过",
+    "grade": "P0/P1",
+    "reason": "手算两资产ERC及8种阶段序列；按每日收益、真实历日年化，日波动乘根号252。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\causality_checks.csv"
+  },
+  {
+    "rule": "QX-01",
+    "status": "不适用",
+    "grade": "P0",
+    "reason": "没有截面选股IC或IC筛选入口。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\study.py"
+  },
+  {
+    "rule": "QX-02",
+    "status": "通过",
+    "grade": "P0",
+    "reason": "权重分母为目标日以前样本风险和当前账户权益，信用/PMI同比仅比较已发布月份。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\study.py"
+  },
+  {
+    "rule": "QX-03",
+    "status": "通过",
+    "grade": "P0",
+    "reason": "事件按max(已知日,生效日)合并，年度/季度贷款拆分有来源。部分日期精度和完整性仍属证据边界。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_policy_completion_20261114_r6\\v2\\events_used.csv"
+  },
+  {
+    "rule": "QX-04",
+    "status": "命中",
+    "grade": "P2",
+    "reason": "FCF旧代码改为新规则已经识别并给替代对照，原作者全期成分及代理规则未提供，无法认证身份连续的原版实绩。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\symmetric_listing_comparison.csv"
+  },
+  {
+    "rule": "QX-05",
+    "status": "通过",
+    "grade": "P0",
+    "reason": "七类政策各一票，同类去重，无股票行业排名维度的暗改。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_policy_completion_20261114_r6\\v2\\events_used.csv"
+  },
+  {
+    "rule": "QX-06",
+    "status": "通过",
+    "grade": "P2",
+    "reason": "两资产标准差2与3得到0.6/0.4权重，8个状态真值含零分与未匹配续接。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\causality_checks.csv"
+  },
+  {
+    "rule": "QX-07",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "少于窗口的资产留已声明现金位；空篮子资金全留现金；非法样本不生成伪权重。账本非负检查。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\account_validation.csv"
+  },
+  {
+    "rule": "QX-08",
+    "status": "不适用",
+    "grade": "P1",
+    "reason": "固定规则多起点和分段已给出，无单次Train/Test被包装为独立确认。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\rolling_comparison.csv"
+  },
+  {
+    "rule": "QX-09",
+    "status": "不适用",
+    "grade": "P1",
+    "reason": "没有监督训练标签或需要隔离的滚动择参。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\study.py"
+  },
+  {
+    "rule": "QX-10",
+    "status": "命中",
+    "grade": "P2",
+    "reason": "工作目录无git历史，无法按该规程验证作者或历史窗口盲测使用时间线。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\protocol.json"
+  },
+  {
+    "rule": "QX-11",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "120篮子映射、12种宏观时间错配和60条合成联合收益对照全部保存。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\mapping_negative_controls.csv"
+  },
+  {
+    "rule": "QX-12",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "限本轮明确的120映射搜索，60条无原宏观对齐的合成路径重算风险、选优和费用，报告每条最优。作者完整搜索仍未知。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\local_search_noise_summary.json"
+  },
+  {
+    "rule": "QX-13",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "155次目标评估、45次篮子变更，核心数值参数8个，分别19.4和5.6次/参数；这些次数仍相关，不能按3126个独立样本解释。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\decision_and_underperformance.csv"
+  },
+  {
+    "rule": "QX-14",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "月度成块6/12个月抽样保留配对关系，标为条件历史分布，滚动窗口重叠不计独立试验。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\paired_block_bootstrap.csv"
+  },
+  {
+    "rule": "QX-15",
+    "status": "不适用",
+    "grade": "P1",
+    "reason": "无按t值、p值或IC阈值海选准入。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\study.py"
+  },
+  {
+    "rule": "QX-16",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "所有映射、参数、输入噪声、成本和替代的结果留存，原版位置单列。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\mapping_negative_controls.csv"
+  },
+  {
+    "rule": "QX-17",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "邻域与负对照均有产物；本金/区间固定后年化仍有成片优势，无孤立数值尖峰证据。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\neighbor_comparison.csv"
+  },
+  {
+    "rule": "QX-18",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "既定红利/价值替代和全程替代均报告，包含价值ETF限量劣化。结论范围仍为境内六资产。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\main_comparison.csv"
+  },
+  {
+    "rule": "QX-19",
+    "status": "命中",
+    "grade": "P2",
+    "reason": "工作目录无git时间线，不能认证所有历史尝试是否曾反转方向；本轮按原文方向固定。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\protocol.json"
+  },
+  {
+    "rule": "QX-20",
+    "status": "不适用",
+    "grade": "P1",
+    "reason": "没有截面因子IC声明；组合已分年、分段和滚动披露收益。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\rolling_comparison.csv"
+  },
+  {
+    "rule": "QX-21",
+    "status": "不适用",
+    "grade": "P1",
+    "reason": "没有按因子分位数排序的分组投资，使用离散经济阶段。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\study.py"
+  },
+  {
+    "rule": "QX-22",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "日历读取日、执行延迟和1/3/7日宏观额外延迟均重跑，覆盖实际月频信息时点。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\neighbor_comparison.csv"
+  },
+  {
+    "rule": "QX-23",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "六资产固定暴露回归、全池等权/ERC基线与已实现逐资产贡献同时报告。回归为样本内描述。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\fixed_exposure_regression.csv"
+  },
+  {
+    "rule": "QX-24",
+    "status": "不适用",
+    "grade": "P1",
+    "reason": "没有独立股票因子IC及市值/行业中性选股声明。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\study.py"
+  },
+  {
+    "rule": "QX-25",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "货币、信用、增长方向相关矩阵已算，同类利率期限只计一票，三个PMI共同服务一个增长方向。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\macro_direction_correlation.csv"
+  },
+  {
+    "rule": "QX-26",
+    "status": "不适用",
+    "grade": "P2",
+    "reason": "本轮核查给定宏观状态模型，无按单因子IC择入股票因子库的过程；政策单类消融另有记录。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\policy_uncertainty.csv"
+  },
+  {
+    "rule": "QX-27",
+    "status": "通过",
+    "grade": "P0",
+    "reason": "对照固定资金、区间、费用，策略规则、数据源及执行修改分别列明并消费到引擎。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\protocol.json"
+  },
+  {
+    "rule": "QX-28",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "同池等权、同池ERC、阶段篮子等权、V12均跑。阶段等权波动较高，ERC风险作用有单独对比。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\main_comparison.csv"
+  },
+  {
+    "rule": "QX-29",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "逐类政策、全市场票、资产、权重、现金资格和换仓规则均有独立对照。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\policy_uncertainty.csv"
+  },
+  {
+    "rule": "QX-30",
+    "status": "命中",
+    "grade": "P2",
+    "reason": "缺git历史无法审查所有旧版本联合改变；本轮联合压力明确属于联合效果，逐项对照也留存。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\protocol.json"
+  },
+  {
+    "rule": "QX-31",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "每例目标、资金、风险窗口、触发日期和再买入逻辑均可复现。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\study.py"
+  },
+  {
+    "rule": "QX-32",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "long-only、零杠杆，阶段篮子使其他资产为零的约束有明确经济含义；逐资产敞口和现金比例已披露。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\contribution_checks.csv"
+  },
+  {
+    "rule": "QX-33",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "63样本估2或3资产风险，1%对角扰动的目标L1最大变化约0.167个百分点。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\risk_matrix_perturbation.csv"
+  },
+  {
+    "rule": "QX-34",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "不估计预期收益并最大化Sharpe，小篮子ERC与等权同时比较。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\risk_matrix_perturbation.csv"
+  },
+  {
+    "rule": "QX-35",
+    "status": "命中",
+    "grade": "P2",
+    "reason": "月内阶段切换有消融和已见后续段，仍缺固定本地完整规则后的独立新数据。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\main_comparison.csv"
+  },
+  {
+    "rule": "QX-36",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "主版月频吸收月内抖动；阶段5/6相同篮子不会触发换篮；155目标仅45次换篮，成本与换手完整。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\decision_and_underperformance.csv"
+  },
+  {
+    "rule": "QX-37",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "仅多头ETF和现金，无空头券源、借贷或杠杆收益。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\account_validation.csv"
+  },
+  {
+    "rule": "QX-38",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "净值无返佣、额外资金注入或现金利息。资产分红为持有期间真实经济收益。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\results\\account_validation.csv"
+  },
+  {
+    "rule": "QX-39",
+    "status": "命中",
+    "grade": "P2",
+    "reason": "本轮失败与全部结果留存，历史窗口与作者全部失败次数无法依git重建。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\protocol.json"
+  },
+  {
+    "rule": "QX-40",
+    "status": "通过",
+    "grade": "P1",
+    "reason": "唯一研究目录和各case独立账户；修正输入类型和极小金额手续费问题有说明，未按绩效删除案例。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\protocol.json"
+  },
+  {
+    "rule": "QX-41",
+    "status": "不适用",
+    "grade": "P1",
+    "reason": "本轮目录是离线研究，检查过脚本入口均不连接订单或发布服务。实盘适配另属实现任务。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\study.py"
+  },
+  {
+    "rule": "QX-42",
+    "status": "不适用",
+    "grade": "P0",
+    "reason": "本轮目录是离线研究，检查过脚本入口均不连接订单或发布服务。实盘适配另属实现任务。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\study.py"
+  },
+  {
+    "rule": "QX-43",
+    "status": "不适用",
+    "grade": "P0",
+    "reason": "本轮目录是离线研究，检查过脚本入口均不连接订单或发布服务。实盘适配另属实现任务。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\study.py"
+  },
+  {
+    "rule": "QX-44",
+    "status": "不适用",
+    "grade": "P1",
+    "reason": "本轮目录是离线研究，检查过脚本入口均不连接订单或发布服务。实盘适配另属实现任务。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\study.py"
+  },
+  {
+    "rule": "QX-45",
+    "status": "不适用",
+    "grade": "P1",
+    "reason": "本轮目录是离线研究，检查过脚本入口均不连接订单或发布服务。实盘适配另属实现任务。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\study.py"
+  },
+  {
+    "rule": "QX-46",
+    "status": "不适用",
+    "grade": "P0",
+    "reason": "本轮目录是离线研究，检查过脚本入口均不连接订单或发布服务。实盘适配另属实现任务。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\study.py"
+  },
+  {
+    "rule": "QX-47",
+    "status": "不适用",
+    "grade": "P0",
+    "reason": "无预训练模型生成投资特征或直接下单，信号仅由可复算数值公式生成。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_final_decision_20261114\\study.py"
+  },
+  {
+    "rule": "QX-48",
+    "status": "不适用",
+    "grade": "P0",
+    "reason": "无模型知识参与历史情绪或文本特征推断，来源数字由结构化数据及可核对公告输入。",
+    "evidence": "D:\\src\\new_policy_test\\guosheng_policy_completion_20261114_r6\\v2\\events_used.csv"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "task": "国盛2025六周期高波策略能否按用户收益优先偏好替代V12的最终历史证据评估",
+  "baseline": "R6七类政策事件加已校正PMI发布日期，上期所正式有色指数，原六ETF和63日ERC，月初用上一交易日信号，不以本轮结果重新选主参数",
+  "dates": {"start": "2014-01-02", "restart": "2020-01-02", "paper_end": "2025-10-31", "end": "2026-11-12", "actual_start": "2025-11-06", "common_actual_early": "2025-06-04"},
+  "capital": 500000,
+  "cost": {"commission": 0.00015, "minimum_commission": 5, "slip_bp": 9, "stress_bp": [20, 50]},
+  "primary_scenarios": ["monthly", "month_and_switch", "switch_only", "dividend_substitute", "value_substitute", "dividend_permanent", "value_permanent", "fcf_publication_cash", "all_publications_cash", "all_listing_cash"],
+  "timing_scenarios": {"risk_sessions": [56, 63, 70], "monthly_reading_offsets": [0, 1, 2, 5], "execution_delays": [1, 2, 5]},
+  "macro_neighbors": {"credit_change_months": [2,4], "pmi_change_months": [2,4], "pmi_smoothing_months": [11,13], "money_smoothing_sessions": [25,35], "money_change_days": [75,105], "policy_expiry_days": [75,105], "all_macro_extra_calendar_lag": [1,3,7]},
+  "policy_controls": "七类逐类去除、市场票单独、近299日假设额外+1或-1票。对缺档影响给出情景范围，零值状态不称完整核实。",
+  "substitutes": {"old_dividend": "510880.SH", "old_value": "510030.SH", "rule": "沿用R8已固定替代，不改变宏观判断。切回真实FCF ETF前需其自身63日收益。限量对照沿用前20日金额1%上限。"},
+  "fairness": "同起点、同资金、同费用对照V12；额外对两者均遮蔽上市前收益和风险输入，V12原固定配置不可用权重留现金。另复用双方真实与代理重叠检验并使用同一均值误差压力定义。",
+  "execution": "原成交模型并行核对即时使用卖款、次开盘与次收盘、9/20/50bp滑点、1%和0.1%历史ADV。仅为离线执行差异，不接交易系统。",
+  "combined_stress": "最新PMI和正式上期所有色收益 + R6政策 + 两种既定FCF替代及替代品1%ADV限量 + 国盛早期代理减去绝对均值误差、V12加同类误差 + 双方20bp滑点；月频为主，并列月内切换结果。",
+  "negative_controls": "五种篮子映射的120种排列，全报告原映射在分布位置；固定12个半年间隔循环相移仅诊断时机依赖。原作者完整搜索过程未知，排列排名不当作经过完整多重筛选校正的显著性。",
+  "uncertainty": "月度超额按6和12月成块抽样2000次，固定种子20261114，作为已见历史的条件不确定性；报告滚动36/60月、最差分段与最长落后，不解释为未来概率或收益保证。",
+  "normalization": "双方去历史溢价及使用既有whole/pre2020长收益锚，按共同截止2026-11-04独立列示，不将归一化NAV作为真实可成交或可提前获知信号。",
+  "no_optimization": "保留全部不利版本。研究不足和代码前视、明显孤立尖峰分别报告，结论不以未知作者细节自动否决。"
+}

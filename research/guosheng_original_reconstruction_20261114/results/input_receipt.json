@@ -1,0 +1,61 @@
+{
+  "policy_sources": {
+    "deposit": {
+      "added": 15,
+      "prior": 0,
+      "series": 0
+    },
+    "loan": {
+      "added": 2,
+      "prior": 6,
+      "series": 23
+    },
+    "mlf": {
+      "added": 13,
+      "prior": 4,
+      "series": 0
+    },
+    "reserve": {
+      "added": 0,
+      "prior": 0,
+      "series": 113
+    },
+    "reserve_interest": {
+      "added": 1,
+      "prior": 0,
+      "series": 0
+    },
+    "reverse_repo": {
+      "added": 27,
+      "prior": 5,
+      "series": 0
+    },
+    "slf": {
+      "added": 14,
+      "prior": 0,
+      "series": 0
+    }
+  },
+  "conflicts": [],
+  "market_double_missing_trading_sessions": 0,
+  "new_private_pmi_date_sources": 16,
+  "nbs_months_sourced": 145,
+  "pmi_availability_dates_changed_vs_old": 121,
+  "shfe_replaced_return_sessions": 1697,
+  "max_shfe_previous_close_continuity_error_points": 0.0,
+  "sha256": {
+    "guosheng_original_reconstruction_20261114\\protocol.json": "9ee81dcc808e3e3137e63e8cc616ad61c1c8ad165f0981b3bcc0982cd2021adc",
+    "guosheng_source_alignment_20261113\\public_events.csv": "0752e6b0910290dc7f8354089109ee917304cda99310477c2ef5f004aa7d8f88",
+    "guosheng_original_reconstruction_20261114\\extra_policy_events.csv": "5ffad0c6e3a2223fe43870876d65aaab6389e1c34030b14bf1212f6c0dc90bdd",
+    "guosheng_original_reconstruction_20261114\\pmi_release_dates.csv": "79442cf678a325a89e320bc9900d8a2956a7c9a10d7962ea30bcc1f9ca03f664",
+    "guosheng_original_reconstruction_20261114\\nbs_pmi_archive.csv": "c4933b76a7fe71b5b8857317766c6df5d682df599fba0d829e558de15e4679a9",
+    "guosheng_original_reconstruction_20261114\\nbs_pmi_supplement.csv": "1c1445d35bd04ace1f197413a1ddef1d15f67f706f9ab44f719b497586b02d4b",
+    "guosheng_original_reconstruction_20261114\\shfe_metals_index.csv": "83eb17a374f2100c7141993589a28845594f5b01813379a1c89b6687e4a328f5",
+    "guosheng_six_regime_20261112\\source\\reserve_ratio_changes.json": "41c744c0a7c9559d6ce85f6c4fff3e6aa5e563dc79122c292c9cd9fa6bf15a1d",
+    "guosheng_six_regime_long_20261112\\data\\returns_gs.parquet": "a17c50be0280b561263e2e3673ff359a9118880f1bc14eb7422e33bb55c431f2",
+    "guosheng_six_regime_long_20261112\\data\\returns_v12.parquet": "4600f63042bbff81a50621456800fedeea187a8cf97f08e30c9e441f2c69ac99",
+    "guosheng_six_regime_long_20261112\\data\\macro.parquet": "04b9e95d77ddacf2efaf41bf7940b502aec4ccfde73d2a59d65b8a69d28afaad",
+    "guosheng_six_regime_long_20261112\\data\\pmi_as_reported.csv": "330575caf42db8c0d154fd6d51c6dbb46093e946cf3648ffa0bcac4085f3a09f",
+    "guosheng_six_regime_long_20261112\\data\\credit_monthly.csv": "253fa296642697c74f9990cafa5e80d2a36318fe7586246fa6ccda81ad358918"
+  }
+}

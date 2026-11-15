@@ -1,0 +1,17 @@
+{
+  "accounts": 56,
+  "metrics": 4536,
+  "max_nav_error": 2.7939677238464355e-09,
+  "equivalent_two_asset_targets": 928,
+  "max_two_asset_weight_difference": 3.052613717358099e-12,
+  "signal_basket_dates_unchanged_for_allocation_rules": true,
+  "disclaimer": "Computational self-check on archived data, not independent untouched data or broker execution certification",
+  "sha256": {
+    "guosheng_remaining_review_20261114\\components.py": "39483104dae57e7e5426f4639cfa7f3493caf740418644f940bc6a3ba32ead5c",
+    "guosheng_remaining_review_20261114\\diagnose_inputs.py": "c3da5491c42bed230a1f235c07cd28bdfb52da68aa0f4617beb4730eb61129ae",
+    "guosheng_remaining_review_20261114\\verify_components.py": "5348b662747ea11e689f86c3e0968d646be9fab04bc9af31f49261716b16dcd2",
+    "guosheng_remaining_review_20261114\\protocol.json": "3f70d762c88747781e4c44fc11d47cda7dc40f6c70187b89f20a0cd90e22331c",
+    "guosheng_remaining_review_20261114\\plan.json": "6dd7501185b11dce3822b83f069779d3f8938bbd96f62a61ab99e6e321b1b79a",
+    "guosheng_final_decision_20261114\\study.py": "813d4ea96ced5b3faf51edfc2c2c60ab0a13a331bb3a07f655ebcf22390e5175"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "experiment": "Guosheng independent round 2: fixed 2x2 mechanism isolation",
+  "observed_history": true,
+  "frozen_before_this_run": true,
+  "end": "2026-11-12",
+  "recent": {
+    "mode": "actual",
+    "start": "2025-11-06",
+    "capital": [
+      500000,
+      1000000
+    ],
+    "slip_bps": [
+      9,
+      20
+    ]
+  },
+  "supplemental": {
+    "mode": "amount",
+    "start": "2020-01-02",
+    "capital": [
+      500000
+    ],
+    "slip_bps": [
+      9
+    ],
+    "note": "Original economic proxies remain. Diagnostic only."
+  },
+  "cells": {
+    "M00": "Monthly first exchange session. Adopt latest known basket, estimate ERC. One next-session refill.",
+    "B10": "M00 plus immediate extra rebalance only when latest known basket differs from currently held target basket. No daily intra-basket refresh.",
+    "W01": "Adopt basket only on monthly first exchange session. Reestimate ERC daily on that locked basket even when current macro desired basket has changed.",
+    "BW11": "Adopt latest known basket and reestimate ERC every exchange session."
+  },
+  "fixed": {
+    "macro": "Existing frozen baseline macro.parquet",
+    "risk": "63 common valid dates, union invalid-date removal, joint dropna; existing risk_parity",
+    "execution": "Existing actual/economic engine unchanged, prior-close information, next open/next close, one-session sell-cash delay, lots/ADV/limits unchanged",
+    "fees": "0.00015 commission, min 5 CNY, specified one-way slip; V12 original relative buffer remains"
+  },
+  "comparison": "Rerun V12 for every same start/capital/slip. At 1m 9bp reconcile M00/B10/BW11 against archived monthly/stage_change/daily full ledgers.",
+  "outputs": [
+    "every account ledger/weights/pnl/trades/signals",
+    "full and Jan+July2026-zeroed metrics at original duration",
+    "daily/monthly/contiguous macro-basket-episode log contrasts",
+    "factorial interaction BW11-B10-W01+M00",
+    "transaction costs and failures"
+  ],
+  "event_definition": "Partition every evaluation date into episodes beginning with first simulation session or next-session known macro basket change, ending before next event. These are accounting attributions, not independent causal estimates.",
+  "concentration_control": "Zero both candidate and benchmark daily net returns for 2026-01 and 2026-07; retain calendar duration. Months were already seen and are a prespecified diagnostic, not a holdout.",
+  "falsifiers": [
+    "If M00/B10/BW11 archived ledger equality fails, stop interpreting mechanism differences until localized.",
+    "If W01 does not add positive net log return versus M00 at 500k for both 9bp and 20bp, reject the claim that daily ERC refresh alone explains the observed frequency advantage.",
+    "If any incremental mechanism becomes negative after common Jan/July zeroing, reject a broad-based improvement claim on this already seen year.",
+    "No unseen performance or replacement recommendation may be inferred from these runs."
+  ],
+  "failure_policy": "Append every failed run with traceback and preserve outputs; no parameter search or selecting winner.",
+  "network": "All connections disabled in this process; existing local snapshots only."
+}

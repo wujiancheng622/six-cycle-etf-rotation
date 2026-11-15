@@ -1,0 +1,20 @@
+{
+  "parent": "guosheng_six_regime_long_20261112, frozen economic account",
+  "main_dates": ["2013-04-12", "2026-11-12"],
+  "additional_start": "2014-01-02",
+  "index_rule_effective": "2024-08-15",
+  "index_first_clean_return": "first session after 2024-08-15, requiring both endpoints under the new rule",
+  "first_fund_return": "2025-02-28",
+  "risk_history_sessions": 63,
+  "sleeve_rule": "When a phase would allocate to FCF before it has 63 usable returns, reserve one equal capital slot as zero-yield cash. Apply the original ERC solver to other members, scaled to remaining capital. On the original monthly schedule, re-enable FCF only after warmup.",
+  "controls": [
+    "parent historical rotation and same-basis V12",
+    "reproduce the previously published masking after original weights were computed",
+    "strict index with equal capital cash slot",
+    "strict index with remaining names fully invested",
+    "strict ETF, waiting for its own warmup",
+    "exclude free cash flow throughout with equal capital cash slot"
+  ],
+  "execution": "Same mainland sessions, RMB 1000000, previous-close information, close amount proxy, parent commission and 9 bp one-way slippage. Same other five asset return inputs and macro state.",
+  "interpretation": "Sensitivity to FCF history only. All non-FCF source proxies remain retrospective where applicable. Do not interpret portfolio CAGR as the isolated PnL of FCF or assert historical tradability."
+}

@@ -1,0 +1,25 @@
+{
+  "protocol_sha256": "8b9f63d610873797913df0de2edfc2e207ad76790a26dfb769da8ffed6a43c9c",
+  "inputs": {
+    "guosheng_six_regime_long_20261112\\data\\returns_gs.parquet": "a17c50be0280b561263e2e3673ff359a9118880f1bc14eb7422e33bb55c431f2",
+    "guosheng_six_regime_long_20261112\\data\\returns_v12.parquet": "4600f63042bbff81a50621456800fedeea187a8cf97f08e30c9e441f2c69ac99",
+    "guosheng_six_regime_long_20261112\\data\\macro.parquet": "04b9e95d77ddacf2efaf41bf7940b502aec4ccfde73d2a59d65b8a69d28afaad",
+    "guosheng_six_regime_long_20261112\\coverage.json": "5b76210bfc02aed92a7f459d9e91c8c1b275c8709df57494329cac4e04981664",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wjc\\src\\new_polict\\data\\ext14_raw\\fund_daily_510300.SH.csv": "73ce3119c4c5027975d40c6ed6ae3cc954d6ca848ee0b90e6b97bf1008642235",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wjc\\src\\new_polict\\data\\ext14_raw\\fund_adj_510300.SH.csv": "0ed208fe6195ee5effbeb78693b1b9f93cc4d496fd424a30185aaa03e6cc06b7",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wjc\\src\\new_polict\\data\\ext14_raw\\fund_daily_512100.SH.csv": "c3d08a0e1cf772e6d06108eb9e9809a9999d864cc3ed5759d5864da79baca670",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wjc\\src\\new_polict\\data\\ext14_raw\\fund_adj_512100.SH.csv": "dfeea2f551ed5eed2b69834eb641f39825a30c702d10b83a118c66b5ee58f216",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wjc\\src\\new_polict\\data\\ext14_raw\\fund_daily_512890.SH.csv": "2d0abc6b906f3b403e44f080ba5e48a734a86e571c28fac8508e8ce185f11b1a",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wjc\\src\\new_polict\\data\\ext14_raw\\fund_adj_512890.SH.csv": "2644b09d1cfe8b4cf410e154b3be614fa8f9dafafbb8418eaf396b842d754ef4",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wjc\\src\\new_polict\\data\\ext14_raw\\fund_daily_511260.SH.csv": "74659a84bd560d3afe29411305301a497af315b71e094c8692b4d6719d9002df",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wjc\\src\\new_polict\\data\\ext14_raw\\fund_adj_511260.SH.csv": "2e67dc78206c69ea0b2c6890aa9029644a03313feec8e6a91246d104e29f6254",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wjc\\src\\new_polict\\data\\ext14_raw\\fund_daily_518880.SH.csv": "5702e6d2495adfd7749de46d56479a9bda3ba5d2aef9ec693e6bb2bd375faadf",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wjc\\src\\new_polict\\data\\ext14_raw\\fund_adj_518880.SH.csv": "b10de23e7327c1f1f07a83d5b3bf6554d60f54e0c23245f3f2820741b132accb",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wjc\\src\\new_polict\\data\\ext14_raw\\fund_daily_159980.SZ.csv": "708026e6ef5eb069e0cbbac00a714d357f72894930731841e932b1767477359c",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wjc\\src\\new_polict\\data\\ext14_raw\\fund_adj_159980.SZ.csv": "a234e348b3565b701f52b312e21d142f12a75729b40a818e02d573a06d0d8fa7",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wjc\\src\\new_polict\\data\\ext14_raw\\fund_daily_159981.SZ.csv": "cc230b6af42fdf9b17a46ab78618ce2e9407eecdc11b5bf84f24219d43216c6c",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wjc\\src\\new_polict\\data\\ext14_raw\\fund_adj_159981.SZ.csv": "7a0336938a68fffeb22426edf54ac24205843ea08eeaabee41c9131122d84921",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wjc\\src\\new_polict\\data\\ext14_raw\\fund_daily_159985.SZ.csv": "fd047c55de3573b861bae4828b610343b996779b08b88ea439685d9556a3610f",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wjc\\src\\new_polict\\data\\ext14_raw\\fund_adj_159985.SZ.csv": "cad1f032d0e6ddfd40f2d0b0cceedf9fff68755c8afb58e2242b7f4ca760bf56"
+  }
+}

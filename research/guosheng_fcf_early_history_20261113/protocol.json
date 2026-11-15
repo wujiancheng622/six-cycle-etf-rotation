@@ -1,0 +1,9 @@
+{
+  "study": "Extend FCF cutoff replay only. Keep original stage mapping, monthly rule, 63 prior returns, original money/credit/growth calculations and execution.",
+  "main_start": "First eligible session after both the first dated canonical stage and 63 contiguous common daily marks of the other five original sleeves, including the re-created gold spot and futures data.",
+  "cutoff_end": "2026-11-12",
+  "source_extension": "Add 2009 PBOC originals (quarter-end amounts are year to date), 2009 three PMI values using the parent source definitions, China trading calendar, pre-listing ChiNext total return until actual ETF, known gold and futures proxy, H20955 and official CBA21801. Early FCF is blocked from weights and PnL as in the parent cutoff version.",
+  "comparisons": ["legacy macro with early assets at earliest eligible start", "extended macro with early assets at earliest eligible start", "2012 first observed actionable stage and July month-start controls", "2013-04-12 parent replay invariance", "same-start V12", "additional control excluding H20955 and CBA21801 before first published index history"],
+  "pre_index_cash_control": "Retain an equal cash slot for each unavailable asset of a selected stage. Match valid return endpoints to publication dates and wait 63 samples. Do not change other asset dates or weights when all original phase assets are available.",
+  "purpose": "Retrospective economics with data explicitly flagged, no claim of ETF tradability or independent strategy confirmation."
+}

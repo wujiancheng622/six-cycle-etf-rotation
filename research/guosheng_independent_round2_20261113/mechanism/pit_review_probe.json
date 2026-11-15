@@ -1,0 +1,50 @@
+{
+  "reviewed_script": "D:\\src\\new_policy_test\\guosheng_independent_round2_20261113\\pit\\run_pit.py",
+  "reviewed_script_sha256": "a67194ba48d773d6a528ea7e27062690bd6c07df5241a235af6022d7f8d6f199",
+  "results": [
+    {
+      "case": "GS_ETF_available",
+      "signals": 149,
+      "source_perturbation_five_tables_exact": true,
+      "max_nav_error": 0.0,
+      "joint_insufficient_fallback_count": 0,
+      "joint_insufficient_fallbacks": [],
+      "no_individually_eligible_dates": [
+        "2014-07-16",
+        "2014-08-01",
+        "2014-09-01",
+        "2014-10-08",
+        "2014-11-03",
+        "2016-03-01",
+        "2016-04-01",
+        "2016-07-01",
+        "2016-09-01",
+        "2016-10-10",
+        "2016-11-01",
+        "2016-12-01",
+        "2017-01-03",
+        "2017-02-03",
+        "2017-03-01",
+        "2017-04-05",
+        "2017-05-02",
+        "2017-06-01",
+        "2017-07-03",
+        "2017-10-09",
+        "2017-11-01",
+        "2017-12-01"
+      ],
+      "invalid_selected_windows": []
+    },
+    {
+      "case": "V12_ETF_available",
+      "signals": 2996,
+      "source_perturbation_five_tables_exact": true,
+      "max_nav_error": 0.0,
+      "joint_insufficient_fallback_count": 0,
+      "joint_insufficient_fallbacks": [],
+      "no_individually_eligible_dates": [],
+      "invalid_selected_windows": []
+    }
+  ],
+  "scope": "Actual full archived inputs; all pre-ETF availability values set to alternating plus/minus30%; 500k, 2014-07-16 start, 9bp. No original output was modified."
+}

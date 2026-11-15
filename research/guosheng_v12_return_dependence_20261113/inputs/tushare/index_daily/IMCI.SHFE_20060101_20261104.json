@@ -1,0 +1,11 @@
+{
+  "endpoint": "index_daily",
+  "args": {
+    "start_date": "20060101",
+    "end_date": "20261104",
+    "ts_code": "IMCI.SHFE"
+  },
+  "rows": 0,
+  "sha256": "fd63db2615e4c77bc9442ee42c57d2c7a777b9e0cd27cfb883ab57d8d9e32012",
+  "retrieved": "2026-11-13T00:24:21.980621+00:00"
+}

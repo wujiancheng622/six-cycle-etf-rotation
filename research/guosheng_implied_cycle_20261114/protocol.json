@@ -1,0 +1,41 @@
+{
+  "candidate_id": "s-1b8a680e27af46dd",
+  "source": "国盛证券 2026-04-30 报告的第15页图表28多资产策略",
+  "source_sha256": "68f09b47c85aa2d53f5d041f0dd1e199499809a36360f66e0571638a2ea79c8d",
+  "local_cutoff": "2026-11-12",
+  "trade_cost": {"capital_cny": 1000000, "broker_bps": 1.5, "minimum_broker_cny_per_order": 5, "slippage_bps": [9, 20], "prior_20_session_adv_share_cap": 0.01},
+  "index_inputs": {
+    "stock_all": "Tushare 000985.CSI substitutes for unavailable Wind 881001.WI. Exclude closes before its 2011-08-02 first publication, including the lag endpoint.",
+    "growth_value": "399370.SZ divided by 399371.SZ, close-to-close ratio. Official CNI launch 2010-01-04.",
+    "treasuries": "ChinaBond 7-10 year Treasury index, JJZS_00 for the factor. CFZS_00 local return convention for liability-free allocation with coupon reinvestment. Test JJZS_00 allocation on the identical signals as a convention check.",
+    "commodity": "Tushare NHCI.NH.",
+    "gold": "Tushare SGE Au99.99 domestic close.",
+    "equity_portfolio": "Tushare H00906.CSI total return; chart26 notes CSI 800. The factor uses a different A-share index."
+  },
+  "labels": "Start with earliest dated household plus corporate medium/long loan and three PMI snapshots from the 2009 extension. Before 2012-06-11 take its archived market, credit and growth directions and known dates. From 2012-06-11 take the reconstructed report archive, with corrected PMI release dates. Use its seven dated policy categories uniformly across both ranges, last known/effective event valid for 90 calendar days, plus the inherited DR007/Shibor vote. Invalid combinations retain last valid phase. No attempt to fill pre-2011 macro labels or force the six labels into the fit.",
+  "features": "Weekly Sunday observation uses that week's last China session close. The month return is indexed using the last common asset close no later than one calendar month before signal close. Standardize five raw inputs with current training means and population deviations, then include their five squares and ten pairwise products.",
+  "training": "One training row per trading week. Use all available earlier rows, initial fit through 2014 only. Refresh on first weekly signal of each new signal-close calendar month, training strictly before the month's first day and before its forecast. Balanced class weights by inverse observed frequencies, softmax and L2 C=1 (unpenalized intercept) as a fixed local numerical convention. Unseen phases get zero probability until observed.",
+  "states": "Sum p1:p3 > 0.5 determines expectation expansion. High divergence if argmax implied phase and actual phase are in opposite halves, or the mean squared probability gap exceeds one standard deviation above its trailing baseline. Use only prior predictions in the last six calendar years, with at least 26 prior weekly predictions to activate the z score. Initial expanding history documented. Chart19 is mean of six squared differences.",
+  "chart26_frozen": {
+    "recovery": ["commodity", "equity"],
+    "overheated": ["gold", "commodity"],
+    "depressed": ["treasury", "gold"],
+    "overcold": ["equity", "gold"]
+  },
+  "expanding_allocation_check": "At each weekly signal rank the four classes by mean realized log return in that state's previous, fully completed, nonoverlapping execution-close-to-execution-close weeks. Only include weeks ending by signal close. After 12 occurrences use the top two equally, resolving exact ties by column order. Before 12 occurrences use all four equally. Fixed diagnostic, no parameter search.",
+  "matching_controls": "Same-date and same execution V12 from existing frozen risk rules, 2025 Guosheng six-cycle reconstructed archive with the existing published-index restrictions in long tests, and weekly four-asset equal weight. Zero cash interest as usual.",
+  "actual_etf_mapping": {
+    "equity": ["515800.SH"], "treasury": ["511260.SH"], "gold": ["518880.SH"],
+    "commodity": ["159980.SZ", "159981.SZ", "159985.SZ"],
+    "commodity_note": "One-third each of the CSI/commodity allocation for metals, energy chemicals, and soybean meal. Existing domestic tradable products carried by prior V12 research. This proxy has different sector coverage from NHCI; do not interpret the difference as execution costs alone."
+  },
+  "execution": "Close signal from earlier session. Index amount model applies old positions to next session return and trades at its close. ETF model sizes lots with the known prior close, executes on the next open, uses official quote and price bands, no same-day use of sale proceeds, and one follow-up buy pass next trading day. Both reuse the existing ledger, whole-lot rule in ETF mode, and costs. Rebalance on each weekly signal, while the four-asset benchmark maintains 25 percent per class. No leverage.",
+  "windows": {
+    "historical_starts": ["2015-01-05", "2018-01-02", "2020-01-02", "2022-01-04"],
+    "report_date_comparison_end": "2026-04-30",
+    "actual_starts": ["2020-04-27", "2022-01-04", "2025-06-04", "2026-05-06"],
+    "fixed_report_is_finalized_at": "2026-04-30",
+    "notes": "ETF window starts when V12 already has 63 actual marks. Six-cycle same execution comparator requires its ETF warmup from 2025-06-04. 2026-05-06 is first trade after report date per calendar. Post-publication is historical hold-forward, with later local approximations, not a prospective test."
+  },
+  "decision": "Compare magnitude of return and drawdown to same-window V12 and the user's prior six-cycle, show paper chart reconstruction vs as-of and real-carrier differences. No fitting against reported CAGR, no hyperparameter search."
+}

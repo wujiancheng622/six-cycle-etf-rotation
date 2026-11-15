@@ -1,0 +1,10 @@
+{
+  "scope": "Adversarial sensitivity, not estimated true returns",
+  "GS": "Subtract absolute observed actual-minus-proxy mean log drift on early proxy rows",
+  "V12": "Add absolute observed mean log drift on early proxy rows",
+  "substitution": "Two separately reported old ETF alternatives; use actual FCF ETF only after own 63 observations",
+  "capacity": "1% prior 20-day turnover for substitute legs; zero on suspension; original two attempts",
+  "capital": 500000,
+  "start": "2014-01-02",
+  "end": "2026-11-12"
+}

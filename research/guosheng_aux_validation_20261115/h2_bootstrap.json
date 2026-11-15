@@ -1,0 +1,9 @@
+{
+  "n": 3000,
+  "valid": 2981,
+  "percentile_pp": [
+    -4.481852194124254,
+    7.089250139647415
+  ],
+  "quality": "exploratory current-vintage only"
+}

@@ -1,0 +1,8 @@
+category,raw_rows,first_model_date,last_model_date,distinct_category_dates
+deposit,32,2010-10-20,2025-05-20,20
+loan,49,2010-10-20,2025-05-20,38
+mlf,17,2015-12-02,2024-09-25,17
+reserve,113,2007-01-15,2025-05-15,58
+reserve_interest,1,2020-04-07,2020-04-07,1
+reverse_repo,33,2013-10-30,2025-05-08,33
+slf,14,2015-11-20,2025-05-08,14

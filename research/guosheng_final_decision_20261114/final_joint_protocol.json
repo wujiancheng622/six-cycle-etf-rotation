@@ -1,0 +1,11 @@
+{
+  "fallback": "old_value",
+  "capacity": 0.01,
+  "slip_bp": 20,
+  "extra_macro_days": 3,
+  "credit_noise": 0.005,
+  "pmi_noise": 0.1,
+  "scenarios": 20,
+  "seed": 20261114,
+  "purpose": "All specified adverse effects together"
+}

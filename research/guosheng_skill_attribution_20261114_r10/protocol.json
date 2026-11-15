@@ -1,0 +1,28 @@
+{
+  "id": "R10_skill_guided_return_attribution",
+  "task": "Attribution diagnostics on frozen R9 merged inputs, not optimization or author replication certification",
+  "capital": 500000,
+  "starts": ["2014-01-02", "2020-01-02"],
+  "paper_end": "2025-10-31",
+  "full_end": "2026-11-12",
+  "actual_start": "2025-11-06",
+  "slippage_bps": [9, 20],
+  "commission_rate": 0.00015,
+  "minimum_commission": 5,
+  "lookback_sessions": 63,
+  "data_source": "guosheng_cross_review_20261114.compare_evidence.latest_local + r6_states, merged signal including disputed old LPR, no new input collection",
+  "factorial": {
+    "T": "0 all six assets, 1 observed six-regime selected basket",
+    "W": "0 equal capital, 1 equal risk contributions using 63 joint valid completed sessions",
+    "E": "0 month first session; 1 month first + observed macro basket change, identical event calendar for static and timed arms"
+  },
+  "availability": ["proxy_marked", "three_index_date_control", "listed_ETF_history_control"],
+  "cash_policy": "Unqualified original asset slots stay in zero-return cash; qualified slot budget allocated by EW or ERC; qualification requires own and joint 63 actual eligible observations. Calendar used is shared across experimental arms, not performance selected.",
+  "execution": "Existing fractional next-close amount engine for long history; existing original-price integer-share next-open engine for recent ETF quotes; cannot mix their results. Sale proceeds unavailable for same-session new buys; one subsequent buy attempt.",
+  "extra_controls": ["equal-capital average of all six stage-basket ERC targets, no stage selection (not claimed as author's top-level ERC)", "same historical mean exposure with monthly rebalancing: ex-post explanatory comparator, never tradable ex-ante benchmark", "zero-transaction-fee replay of fixed rules, no cash-settlement relaxation", "ex-post downside-only volatility matching to V12 daily returns, diagnostic only, not optimized strategy"],
+  "attribution": "Daily asset money P&L and fee contribution exactly linked using log(1+r)/r. Group by asset, year, latest decision stage. Also decompose amount P&L into average beginning-of-day exposure and varying-weight residual; this is accounting, not causal alpha. Factorial Shapley and interaction terms from all fixed arms.",
+  "risk": "Net CAGR, daily sample volatility sqrt252, MDD with initial capital, recovery duration, 3/5 calendar-year rolling windows, annual and fixed non-overlapping subperiods, turnover and cost. Actual quote period reports cumulative returns prominently.",
+  "falsifiers": ["Timing net advantage not positive versus same-pool no-timing controls after risk diagnostic and stricter availability: cannot attribute robust excess to timing", "ERC advantage comes only from changed total risk: describe as risk management rather than return alpha", "Switching gain confined to few historical events or sign reverses in constrained data: no universal frequency superiority", "P&L attribution fails exact equity reconciliation: stop interpretation"],
+  "scope": "Uses targeted QSA-35/37/38/39/40/44/45 and EXT-14/18/19/27/39/51 plus research and Bayesian-thinking workflows. Not a completed 70-rule or full QSA audit. Same assistant participated in earlier research: self-review, not independent blind review.",
+  "writes": "Only this isolated R10 directory; no network, no trade accounts, no installation, no edits to prior inputs/strategies. All failures retained."
+}

@@ -1,0 +1,21 @@
+{
+  "question": "Choose an interpretable rebalance mechanism without optimizing a pretty equity curve",
+  "knowledge": "All 2014-2026 observations and earlier frequency results have already been viewed. No new OOS claim. User explicitly authorized mechanism changes but prefers baseline if superiority is unclear.",
+  "mechanism": "Separate basket review clock from ERC maintenance clock. Macro forecasts change slowly; daily 63-session covariance windows overlap 62/63 observations. Small reweights can incur minimum fees without meaningful allocation change.",
+  "architectures": "Full M/W/D basket-clock x M/W/D risk-clock 3x3 for attribution; D/N event-only ablation; DD and DM with 5% current-position-relative trade buffer inherited from V12 convention. Buffer is an explicit additional parameter, not author rule.",
+  "primary": ["MM","WW","DD","DM","WM","DD_band","DM_band"],
+  "secondary": ["MW","MD","WD","DW","DN"],
+  "risk_days": 63,
+  "capital": 500000,
+  "cost": {"commission":0.00015,"minimum":5,"slip_bp":[9,20,50],"gross_control":"Commission, minimum and slippage all zero, with full account reexecution"},
+  "primary_windows": {"amount":["2014-01-02","2020-01-02"],"actual":["2025-06-04","2025-11-06"]},
+  "end":"2026-11-12",
+  "transfer_frames":["permanent_old_dividend_with_1pct_ADV","permanent_old_value_with_1pct_ADV","own_listed_63_observations_missing_cash","NAV_down_only_pre2020_end_2026-11-04"],
+  "neighbors": {"risk_days":[56,70],"monthly_session_offset":[1,2],"weekly_session_offset":[1,2],"relative_trade_buffer":[0.03,0.07],"signal_delay_calendar_days":[1,3]},
+  "neighbor_scope":"One input at a time. Risk window for all primary specs; month offsets for MM DM WM; week offsets for WW WM; buffer for DD_band DM_band; signal lag for MM DM WM. Long 2014 and recent actual 2025-11-06. No search for the highest-performing setting.",
+  "controls":"Same-day use of sale proceeds at 9bp for primary specs in recent actual quotes. Baseline conservative proceeds-next-day retained. Same 63-day history, shares, fees and quote execution.",
+  "max_accounts":250,
+  "decision":"Report net CAGR, vol, MDD, Calmar, zero-RF Sharpe, downside risk, turnover, costs, rolling differences and nonoverlapping periods. Reject promotion based on one window, one date, one crisis, extra risk alone or an isolated parameter maximum. Lack of clear transfer across dated starts, old-ETF substitutes and neighbors leads to retaining MM; operational benefits may justify a monitored challenger but not a performance superiority claim.",
+  "statistics":"Paired monthly block resampling, length 12 months, 2000 draws, seed20261114. Joint max-error adjustment across the 12 declared architecture differences. Descriptive conditional diagnostic, not author-wide multiple-testing correction or a future performance guarantee.",
+  "stop":"Execute declared cases once, retain failures, correct reproducible implementation bugs, do not add a new mechanism after looking at results. Do not deploy or connect trading services."
+}

@@ -1,0 +1,680 @@
+[
+  {
+    "name": "fund_basic_515800.SH",
+    "endpoint": "fund_basic",
+    "params": {
+      "ts_code": "515800.SH",
+      "market": "E"
+    },
+    "retrieved_utc": "2026-11-14T08:33:35.721745+00:00",
+    "rows": 1,
+    "columns": [
+      "ts_code",
+      "name",
+      "list_date",
+      "delist_date",
+      "benchmark",
+      "management"
+    ],
+    "sha256": "fb0c871a65e207b455143fc3d5cfa56135957a87ba2000dd4731fdbc1f519140",
+    "identity": [
+      {
+        "ts_code": "515800.SH",
+        "name": "汇添富中证800ETF",
+        "list_date": "20191216",
+        "delist_date": "",
+        "benchmark": "中证800指数收益率×100%",
+        "management": "汇添富基金管理股份有限公司"
+      }
+    ]
+  },
+  {
+    "name": "fund_div_515800.SH",
+    "endpoint": "fund_div",
+    "params": {
+      "ts_code": "515800.SH"
+    },
+    "retrieved_utc": "2026-11-14T08:38:12.186067+00:00",
+    "rows": 2,
+    "columns": [
+      "ts_code",
+      "ann_date",
+      "imp_anndate",
+      "div_proc",
+      "record_date",
+      "ex_date",
+      "pay_date",
+      "div_cash"
+    ],
+    "sha256": "4a4f5761f3ca9d762b1a3155916fbeb9933ffe157c7ae9fcab7a46bc4f7a3f44"
+  },
+  {
+    "name": "fund_daily_515800.SH",
+    "endpoint": "fund_daily",
+    "params": {
+      "ts_code": "515800.SH",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:33:35.904838+00:00",
+    "first": "20191216",
+    "last": "20261112",
+    "rows": 1674,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "open",
+      "high",
+      "low",
+      "close",
+      "pre_close",
+      "vol",
+      "amount"
+    ],
+    "sha256": "5011ce8101a2ea0f524e9e34daaaf4b331622e4f28d17a24c7005cdfe884637c"
+  },
+  {
+    "name": "fund_adj_515800.SH",
+    "endpoint": "fund_adj",
+    "params": {
+      "ts_code": "515800.SH",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:33:36.397746+00:00",
+    "first": "20191216",
+    "last": "20261112",
+    "rows": 1674,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "adj_factor"
+    ],
+    "sha256": "f32142c96241a80585d515440e8a0cfa8881f73bfb9f9634388988ee2690310d"
+  },
+  {
+    "name": "etf_limit_515800.SH",
+    "endpoint": "etf_limit",
+    "params": {
+      "ts_code": "515800.SH",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:33:36.763516+00:00",
+    "first": "20191216",
+    "last": "20261112",
+    "rows": 1674,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "up_limit",
+      "down_limit"
+    ],
+    "sha256": "7c2b18b2ee8d5b722daa10c3b322c3ca971a295115be0760538609f1c63090bf"
+  },
+  {
+    "name": "fund_basic_511260.SH",
+    "endpoint": "fund_basic",
+    "params": {
+      "ts_code": "511260.SH",
+      "market": "E"
+    },
+    "retrieved_utc": "2026-11-14T08:33:37.175989+00:00",
+    "rows": 1,
+    "columns": [
+      "ts_code",
+      "name",
+      "list_date",
+      "delist_date",
+      "benchmark",
+      "management"
+    ],
+    "sha256": "526756f4e520aa383d995c2fbf6cc5d3316631ab5641fa11f717433ec187d66f",
+    "identity": [
+      {
+        "ts_code": "511260.SH",
+        "name": "国泰上证10年期国债ETF",
+        "list_date": "20170824",
+        "delist_date": "",
+        "benchmark": "上证10年期国债指数×100%",
+        "management": "国泰基金管理有限公司"
+      }
+    ]
+  },
+  {
+    "name": "fund_div_511260.SH",
+    "endpoint": "fund_div",
+    "params": {
+      "ts_code": "511260.SH"
+    },
+    "retrieved_utc": "2026-11-14T08:38:12.394199+00:00",
+    "rows": 8,
+    "columns": [
+      "ts_code",
+      "ann_date",
+      "imp_anndate",
+      "div_proc",
+      "record_date",
+      "ex_date",
+      "pay_date",
+      "div_cash"
+    ],
+    "sha256": "e0b8dde4326a8f6bffa39a1d024829cf0bb3c1996cad2c3e983083d09223eb9a"
+  },
+  {
+    "name": "fund_daily_511260.SH",
+    "endpoint": "fund_daily",
+    "params": {
+      "ts_code": "511260.SH",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:33:37.484588+00:00",
+    "first": "20190102",
+    "last": "20261112",
+    "rows": 1906,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "open",
+      "high",
+      "low",
+      "close",
+      "pre_close",
+      "vol",
+      "amount"
+    ],
+    "sha256": "990383717379681e558d1d1e1ab3bdbc67a5352cfc12f0884bef673adfa9f146"
+  },
+  {
+    "name": "fund_adj_511260.SH",
+    "endpoint": "fund_adj",
+    "params": {
+      "ts_code": "511260.SH",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:33:38.033392+00:00",
+    "first": "20190102",
+    "last": "20261112",
+    "rows": 1906,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "adj_factor"
+    ],
+    "sha256": "778b8c4452f5026a5e85d8299ac127e5079338bc05ad8bc580bbf8de843d84e9"
+  },
+  {
+    "name": "etf_limit_511260.SH",
+    "endpoint": "etf_limit",
+    "params": {
+      "ts_code": "511260.SH",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:33:38.384766+00:00",
+    "first": "20190626",
+    "last": "20261112",
+    "rows": 1791,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "up_limit",
+      "down_limit"
+    ],
+    "sha256": "edc34e9509a3d0c915654d3ff634a4025cdaac9f2fa9860904034ec184323d77"
+  },
+  {
+    "name": "fund_basic_518880.SH",
+    "endpoint": "fund_basic",
+    "params": {
+      "ts_code": "518880.SH",
+      "market": "E"
+    },
+    "retrieved_utc": "2026-11-14T08:33:38.783303+00:00",
+    "rows": 1,
+    "columns": [
+      "ts_code",
+      "name",
+      "list_date",
+      "delist_date",
+      "benchmark",
+      "management"
+    ],
+    "sha256": "eba9fd9a64e90a7699512063f13d99e2097973b5a32ee28bcb29769b03b656dd",
+    "identity": [
+      {
+        "ts_code": "518880.SH",
+        "name": "华安易富黄金ETF",
+        "list_date": "20130729",
+        "delist_date": "",
+        "benchmark": "国内黄金现货价格收益率(Au99.99合约)×100%",
+        "management": "华安基金管理有限公司"
+      }
+    ]
+  },
+  {
+    "name": "fund_div_518880.SH",
+    "endpoint": "fund_div",
+    "params": {
+      "ts_code": "518880.SH"
+    },
+    "retrieved_utc": "2026-11-14T08:38:12.771263+00:00",
+    "rows": 0,
+    "columns": [
+      "ts_code",
+      "ann_date",
+      "imp_anndate",
+      "div_proc",
+      "record_date",
+      "ex_date",
+      "pay_date",
+      "div_cash"
+    ],
+    "sha256": "f24ecb879a83a0b7c4835986b819ba92430e1be740e1fc68dd2c5c6a9177aad9"
+  },
+  {
+    "name": "fund_daily_518880.SH",
+    "endpoint": "fund_daily",
+    "params": {
+      "ts_code": "518880.SH",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:33:39.134990+00:00",
+    "first": "20190102",
+    "last": "20261112",
+    "rows": 1906,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "open",
+      "high",
+      "low",
+      "close",
+      "pre_close",
+      "vol",
+      "amount"
+    ],
+    "sha256": "d8514f6fb70ac5d2a97fd728bd6121e73b2e0d075ec4b9f27c4248badde6ce18"
+  },
+  {
+    "name": "fund_adj_518880.SH",
+    "endpoint": "fund_adj",
+    "params": {
+      "ts_code": "518880.SH",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:33:39.826246+00:00",
+    "first": "20190102",
+    "last": "20261112",
+    "rows": 1906,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "adj_factor"
+    ],
+    "sha256": "3f87fd556a02d7a16a91c3eca96f7635795de63a792f2ae84a1e417772c985d7"
+  },
+  {
+    "name": "etf_limit_518880.SH",
+    "endpoint": "etf_limit",
+    "params": {
+      "ts_code": "518880.SH",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:33:40.094077+00:00",
+    "first": "20190102",
+    "last": "20261112",
+    "rows": 1906,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "up_limit",
+      "down_limit"
+    ],
+    "sha256": "1f0d81f51eabe04e985c4066ae629bf4f3e1fc67491be7415701c517c3417ae0"
+  },
+  {
+    "name": "fund_basic_159980.SZ",
+    "endpoint": "fund_basic",
+    "params": {
+      "ts_code": "159980.SZ",
+      "market": "E"
+    },
+    "retrieved_utc": "2026-11-14T08:33:40.499331+00:00",
+    "rows": 1,
+    "columns": [
+      "ts_code",
+      "name",
+      "list_date",
+      "delist_date",
+      "benchmark",
+      "management"
+    ],
+    "sha256": "255e4d7ae72d29fed3acfb732a91cf72b1711335ea23d707baeacf486eac0f5b",
+    "identity": [
+      {
+        "ts_code": "159980.SZ",
+        "name": "大成有色金属期货ETF",
+        "list_date": "20191224",
+        "delist_date": "",
+        "benchmark": "上海期货交易所有色金属期货价格指数收益率×100%",
+        "management": "大成基金管理有限公司"
+      }
+    ]
+  },
+  {
+    "name": "fund_div_159980.SZ",
+    "endpoint": "fund_div",
+    "params": {
+      "ts_code": "159980.SZ"
+    },
+    "retrieved_utc": "2026-11-14T08:38:13.135987+00:00",
+    "rows": 0,
+    "columns": [
+      "ts_code",
+      "ann_date",
+      "imp_anndate",
+      "div_proc",
+      "record_date",
+      "ex_date",
+      "pay_date",
+      "div_cash"
+    ],
+    "sha256": "f24ecb879a83a0b7c4835986b819ba92430e1be740e1fc68dd2c5c6a9177aad9"
+  },
+  {
+    "name": "fund_daily_159980.SZ",
+    "endpoint": "fund_daily",
+    "params": {
+      "ts_code": "159980.SZ",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:33:40.799462+00:00",
+    "first": "20191224",
+    "last": "20261112",
+    "rows": 1668,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "open",
+      "high",
+      "low",
+      "close",
+      "pre_close",
+      "vol",
+      "amount"
+    ],
+    "sha256": "d108b0d19cde4755ecf9004a2b94162820a9d10152e7919af21567165684f6d8"
+  },
+  {
+    "name": "fund_adj_159980.SZ",
+    "endpoint": "fund_adj",
+    "params": {
+      "ts_code": "159980.SZ",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:33:41.316065+00:00",
+    "first": "20191224",
+    "last": "20261112",
+    "rows": 1668,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "adj_factor"
+    ],
+    "sha256": "a2b070e906a38ecf742c144f638f78f1acf604c9bd53c3e844b596ee0439136f"
+  },
+  {
+    "name": "etf_limit_159980.SZ",
+    "endpoint": "etf_limit",
+    "params": {
+      "ts_code": "159980.SZ",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:33:41.731805+00:00",
+    "first": "20191224",
+    "last": "20261112",
+    "rows": 1668,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "up_limit",
+      "down_limit"
+    ],
+    "sha256": "2dee4e7a75132b7cbc252975f7994b8e61d12eb0073dd178026c217e9471104b"
+  },
+  {
+    "name": "fund_basic_159981.SZ",
+    "endpoint": "fund_basic",
+    "params": {
+      "ts_code": "159981.SZ",
+      "market": "E"
+    },
+    "retrieved_utc": "2026-11-14T08:33:42.100169+00:00",
+    "rows": 1,
+    "columns": [
+      "ts_code",
+      "name",
+      "list_date",
+      "delist_date",
+      "benchmark",
+      "management"
+    ],
+    "sha256": "b45ff5b816ebd6c2055cc280a53da988cd9d2295d845b7be9d5992b2fe476c92",
+    "identity": [
+      {
+        "ts_code": "159981.SZ",
+        "name": "建信易盛郑商所能源化工期货ETF",
+        "list_date": "20200117",
+        "delist_date": "",
+        "benchmark": "易盛郑商所能源化工指数A收益率×100%",
+        "management": "建信基金管理有限责任公司"
+      }
+    ]
+  },
+  {
+    "name": "fund_div_159981.SZ",
+    "endpoint": "fund_div",
+    "params": {
+      "ts_code": "159981.SZ"
+    },
+    "retrieved_utc": "2026-11-14T08:38:13.544659+00:00",
+    "rows": 0,
+    "columns": [
+      "ts_code",
+      "ann_date",
+      "imp_anndate",
+      "div_proc",
+      "record_date",
+      "ex_date",
+      "pay_date",
+      "div_cash"
+    ],
+    "sha256": "f24ecb879a83a0b7c4835986b819ba92430e1be740e1fc68dd2c5c6a9177aad9"
+  },
+  {
+    "name": "fund_daily_159981.SZ",
+    "endpoint": "fund_daily",
+    "params": {
+      "ts_code": "159981.SZ",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:33:42.449478+00:00",
+    "first": "20200117",
+    "last": "20261112",
+    "rows": 1651,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "open",
+      "high",
+      "low",
+      "close",
+      "pre_close",
+      "vol",
+      "amount"
+    ],
+    "sha256": "410824e01481b972767caa218f5a5d47cab7fbdfe35758819dabb3296a26e8cd"
+  },
+  {
+    "name": "fund_adj_159981.SZ",
+    "endpoint": "fund_adj",
+    "params": {
+      "ts_code": "159981.SZ",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:33:42.918020+00:00",
+    "first": "20200117",
+    "last": "20261112",
+    "rows": 1651,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "adj_factor"
+    ],
+    "sha256": "fa454eeb52f2d1a608320201e0fc0da8462f31742275e6112418050fde97bd21"
+  },
+  {
+    "name": "etf_limit_159981.SZ",
+    "endpoint": "etf_limit",
+    "params": {
+      "ts_code": "159981.SZ",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:33:43.301369+00:00",
+    "first": "20200117",
+    "last": "20261112",
+    "rows": 1651,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "up_limit",
+      "down_limit"
+    ],
+    "sha256": "bd7517ef1a22418e23beb0e341b1414337881fb2a158f1767a0af3f50139ec0f"
+  },
+  {
+    "name": "fund_basic_159985.SZ",
+    "endpoint": "fund_basic",
+    "params": {
+      "ts_code": "159985.SZ",
+      "market": "E"
+    },
+    "retrieved_utc": "2026-11-14T08:33:43.673487+00:00",
+    "rows": 1,
+    "columns": [
+      "ts_code",
+      "name",
+      "list_date",
+      "delist_date",
+      "benchmark",
+      "management"
+    ],
+    "sha256": "46cfca125519334aff87dd197174e17b2a8142b5b47e53be753f179d966b964e",
+    "identity": [
+      {
+        "ts_code": "159985.SZ",
+        "name": "华夏饲料豆粕期货ETF",
+        "list_date": "20191205",
+        "delist_date": "",
+        "benchmark": "大连商品交易所豆粕期货价格指数收益率×100%",
+        "management": "华夏基金管理有限公司"
+      }
+    ]
+  },
+  {
+    "name": "fund_div_159985.SZ",
+    "endpoint": "fund_div",
+    "params": {
+      "ts_code": "159985.SZ"
+    },
+    "retrieved_utc": "2026-11-14T08:38:13.953422+00:00",
+    "rows": 0,
+    "columns": [
+      "ts_code",
+      "ann_date",
+      "imp_anndate",
+      "div_proc",
+      "record_date",
+      "ex_date",
+      "pay_date",
+      "div_cash"
+    ],
+    "sha256": "f24ecb879a83a0b7c4835986b819ba92430e1be740e1fc68dd2c5c6a9177aad9"
+  },
+  {
+    "name": "fund_daily_159985.SZ",
+    "endpoint": "fund_daily",
+    "params": {
+      "ts_code": "159985.SZ",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:33:44.038048+00:00",
+    "first": "20191205",
+    "last": "20261112",
+    "rows": 1681,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "open",
+      "high",
+      "low",
+      "close",
+      "pre_close",
+      "vol",
+      "amount"
+    ],
+    "sha256": "a03bec8743801f964ccb2190ade1c2ad04608947da755869def11c2e3cd964d2"
+  },
+  {
+    "name": "fund_adj_159985.SZ",
+    "endpoint": "fund_adj",
+    "params": {
+      "ts_code": "159985.SZ",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:33:44.543828+00:00",
+    "first": "20191205",
+    "last": "20261112",
+    "rows": 1681,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "adj_factor"
+    ],
+    "sha256": "a8b231b2371685d48e805c6bf5c5dcfc8cb6c5b30126b64229fb7200b94601fe"
+  },
+  {
+    "name": "etf_limit_159985.SZ",
+    "endpoint": "etf_limit",
+    "params": {
+      "ts_code": "159985.SZ",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:33:44.929152+00:00",
+    "first": "20191205",
+    "last": "20261112",
+    "rows": 1681,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "up_limit",
+      "down_limit"
+    ],
+    "sha256": "5eaa45b5acadfb0614a5b9c892f050b3804654e99ba16aec8ecc39921a0e0db0"
+  }
+]

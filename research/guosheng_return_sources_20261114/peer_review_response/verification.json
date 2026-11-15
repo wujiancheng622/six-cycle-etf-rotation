@@ -1,0 +1,22 @@
+{
+  "source_hashes_matched": 7,
+  "accounts": 78,
+  "days": 150280,
+  "orders": 41600,
+  "account_metric_checks": 468,
+  "peer_main_rows": 14,
+  "peer_premium_rows": 6,
+  "max_own_reconstruction_nav_error": 2.430751919746399e-07,
+  "max_own_fee_error": 0.0,
+  "peer_dynamic_threshold_reproduced": true,
+  "scope": "Own input-and-saved-trade balance recursion, table matching and algebra. No independent macro source reconstruction, no full signal engine rerun; peer's 8-run process is not independently authenticated by six delivered files.",
+  "dynamic_scope": "Fixed decomposition terms; not a realized loss probability, forecast, backtest or future drawdown bound",
+  "peer_input_sha256": {
+    "国盛综合评审_独立复核结论.md": "cb79df69b16063fbb24a53b04085a140938445d5c9ab500b6fac7ac85ee22e70",
+    "主要复核结果.csv": "970723c4a3244ce241020bcd6fb45ec4e1e0f36e44b06bfaa4d2335c973afc86",
+    "本轮验证范围与误差.json": "ada08e977fc6a49f045d983774c08505317da6132d6b7eaca65314be96285ef3",
+    "额外联合压力_核读范围.csv": "d49035f9acefdafe93977fff0769f8a153ee69788ead68119ede5830ba4ad0ff",
+    "动态项敏感性口径.json": "c1ad2bfe2cee4c38be0d46c35b2350d9d33715f84316bece0454a69b7fb99896",
+    "固定历史持仓的估值贡献.csv": "1056a8b0fab310875c6ef25483ad37a816115453f0a7ba1182d757d46b189751"
+  }
+}

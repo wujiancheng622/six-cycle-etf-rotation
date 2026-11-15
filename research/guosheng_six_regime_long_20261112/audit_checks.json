@@ -1,0 +1,192 @@
+{
+  "hashes_verified": 189,
+  "accounts_reconciled": 55,
+  "repeated_main_four_sha256": {
+    "amount/GS_monthly": "8356606b143d0474c1898a759192e9e1fecbfeefdd256fc7255e2282ed5e9d02",
+    "amount/V12": "67a9fc0e2ee05a460dbdf49fcd43590d81834cc76c55580d1ff1481f8e7002f1",
+    "actual/GS_monthly": "d6d7fc928a08676e7c95260d0f50d358c790b7161d2ba5555694573cd26e3b93",
+    "actual/V12": "944d7a624b72a38979736ed8f9d9dd178f48d74650008c8dd6e6877e002074a8"
+  },
+  "future_perturbation": [
+    {
+      "day": "2013-04-12",
+      "known": "2013-04-11",
+      "available_only": true
+    },
+    {
+      "day": "2014-01-02",
+      "known": "2013-12-31",
+      "available_only": true
+    },
+    {
+      "day": "2016-01-04",
+      "known": "2015-12-31",
+      "available_only": true
+    },
+    {
+      "day": "2020-03-02",
+      "known": "2020-02-28",
+      "available_only": true
+    },
+    {
+      "day": "2021-03-01",
+      "known": "2021-02-26",
+      "available_only": true
+    },
+    {
+      "day": "2023-05-04",
+      "known": "2023-04-28",
+      "available_only": true
+    },
+    {
+      "day": "2025-11-06",
+      "known": "2025-11-05",
+      "available_only": true
+    },
+    {
+      "day": "2026-11-02",
+      "known": "2026-10-30",
+      "available_only": true
+    }
+  ],
+  "state_truth_table_cases": 9,
+  "quote_crosscheck_from_base": {
+    "growth": {
+      "code": "159915.SZ",
+      "matched": 248,
+      "only_qmt": 0,
+      "only_tushare": 0,
+      "max_difference": {
+        "open": 8.881784197001252e-16,
+        "close": 8.881784197001252e-16
+      }
+    },
+    "gold": {
+      "code": "518880.SH",
+      "matched": 248,
+      "only_qmt": 0,
+      "only_tushare": 0,
+      "max_difference": {
+        "open": 1.7763568394002505e-15,
+        "close": 1.7763568394002505e-15
+      }
+    },
+    "metals": {
+      "code": "159980.SZ",
+      "matched": 248,
+      "only_qmt": 0,
+      "only_tushare": 0,
+      "max_difference": {
+        "open": 0.0,
+        "close": 0.0
+      }
+    },
+    "fcf": {
+      "code": "159201.SZ",
+      "matched": 248,
+      "only_qmt": 0,
+      "only_tushare": 0,
+      "max_difference": {
+        "open": 2.220446049250313e-16,
+        "close": 0.0
+      }
+    },
+    "bond": {
+      "code": "511090.SH",
+      "matched": 248,
+      "only_qmt": 0,
+      "only_tushare": 0,
+      "max_difference": {
+        "open": 0.0,
+        "close": 0.0
+      }
+    },
+    "dividend": {
+      "code": "515100.SH",
+      "matched": 248,
+      "only_qmt": 0,
+      "only_tushare": 0,
+      "max_difference": {
+        "open": 0.0,
+        "close": 0.0
+      }
+    }
+  },
+  "early_etf_session_reconciliation": {
+    "159915.SZ": 248,
+    "518880.SH": 114
+  },
+  "frozen_covariance_amount": {
+    "targets": 164,
+    "max_equal_risk_share_error": 9.387546295869242e-12,
+    "two_asset_closed_form_checks": 85,
+    "max_closed_form_error": 3.4202640719627198e-12,
+    "ex_ante_portfolio_vol_min": 0.025651683245368324,
+    "ex_ante_portfolio_vol_max": 0.25127036729721125
+  },
+  "frozen_covariance_actual": {
+    "targets": 13,
+    "max_equal_risk_share_error": 4.963973676552769e-12,
+    "two_asset_closed_form_checks": 9,
+    "max_closed_form_error": 3.4202640719627198e-12,
+    "ex_ante_portfolio_vol_min": 0.044049916949221585,
+    "ex_ante_portfolio_vol_max": 0.25127036729721125
+  },
+  "listing_check": {
+    "growth": {
+      "first_actual_return": "2011-12-12",
+      "first_historical_model_buy": "2013-04-12",
+      "first_actual_model_buy": "2025-11-06"
+    },
+    "gold": {
+      "first_actual_return": "2013-07-30",
+      "first_historical_model_buy": "2014-04-02",
+      "first_actual_model_buy": "2026-02-03"
+    },
+    "metals": {
+      "first_actual_return": "2019-12-25",
+      "first_historical_model_buy": "2013-04-12",
+      "first_actual_model_buy": "2025-11-06"
+    },
+    "fcf": {
+      "first_actual_return": "2025-02-28",
+      "first_historical_model_buy": "2013-05-03",
+      "first_actual_model_buy": "2026-08-03"
+    },
+    "bond": {
+      "first_actual_return": "2023-06-14",
+      "first_historical_model_buy": "2014-04-02",
+      "first_actual_model_buy": "2026-03-03"
+    },
+    "dividend": {
+      "first_actual_return": "2020-07-06",
+      "first_historical_model_buy": "2014-04-02",
+      "first_actual_model_buy": "2026-03-03"
+    }
+  },
+  "proxy_stress_after_source_audit": {
+    "fcf_before_methodology_cash": {
+      "cagr": 0.1769036061728344,
+      "vol": 0.11120663770839492,
+      "mdd": 0.18639829213430759
+    },
+    "all_prelisting_returns_cash": {
+      "cagr": 0.13897428576489546,
+      "vol": 0.1030274675547,
+      "mdd": 0.18640139368476827
+    }
+  },
+  "share_days_noncanonical": 0.1675249924265374,
+  "actual_execution": {
+    "start": "2025-11-06",
+    "trades": 47,
+    "maximum_adv_fraction": 0.0027593654155293594,
+    "count_at_least_99pct_of_cap": 0,
+    "largest_trade_cny": 899080.0,
+    "minimum_cash_cny": 47.73931499974151,
+    "total_cost_cny": 13613.332450000002,
+    "max_end_day_asset_weight": 0.7619356617127858
+  },
+  "later_actual_GS_at_zero_slippage_return": -0.03069980837000008,
+  "later_actual_V12_at_9bp_return": -0.006831039089999713
+}

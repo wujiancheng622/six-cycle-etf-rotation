@@ -1,0 +1,18 @@
+{
+  "targets": 155,
+  "trade_days": 308,
+  "model_fills": 559,
+  "calendar_months": 154,
+  "positive_months": 108,
+  "mean_monthly_net": 0.017414664134849763,
+  "median_monthly_net": 0.010639434696409633,
+  "monthly_compound_equivalent": 0.016761525815582906,
+  "minimum_monthly_net": -0.10191572088811005,
+  "maximum_monthly_net": 0.12045325021814872,
+  "closed_month_blocks": 154,
+  "closed_basket_transitions": 44,
+  "growth_exits": 13,
+  "lower_predicted_risk_exits": 12,
+  "contribution_and_target_history_match": true,
+  "quote_august_sell_followed_by_bond_buy": true
+}

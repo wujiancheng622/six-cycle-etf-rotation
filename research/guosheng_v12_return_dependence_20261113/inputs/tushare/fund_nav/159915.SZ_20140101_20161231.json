@@ -1,0 +1,11 @@
+{
+  "endpoint": "fund_nav",
+  "args": {
+    "start_date": "20140101",
+    "end_date": "20161231",
+    "ts_code": "159915.SZ"
+  },
+  "rows": 734,
+  "sha256": "e2bebe7cb529168fc369177ac995339b3117640e6fedbcf037e2d3463b0f46b6",
+  "retrieved": "2026-11-13T00:24:21.060922+00:00"
+}

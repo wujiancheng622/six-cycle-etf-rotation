@@ -1,0 +1,9 @@
+hypothesis,evidence,run,all_intervals,eligible,available,missing,start,end,negative_order_count,positive_order_count
+H1,official,base,154,154,154,0,2014-01-02,2026-11-02,,
+H1,official,quote,16,16,16,0,2025-07-01,2026-11-02,,
+H2,official,base,154,77,77,0,2014-01-02,2026-11-02,9.0,68.0
+H2,official,quote,16,9,9,0,2025-10-09,2026-11-02,3.0,6.0
+H1,vendor,base,154,154,154,0,2014-01-02,2026-11-02,,
+H1,vendor,quote,16,16,16,0,2025-07-01,2026-11-02,,
+H2,vendor,base,154,77,77,0,2014-01-02,2026-11-02,9.0,68.0
+H2,vendor,quote,16,9,9,0,2025-10-09,2026-11-02,3.0,6.0

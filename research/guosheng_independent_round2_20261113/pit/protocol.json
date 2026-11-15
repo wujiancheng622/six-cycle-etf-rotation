@@ -1,0 +1,58 @@
+{
+  "id": "GS_V12_round2_PIT_cash_budget_20261113",
+  "data_end": "2026-11-12",
+  "decision": "Compare higher-return GS monthly63 against V12 without selecting a winning parameter.",
+  "created_before_new_results": true,
+  "fcf_decomposition": {
+    "start": "2013-04-12",
+    "capital": 1000000,
+    "slippage_bps": 9,
+    "cutoff": "2024-08-15",
+    "arms": [
+      "legacy_mask_after_risk",
+      "matched_proxy_risk_reference_cash",
+      "matched_proxy_risk_equal_cash",
+      "matched_eligible_risk_reference_cash",
+      "matched_eligible_risk_equal_cash"
+    ],
+    "common_availability": "FCF not eligible until 63 common post-rule return observations",
+    "warning": "Reference cash budget deliberately retains original proxy-risk weight; those arms are decomposition diagnostics, not PIT-clean implementations."
+  },
+  "symmetric_etf": {
+    "starts": [
+      "2014-07-16",
+      "2020-04-27"
+    ],
+    "capital_primary": 500000,
+    "capital_reference": 1000000,
+    "slippage_bps": [
+      9,
+      20
+    ],
+    "arms": [
+      "GS_original",
+      "GS_ETF_available",
+      "V12_original",
+      "V12_earlier_actual",
+      "V12_ETF_available"
+    ],
+    "gs_cash": "one equal capital slot per unavailable basket member, remaining budget ERC on eligible actual-return window",
+    "v12_cash": "preserve original base weights; unavailable base slots cash; scale eligible base with original 12% covariance rule, no redistribution",
+    "availability": "only actual ETF return records; 63 common eligible observations; unknown historical availability not silently converted to known",
+    "caveat": "Mechanical availability counterfactuals, not full vintage-clean reconstruction; macro and present asset choices remain retrospective."
+  },
+  "failure_conditions": [
+    "Unavailable prices changing strict targets/P&L fails the mask.",
+    "Any decision using future return or future release date fails timing.",
+    "If the relative advantage disappears under symmetric input/budget treatment, the historical investable superiority claim fails.",
+    "No parameter choice may be made from the best arm."
+  ],
+  "outputs": [
+    "summary.csv",
+    "daily_nav.csv",
+    "availability.csv",
+    "input_manifest.json",
+    "checks.json",
+    "all failed case traces"
+  ]
+}

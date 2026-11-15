@@ -1,0 +1,224 @@
+category,effective_date,vote,source,known_date,evidence,dataset,usable_date
+reserve,2007-01-15,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2007-01-15,rrr_B,series,2007-01-15
+reserve,2007-01-15,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2007-01-15,rrr_S,series,2007-01-15
+reserve,2007-02-25,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2007-02-25,rrr_B,series,2007-02-25
+reserve,2007-02-25,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2007-02-25,rrr_S,series,2007-02-25
+reserve,2007-04-16,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2007-04-16,rrr_B,series,2007-04-16
+reserve,2007-04-16,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2007-04-16,rrr_S,series,2007-04-16
+reserve,2007-05-15,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2007-05-15,rrr_B,series,2007-05-15
+reserve,2007-05-15,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2007-05-15,rrr_S,series,2007-05-15
+reserve,2007-06-05,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2007-06-05,rrr_B,series,2007-06-05
+reserve,2007-06-05,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2007-06-05,rrr_S,series,2007-06-05
+reserve,2007-08-15,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2007-08-15,rrr_B,series,2007-08-15
+reserve,2007-08-15,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2007-08-15,rrr_S,series,2007-08-15
+reserve,2007-09-25,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2007-09-25,rrr_B,series,2007-09-25
+reserve,2007-09-25,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2007-09-25,rrr_S,series,2007-09-25
+reserve,2007-10-25,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2007-10-25,rrr_B,series,2007-10-25
+reserve,2007-10-25,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2007-10-25,rrr_S,series,2007-10-25
+reserve,2007-11-26,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2007-11-26,rrr_B,series,2007-11-26
+reserve,2007-11-26,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2007-11-26,rrr_S,series,2007-11-26
+reserve,2007-12-25,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2007-12-25,rrr_B,series,2007-12-25
+reserve,2007-12-25,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2007-12-25,rrr_S,series,2007-12-25
+reserve,2008-01-25,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2008-01-25,rrr_B,series,2008-01-25
+reserve,2008-01-25,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2008-01-25,rrr_S,series,2008-01-25
+reserve,2008-03-25,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2008-03-25,rrr_B,series,2008-03-25
+reserve,2008-03-25,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2008-03-25,rrr_S,series,2008-03-25
+reserve,2008-04-25,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2008-04-25,rrr_B,series,2008-04-25
+reserve,2008-04-25,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2008-04-25,rrr_S,series,2008-04-25
+reserve,2008-05-20,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2008-05-20,rrr_B,series,2008-05-20
+reserve,2008-05-20,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2008-05-20,rrr_S,series,2008-05-20
+reserve,2008-06-15,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2008-06-15,rrr_B,series,2008-06-15
+reserve,2008-06-15,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2008-06-15,rrr_S,series,2008-06-15
+reserve,2008-06-25,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2008-06-25,rrr_B,series,2008-06-25
+reserve,2008-06-25,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2008-06-25,rrr_S,series,2008-06-25
+reserve,2008-09-25,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2008-09-25,rrr_S,series,2008-09-25
+reserve,2008-10-15,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2008-10-15,rrr_B,series,2008-10-15
+reserve,2008-10-15,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2008-10-15,rrr_S,series,2008-10-15
+reserve,2008-12-05,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2008-12-05,rrr_B,series,2008-12-05
+reserve,2008-12-05,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2008-12-05,rrr_S,series,2008-12-05
+reserve,2008-12-25,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2008-12-25,rrr_B,series,2008-12-25
+reserve,2008-12-25,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2008-12-25,rrr_S,series,2008-12-25
+reserve,2010-01-18,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2010-01-18,rrr_B,series,2010-01-18
+reserve,2010-01-18,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2010-01-18,rrr_S,series,2010-01-18
+reserve,2010-02-25,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2010-02-25,rrr_B,series,2010-02-25
+reserve,2010-02-25,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2010-02-25,rrr_S,series,2010-02-25
+reserve,2010-05-10,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2010-05-10,rrr_B,series,2010-05-10
+reserve,2010-05-10,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2010-05-10,rrr_S,series,2010-05-10
+reserve,2010-11-16,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2010-11-16,rrr_B,series,2010-11-16
+reserve,2010-11-16,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2010-11-16,rrr_S,series,2010-11-16
+reserve,2010-11-29,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2010-11-29,rrr_B,series,2010-11-29
+reserve,2010-11-29,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2010-11-29,rrr_S,series,2010-11-29
+reserve,2010-12-20,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2010-12-20,rrr_B,series,2010-12-20
+reserve,2010-12-20,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2010-12-20,rrr_S,series,2010-12-20
+reserve,2011-01-20,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2011-01-20,rrr_B,series,2011-01-20
+reserve,2011-01-20,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2011-01-20,rrr_S,series,2011-01-20
+reserve,2011-02-24,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2011-02-24,rrr_B,series,2011-02-24
+reserve,2011-02-24,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2011-02-24,rrr_S,series,2011-02-24
+reserve,2011-03-25,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2011-03-25,rrr_B,series,2011-03-25
+reserve,2011-03-25,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2011-03-25,rrr_S,series,2011-03-25
+reserve,2011-04-21,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2011-04-21,rrr_B,series,2011-04-21
+reserve,2011-04-21,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2011-04-21,rrr_S,series,2011-04-21
+reserve,2011-05-18,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2011-05-18,rrr_B,series,2011-05-18
+reserve,2011-05-18,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2011-05-18,rrr_S,series,2011-05-18
+reserve,2011-06-20,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2011-06-20,rrr_B,series,2011-06-20
+reserve,2011-06-20,-1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2011-06-20,rrr_S,series,2011-06-20
+reserve,2011-12-05,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2011-12-05,rrr_B,series,2011-12-05
+reserve,2011-12-05,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2011-12-05,rrr_S,series,2011-12-05
+reserve,2012-02-24,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2012-02-24,rrr_B,series,2012-02-24
+reserve,2012-02-24,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2012-02-24,rrr_S,series,2012-02-24
+reserve,2012-05-18,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2012-05-18,rrr_B,series,2012-05-18
+reserve,2012-05-18,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2012-05-18,rrr_S,series,2012-05-18
+deposit,2012-06-08,1,https://wuhan.pbc.gov.cn/jinrongwendingju/146766/146772/3094028/2016063018064573445.pdf,2012-06-08,存款基准利率下调,added,2012-06-08
+loan,2012-06-08,1,https://wuhan.pbc.gov.cn/jinrongwendingju/146766/146772/3094028/2016063018064573445.pdf,2012-06-08,贷款基准利率下调,added,2012-06-08
+deposit,2012-07-06,1,https://wuhan.pbc.gov.cn/jinrongwendingju/146766/146772/3094028/2016063018064573445.pdf,2012-07-06,存款基准利率下调,added,2012-07-06
+loan,2012-07-06,1,https://wuhan.pbc.gov.cn/jinrongwendingju/146766/146772/3094028/2016063018064573445.pdf,2012-07-06,贷款基准利率下调,added,2012-07-06
+deposit,2014-11-22,1,https://xining.pbc.gov.cn/eportal/fileDir/image_public/UserFiles/chubanwu/upload/File/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E9%93%B6%E8%A1%8C%E5%B9%B4%E6%8A%A52014%EF%BC%8D%E6%9C%80%E7%BB%88%E5%AE%9A%E7%A8%BF.pdf,2014-11-22,1年期存款基准利率下调至2.75%,added,2014-11-22
+loan,2014-11-22,1,https://xining.pbc.gov.cn/eportal/fileDir/image_public/UserFiles/chubanwu/upload/File/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E9%93%B6%E8%A1%8C%E5%B9%B4%E6%8A%A52014%EF%BC%8D%E6%9C%80%E7%BB%88%E5%AE%9A%E7%A8%BF.pdf,2014-11-22,前轮已核对的公开事件,prior,2014-11-22
+reverse_repo,2015-01-22,1,https://epaper.cs.com.cn/zgzqb/html/2015-02/11/nw.D110000zgzqb_20150211_3-A12.htm?div=-1,2015-01-22,7天逆回购重启3.85%较上次下降,added,2015-01-22
+reserve,2015-02-05,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2015-02-05,rrr_B,series,2015-02-05
+reserve,2015-02-05,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2015-02-05,rrr_S,series,2015-02-05
+reverse_repo,2015-02-10,1,https://epaper.cs.com.cn/zgzqb/html/2015-02/11/nw.D110000zgzqb_20150211_3-A12.htm?div=-1,2015-02-10,14天4.10%与21天4.40%逆回购同时下调,added,2015-02-10
+deposit,2015-03-01,1,https://www.cnfin.com/upload-xh08/2016/0621/1466498431431.pdf,2015-03-01,1年期存款基准利率下调至2.50%,added,2015-03-01
+loan,2015-03-01,1,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/2161441/07e374fc36eb4328a61ce40bc4bf5a92/2016020614180047455.pdf,2015-03-01,前轮已核对的公开事件,prior,2015-03-01
+reverse_repo,2015-03-03,1,https://www.cnfin.com/rmb-xh08/a/20151231/1594251.shtml,2015-03-03,7天逆回购降至3.75%,added,2015-03-03
+reverse_repo,2015-03-17,1,https://www.cnfin.com/rmb-xh08/a/20151231/1594251.shtml,2015-03-17,7天逆回购降至3.65%,added,2015-03-17
+reverse_repo,2015-03-24,1,https://www.cnfin.com/rmb-xh08/a/20151231/1594251.shtml,2015-03-24,7天逆回购降至3.55%,added,2015-03-24
+reverse_repo,2015-04-07,1,https://www.cnfin.com/rmb-xh08/a/20151231/1594251.shtml,2015-04-07,7天逆回购降至3.45%,added,2015-04-07
+reverse_repo,2015-04-14,1,https://www.cnfin.com/rmb-xh08/a/20151231/1594251.shtml,2015-04-14,7天逆回购降至3.35%,added,2015-04-14
+reserve,2015-04-20,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2015-04-20,rrr_B,series,2015-04-20
+reserve,2015-04-20,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2015-04-20,rrr_S,series,2015-04-20
+deposit,2015-05-11,1,https://www.cnfin.com/upload-xh08/2016/0621/1466498431431.pdf,2015-05-11,1年期存款基准利率下调至2.25%,added,2015-05-11
+loan,2015-05-11,1,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/2161441/07e374fc36eb4328a61ce40bc4bf5a92/2016020614180047455.pdf,2015-05-11,前轮已核对的公开事件,prior,2015-05-11
+reverse_repo,2015-06-25,1,https://www.cnfin.com/rmb-xh08/a/20151231/1594251.shtml,2015-06-25,7天逆回购降至2.70%,added,2015-06-25
+deposit,2015-06-28,1,https://www.cnfin.com/upload-xh08/2016/0621/1466498431431.pdf,2015-06-28,1年期存款基准利率下调至2.00%,added,2015-06-28
+loan,2015-06-28,1,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/2161441/07e374fc36eb4328a61ce40bc4bf5a92/2016020614180047455.pdf,2015-06-28,前轮已核对的公开事件,prior,2015-06-28
+reverse_repo,2015-06-30,1,https://www.cnfin.com/rmb-xh08/a/20151231/1594251.shtml,2015-06-30,7天逆回购降至2.50%,added,2015-06-30
+deposit,2015-08-26,1,https://www.cnfin.com/upload-xh08/2016/0621/1466498431431.pdf,2015-08-26,1年期存款基准利率下调至1.75%,added,2015-08-26
+loan,2015-08-26,1,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/2161441/07e374fc36eb4328a61ce40bc4bf5a92/2016020614180047455.pdf,2015-08-26,前轮已核对的公开事件,prior,2015-08-26
+reverse_repo,2015-08-27,1,https://www.cnfin.com/rmb-xh08/a/20151231/1594251.shtml,2015-08-27,7天逆回购降至2.35%,added,2015-08-27
+reserve,2015-09-06,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2015-09-06,rrr_B,series,2015-09-06
+reserve,2015-09-06,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2015-09-06,rrr_S,series,2015-09-06
+deposit,2015-10-24,1,https://www.cnfin.com/upload-xh08/2016/0621/1466498431431.pdf,2015-10-24,1年期存款基准利率下调至1.50%,added,2015-10-24
+loan,2015-10-24,1,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/2161441/07e374fc36eb4328a61ce40bc4bf5a92/2016020614180047455.pdf,2015-10-24,前轮已核对的公开事件,prior,2015-10-24
+reserve,2015-10-24,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2015-10-24,rrr_B,series,2015-10-24
+reserve,2015-10-24,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2015-10-24,rrr_S,series,2015-10-24
+reverse_repo,2015-10-27,1,https://www.cnfin.com/rmb-xh08/a/20151231/1594251.shtml,2015-10-27,7天逆回购降至2.25%,added,2015-10-27
+slf,2015-11-20,1,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/2161441/07e374fc36eb4328a61ce40bc4bf5a92/2016020614180047455.pdf,2015-11-19,分支行隔夜和7天SLF降至2.75%及3.25%,added,2015-11-20
+mlf,2015-12-01,1,https://www.orient-fund.com/upload/pdf/2015-12-02-093423-dfcb%2812-02%29.pdf,2015-12-01,11月6月期降至3.25%且精确操作日未核实 按12月1日披露日起计,added,2015-12-01
+mlf,2016-01-19,1,https://www.cs.com.cn/gppd/zqxw/201701/t20170125_5165515.html,2016-01-19,3月期MLF调低至2.75%,added,2016-01-19
+mlf,2016-01-21,1,https://www.cnfin.com/rmb-xh08/a/20160219/1610182.shtml,2016-01-21,6月期MLF调低至3.00%,added,2016-01-21
+reverse_repo,2016-02-02,1,https://www.yicai.com/news/100440249.html,2016-02-02,14天逆回购由2.70%降至2.40%,added,2016-02-02
+mlf,2016-02-19,1,https://www.cnfin.com/rmb-xh08/a/20160219/1610182.shtml,2016-02-19,6月期及1年期MLF调低至2.85%及3.00%,added,2016-02-19
+reserve,2016-03-01,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2016-03-01,rrr_B,series,2016-03-01
+reserve,2016-03-01,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2016-03-01,rrr_S,series,2016-03-01
+reverse_repo,2016-09-13,1,https://www.bankofchina.com/fimarkets/boud/201609/t20160914_7676857.html,2016-09-13,28天逆回购由2.60%降至2.55%,added,2016-09-13
+mlf,2017-01-24,-1,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/3066656/9f140965cb464e3bbd1904a84e5d7cde/2017021719463365852.pdf,2017-01-24,6月期及1年期升至2.95%及3.10%,added,2017-01-24
+reverse_repo,2017-02-03,-1,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/3307990/4fb4583e076a4347bea80eee7da3dc92/2018021417311593282.pdf,2017-02-03,7天及14天和28天均上行10bp,added,2017-02-03
+slf,2017-02-03,-1,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/3066656/9f140965cb464e3bbd1904a84e5d7cde/2017021719463365852.pdf,2017-02-03,各期限SLF上调 7天升至3.35%,added,2017-02-03
+mlf,2017-03-16,-1,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/3307990/f0b7f194d7a64548be1fa3aafbd5afd2/2017051310260490469.pdf,2017-03-16,MLF上调10bp 1年期升至3.20%,added,2017-03-16
+reverse_repo,2017-03-16,-1,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/3307990/4fb4583e076a4347bea80eee7da3dc92/2018021417311593282.pdf,2017-03-16,7天及14天和28天再次上行10bp,added,2017-03-16
+slf,2017-03-16,-1,https://pic.bankofchina.com/bocappd/rareport/201706/P020170628261955018964.pdf,2017-03-16,7天SLF升至3.45%,added,2017-03-16
+mlf,2017-12-14,-1,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/3307990/4fb4583e076a4347bea80eee7da3dc92/2018021417311593282.pdf,2017-12-14,1年期上调至3.25%,added,2017-12-14
+reverse_repo,2017-12-14,-1,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/3307990/4fb4583e076a4347bea80eee7da3dc92/2018021417311593282.pdf,2017-12-14,公开市场操作利率上行5bp,added,2017-12-14
+slf,2017-12-14,-1,https://pdf.dfcfw.com/pdf/H3_AP201911151370792580_1.pdf?1573832953000.pdf=,2017-12-14,年内第三次上调 各期限5bp,added,2017-12-14
+reverse_repo,2017-12-18,-1,https://www.yicai.com/news/100440249.html,2017-12-18,14天逆回购上调至2.65%,added,2017-12-18
+reverse_repo,2018-03-22,-1,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/3537682/5dad7896c1c945c5be61518cb4a06605/2018081021363898908.pdf,2018-03-22,7天逆回购升至2.55%,added,2018-03-22
+slf,2018-03-22,-1,https://crm.htsc.com.cn/doc/2019/10730101/64969cef-a806-4fbb-b78f-930ff8d6a2a3.pdf,2018-03-22,一季度上调各期限5bp 原始日期见利率走廊图,added,2018-03-22
+reverse_repo,2018-04-16,-1,https://www.cs.com.cn/xwzx/201804/t20180417_5777330.html,2018-04-16,14天逆回购升至2.70%,added,2018-04-16
+mlf,2018-04-17,-1,https://finance.sina.com.cn/roll/2018-04-17/doc-ifyuwqfa2690147.shtml,2018-04-17,1年期上调至3.30%,added,2018-04-17
+reserve,2018-04-25,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2018-04-25,rrr_B,series,2018-04-25
+reserve,2018-04-25,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2018-04-25,rrr_S,series,2018-04-25
+reserve,2018-07-05,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2018-07-05,rrr_B,series,2018-07-05
+reserve,2018-07-05,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2018-07-05,rrr_S,series,2018-07-05
+reserve,2018-10-15,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2018-10-15,rrr_B,series,2018-10-15
+reserve,2018-10-15,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2018-10-15,rrr_S,series,2018-10-15
+reserve,2019-01-15,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2019-01-15,rrr_B,series,2019-01-15
+reserve,2019-01-15,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2019-01-15,rrr_S,series,2019-01-15
+reserve,2019-01-25,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2019-01-25,rrr_B,series,2019-01-25
+reserve,2019-01-25,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2019-01-25,rrr_S,series,2019-01-25
+reserve,2019-09-16,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2019-09-16,rrr_B,series,2019-09-16
+reserve,2019-09-16,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2019-09-16,rrr_S,series,2019-09-16
+loan,2019-09-20,1,Tushare shibor_lpr frozen snapshot,2019-09-20,lpr_1y,series,2019-09-20
+mlf,2019-11-05,1,https://jrj.sh.gov.cn/cmsres/f6/f6bd46878a704fbca84ddbd9cab0f5d5/d878ed9fe264880de9851c1fcad0c5d0.pdf,2019-11-05,1年期下调5bp至3.25%,added,2019-11-05
+reverse_repo,2019-11-18,1,https://jr.jl.gov.cn/jrzx/zyjrxxzz/gj/202002/t20200219_337925.html,2019-11-18,7天逆回购下调5bp至2.50%,added,2019-11-18
+loan,2019-11-20,1,Tushare shibor_lpr frozen snapshot,2019-11-20,lpr_1y,series,2019-11-20
+loan,2019-11-20,1,Tushare shibor_lpr frozen snapshot,2019-11-20,lpr_5y,series,2019-11-20
+reverse_repo,2019-12-18,1,https://www.chinamoney.com.cn/chinese/scggyhywgggksccz/20191218/1485128.html,2019-12-18,14天逆回购下调5bp至2.65%,added,2019-12-18
+slf,2019-12-30,1,https://jrj.sh.gov.cn/SCGK194/20200220/0031-158358.html,2019-12-30,各期限SLF下调5bp,added,2019-12-30
+reserve,2020-01-06,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2020-01-06,rrr_B,series,2020-01-06
+reserve,2020-01-06,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2020-01-06,rrr_S,series,2020-01-06
+reverse_repo,2020-02-03,1,https://jrj.sh.gov.cn/cmsres/f6/f6bd46878a704fbca84ddbd9cab0f5d5/d878ed9fe264880de9851c1fcad0c5d0.pdf,2020-02-03,7天和14天逆回购均下调10bp,added,2020-02-03
+mlf,2020-02-17,1,https://jrj.sh.gov.cn/cmsres/f6/f6bd46878a704fbca84ddbd9cab0f5d5/d878ed9fe264880de9851c1fcad0c5d0.pdf,2020-02-17,1年期下调10bp至3.15%,added,2020-02-17
+loan,2020-02-20,1,Tushare shibor_lpr frozen snapshot,2020-02-20,lpr_1y,series,2020-02-20
+loan,2020-02-20,1,Tushare shibor_lpr frozen snapshot,2020-02-20,lpr_5y,series,2020-02-20
+reverse_repo,2020-03-30,1,https://jrj.beijing.gov.cn/jrgzdt/202003/t20200331_1752800.html,2020-03-30,7天逆回购下调20bp至2.20%,added,2020-03-30
+reserve_interest,2020-04-07,1,https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2025092212550684242/2020050922062289404.pdf,2020-04-03,超额存款准备金利率从0.72%降至0.35%,added,2020-04-07
+slf,2020-04-10,1,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/4021036/bf7154524a46409f866ef725fabee702/2020050922062289404.pdf,2020-04-10,各期限SLF下调30bp,added,2020-04-10
+mlf,2020-04-15,1,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/4021036/bf7154524a46409f866ef725fabee702/2020050922062289404.pdf,2020-04-15,1年期下调20bp至2.95%,added,2020-04-15
+reserve,2020-04-15,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2020-04-15,rrr_S,series,2020-04-15
+loan,2020-04-20,1,Tushare shibor_lpr frozen snapshot,2020-04-20,lpr_1y,series,2020-04-20
+loan,2020-04-20,1,Tushare shibor_lpr frozen snapshot,2020-04-20,lpr_5y,series,2020-04-20
+reserve,2020-05-15,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2020-05-15,rrr_S,series,2020-05-15
+reverse_repo,2020-06-18,1,https://jrj.wuhan.gov.cn/ztzl_57/xyrd/yxy/202012/t20201225_1570250.shtml,2020-06-18,14天逆回购下调20bp至2.35%,added,2020-06-18
+reserve,2021-07-15,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2021-07-15,rrr_B,series,2021-07-15
+reserve,2021-07-15,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2021-07-15,rrr_S,series,2021-07-15
+reserve,2021-12-15,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2021-12-15,rrr_B,series,2021-12-15
+reserve,2021-12-15,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2021-12-15,rrr_S,series,2021-12-15
+loan,2021-12-20,1,Tushare shibor_lpr frozen snapshot,2021-12-20,lpr_1y,series,2021-12-20
+mlf,2022-01-17,1,https://ha.mof.gov.cn/zt/ysjg/ysgllt/202201/t20220125_3784649.htm,2022-01-17,1年期由2.95%降至2.85%,added,2022-01-17
+reverse_repo,2022-01-17,1,https://ha.mof.gov.cn/zt/ysjg/ysgllt/202201/t20220125_3784649.htm,2022-01-17,7天逆回购由2.20%降至2.10%,added,2022-01-17
+slf,2022-01-17,1,https://jrj.sh.gov.cn/DSJ196/20230227/9fccb08d7fca410fa8675cc12214d08d.html,2022-01-17,常备借贷便利各期限利率下调,added,2022-01-17
+loan,2022-01-20,1,Tushare shibor_lpr frozen snapshot,2022-01-20,lpr_1y,series,2022-01-20
+loan,2022-01-20,1,Tushare shibor_lpr frozen snapshot,2022-01-20,lpr_5y,series,2022-01-20
+reserve,2022-04-25,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2022-04-25,rrr_B,series,2022-04-25
+reserve,2022-04-25,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2022-04-25,rrr_S,series,2022-04-25
+loan,2022-05-20,1,Tushare shibor_lpr frozen snapshot,2022-05-20,lpr_5y,series,2022-05-20
+mlf,2022-08-15,1,https://www.chinamoney.com.cn/chinese/scggyhywgggksccz/20220815/2436571.html,2022-08-15,1年期下调至2.75%,added,2022-08-15
+reverse_repo,2022-08-15,1,https://www.chinamoney.com.cn/chinese/scggyhywgggksccz/20220815/2436571.html,2022-08-15,7天逆回购降至2.00%,added,2022-08-15
+slf,2022-08-15,1,https://jrj.sh.gov.cn/DSJ196/20230227/9fccb08d7fca410fa8675cc12214d08d.html,2022-08-15,各期限SLF下调 7天降至3.00%,added,2022-08-15
+loan,2022-08-22,1,Tushare shibor_lpr frozen snapshot,2022-08-22,lpr_1y,series,2022-08-22
+loan,2022-08-22,1,Tushare shibor_lpr frozen snapshot,2022-08-22,lpr_5y,series,2022-08-22
+deposit,2022-09-15,1,https://www.icbc.com.cn/page/1146089225897320448.html,2022-09-15,工商银行调整定期存款挂牌利率 1年期降至1.65%,added,2022-09-15
+reserve,2022-12-05,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2022-12-05,rrr_B,series,2022-12-05
+reserve,2022-12-05,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2022-12-05,rrr_S,series,2022-12-05
+reserve,2023-03-27,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2023-03-27,rrr_B,series,2023-03-27
+reserve,2023-03-27,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2023-03-27,rrr_S,series,2023-03-27
+deposit,2023-06-08,1,https://www.sh.icbc.com.cn/page/840146672788439040.html,2023-06-08,工商银行2年和3年及5年定期降息 1年期不变,added,2023-06-08
+reverse_repo,2023-06-13,1,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/4883187/e6dc129d48d9474cb6455691eee05766/2023081717054357626.pdf,2023-06-13,前轮已核对的公开事件,prior,2023-06-13
+slf,2023-06-13,1,https://www.china-cba.net/Index/show/catid/33/id/43129.html,2023-06-13,常备借贷便利各期限利率下调,added,2023-06-13
+mlf,2023-06-15,1,https://www.chinamoney.com.cn/chinese/scggyhywgggksccz/20230615/2646291.html,2023-06-15,前轮已核对的公开事件,prior,2023-06-15
+loan,2023-06-20,1,Tushare shibor_lpr frozen snapshot,2023-06-20,lpr_1y,series,2023-06-20
+loan,2023-06-20,1,Tushare shibor_lpr frozen snapshot,2023-06-20,lpr_5y,series,2023-06-20
+mlf,2023-08-15,1,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/4883187/e6dc129d48d9474cb6455691eee05766/2023081717054357626.pdf,2023-08-15,前轮已核对的公开事件,prior,2023-08-15
+reverse_repo,2023-08-15,1,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/4883187/e6dc129d48d9474cb6455691eee05766/2023081717054357626.pdf,2023-08-15,前轮已核对的公开事件,prior,2023-08-15
+slf,2023-08-15,1,https://www.thepaper.cn/newsDetail_forward_24237118,2023-08-15,各期限SLF下调10bp 7天降至2.80%,added,2023-08-15
+loan,2023-08-21,1,Tushare shibor_lpr frozen snapshot,2023-08-21,lpr_1y,series,2023-08-21
+deposit,2023-09-01,1,https://www.icbc.com.cn/page/870673892740919296.html,2023-09-01,工商银行1年及以上多档定存下调,added,2023-09-01
+reserve,2023-09-15,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2023-09-15,rrr_B,series,2023-09-15
+reserve,2023-09-15,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2023-09-15,rrr_S,series,2023-09-15
+deposit,2023-12-22,1,https://paper.people.com.cn/rmrbhwb/images/2024-01/11/04/rmrbhwb2024011104.pdf,2023-12-22,工商银行定存多期限下调 1年降至1.45%,added,2023-12-22
+reserve,2024-02-05,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2024-02-05,rrr_B,series,2024-02-05
+reserve,2024-02-05,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2024-02-05,rrr_S,series,2024-02-05
+loan,2024-02-20,1,Tushare shibor_lpr frozen snapshot,2024-02-20,lpr_5y,series,2024-02-20
+loan,2024-07-22,1,Tushare shibor_lpr frozen snapshot,2024-07-22,lpr_1y,series,2024-07-22
+loan,2024-07-22,1,Tushare shibor_lpr frozen snapshot,2024-07-22,lpr_5y,series,2024-07-22
+reverse_repo,2024-07-22,1,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/5347949/afbfa5df25ee45889d916a2819b60a43/2024110815410752868.pdf,2024-07-22,前轮已核对的公开事件,prior,2024-07-22
+slf,2024-07-22,1,https://jrj.jl.gov.cn/jrzx/jrdt/jgdt/202502/t20250214_3375260.html,2024-07-22,各期限SLF下调10bp 7天降至2.70%,added,2024-07-22
+deposit,2024-07-25,1,https://jrj.wuhan.gov.cn/ztzl_57/xyrd/yxy/202410/t20241018_2470256.shtml,2024-07-25,工商银行多档定存下调 1年降至1.35%,added,2024-07-25
+mlf,2024-07-25,1,https://jrj.sh.gov.cn/SCGK194/20250214/65f4da70183342d08300c459502e0b9d.html,2024-07-25,前轮已核对的公开事件,prior,2024-07-25
+reverse_repo,2024-09-23,1,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/5347949/afbfa5df25ee45889d916a2819b60a43/2024110815410752868.pdf,2024-09-23,14天逆回购利率降至1.85%,added,2024-09-23
+mlf,2024-09-25,1,https://jrj.sh.gov.cn/SCGK194/20250214/65f4da70183342d08300c459502e0b9d.html,2024-09-25,前轮已核对的公开事件,prior,2024-09-25
+reserve,2024-09-27,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2024-09-27,rrr_B,series,2024-09-27
+reserve,2024-09-27,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2024-09-27,rrr_S,series,2024-09-27
+reverse_repo,2024-09-27,1,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/5347949/afbfa5df25ee45889d916a2819b60a43/2024110815410752868.pdf,2024-09-27,前轮已核对的公开事件,prior,2024-09-27
+slf,2024-09-27,1,https://jrj.jl.gov.cn/jrzx/jrdt/jgdt/202502/t20250214_3375260.html,2024-09-27,各期限SLF下调20bp 7天降至2.50%,added,2024-09-27
+deposit,2024-10-18,1,https://jrj.wuhan.gov.cn/ztzl_57/xyrd/yxy/202410/t20241018_2470256.shtml,2024-10-18,工商银行多档定存下调 1年降至1.10%,added,2024-10-18
+loan,2024-10-21,1,Tushare shibor_lpr frozen snapshot,2024-10-21,lpr_1y,series,2024-10-21
+loan,2024-10-21,1,Tushare shibor_lpr frozen snapshot,2024-10-21,lpr_5y,series,2024-10-21
+reverse_repo,2025-05-08,1,https://www.chinamoney.org.cn/chinese/scggyhywgggksccz/20250508/3110843.html,2025-05-08,前轮已核对的公开事件,prior,2025-05-08
+slf,2025-05-08,1,https://www.yicai.com/news/102602576.html,2025-05-07,按央行更新利率表 各期限下调10bp,added,2025-05-08
+reserve,2025-05-15,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2025-05-15,rrr_B,series,2025-05-15
+reserve,2025-05-15,1,"Eastmoney frozen reserve_ratio_changes.json; max(published, effective)",2025-05-15,rrr_S,series,2025-05-15
+deposit,2025-05-20,1,https://wap.icbc.com.cn/page/1098160857114513408.html,2025-05-20,工商银行多档定存下调 1年降至0.95%,added,2025-05-20
+loan,2025-05-20,1,Tushare shibor_lpr frozen snapshot,2025-05-20,lpr_1y,series,2025-05-20
+loan,2025-05-20,1,Tushare shibor_lpr frozen snapshot,2025-05-20,lpr_5y,series,2025-05-20

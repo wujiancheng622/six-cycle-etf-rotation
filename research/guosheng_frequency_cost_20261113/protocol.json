@@ -1,0 +1,38 @@
+{
+  "question": "Count the frozen Guosheng parameters and test monthly, weekly and daily implementation with comparable costs.",
+  "frozen_before_replay": "2026-11-13",
+  "baseline": "Frozen local six-regime high-risk GS_monthly; same stage map, six ETFs, risk budgets and last-available inputs. V12 uses its own original schedule.",
+  "end": "2026-11-12",
+  "starts": {"amount": ["2014-01-02", "2020-01-02"], "actual": ["2025-07-01", "2025-11-06"]},
+  "primary_frequencies": {
+    "monthly": "First exchange session in each calendar month. Two-day rebalance with optional next-session refill.",
+    "weekly": "First exchange session in each ISO week. Two-day rebalance with optional next-session refill.",
+    "daily": "Each exchange session recalculates latest stage and risk weights, replaces any old target, and uses only previously available cash. The same day sale proceeds can fund next trading day's updated order.",
+    "stage_change": "Check daily. Recalculate and trade at month start or upon a change to the selected asset set. Use same next-session refill as monthly."
+  },
+  "information_timing": "Use no signals, covariance returns, or announcements after previous exchange session. In actual runs execute with next open proxy, prior lot and liquidity constraints. In historical amount model use next close. A common initial trade is forced at each start. A weekly variant takes its next decision in the next ISO week.",
+  "weekly_adjacent_ordinals": [2, 3],
+  "weekly_holiday_rule": "In a shortened completed exchange week, use the last available session if the week has fewer sessions than the scheduled ordinal. In the final incomplete week use only ordinals present before the cutoff.",
+  "risk_sessions": [56, 60, 63, 66, 70],
+  "macro_neighbors": {
+    "credit_change_months": [2, 4],
+    "pmi_change_months": [2, 4],
+    "pmi_smoothing_months": [9, 15],
+    "money_market_average_observations": [25, 35],
+    "money_market_comparison_calendar_days": [75, 105],
+    "policy_tool_expiry_calendar_days": [75, 105]
+  },
+  "fees": {
+    "common_capital": 1000000,
+    "supplementary_actual_capital": 500000,
+    "commission_rate": 0.00015,
+    "min_commission_rmb": 5,
+    "slip_bps": [0, 9, 20],
+    "normal_slip_bps": 9,
+    "normal_model": "Charge buy and sell both, no stock stamp duty in ETF simulation. Calculate commission and slippage on each fill and normalize by previous-close equity per calendar year. Zero slippage still charges broker commission."
+  },
+  "clean_fcf": "For main frequency variants in both long windows, repeat at 9bp, strictly exclude FCF observations before 2024-08-16 from holdings and covariance. The temporarily unavailable FCF slot receives equal cash under the earlier cutoff convention. Other older proxies remain.",
+  "repeats": "Core schedules run at 0/9/20bp for both strategies. All nearby risk, macro and alternate weekly date variants run at 9bp. Supplementary 500k actual run covers the four core schedules and V12 at 9bp.",
+  "segments": ["full", "2014–2016", "2017–2019", "2020–2022", "2023–2025", "2026 YTD", "2026-07 to end"],
+  "selection": "Report all configurations and local stability relative to frozen defaults. No choice based on winners and no out-of-sample claims on previously observed history."
+}

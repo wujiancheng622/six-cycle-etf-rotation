@@ -1,0 +1,6 @@
+{
+  "source": "D:\\src\\new_policy_test\\guosheng_cross_review_20261114\\evidence\\chart_point_comparison.csv",
+  "source_sha256": "d93407377f1804c1d88fc9086048b6fd49d6fbce5e192356fa370dbd18a8f54c",
+  "rule": "For each of the two charts separately, replace only directly readable monthly signal-date phases (10-day boundary guard); ambiguous/absent dates retain the fixed local model.",
+  "scope": "Hindsight diagnostic only: source charts were not available at historical trade dates. This is not a tradable strategy or author-ledger reproduction."
+}

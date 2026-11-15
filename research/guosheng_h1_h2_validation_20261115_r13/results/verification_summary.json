@@ -1,0 +1,9 @@
+{
+  "checks": 165,
+  "all_passed": true,
+  "label_error": 9.43689570931383e-16,
+  "price_error": 9.71445146547012e-16,
+  "H2_manual_formula_targets": 154,
+  "baseline_accounts_modified": false,
+  "new_strategy_backtests": 0
+}

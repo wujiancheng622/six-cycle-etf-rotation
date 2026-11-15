@@ -1,0 +1,11 @@
+{
+  "mode": "amount",
+  "start": "2014-01-02",
+  "attempted": 24,
+  "completed": 24,
+  "archive_reconciled": [],
+  "max_account_error": 5.587935447692871e-09,
+  "unavailable": [],
+  "protocol_sha256": "7b80aeab7c314800642b2d77f7482deeb4970d471a38315cc0c31e710e2c9da5",
+  "followup_sha256": "185acb5b03690682ca3de2d9c719d89248ff16c2431e2f7ce041d5e313abd000"
+}

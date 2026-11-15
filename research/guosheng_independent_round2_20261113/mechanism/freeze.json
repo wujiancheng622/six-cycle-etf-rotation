@@ -1,0 +1,6 @@
+{
+  "frozen_at": "2026-11-13T02:53:51.865107+00:00",
+  "protocol_sha256": "6521d7eef87284c401911775079373de3c64480e78ce9e9e563b6e3d205022b5",
+  "script_sha256": "1d3849083e22c79d70dbcacdcfd318cbea5160a833aaf7c0a5c6fc006890ef4a",
+  "note": "Frozen before Inputs.load or account replay; all history already observed."
+}

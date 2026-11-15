@@ -1,0 +1,8 @@
+period,case,test,omitted_sessions,cagr,v12_cagr,top_assets,share_of_gs_net_log
+recent,month_and_switch,base,0,0.3339682560775474,0.06264178987972899,,
+recent,month_and_switch,omit_top_1pct_gs_days,3,0.1952002915830265,0.006891975721443505,,
+recent,month_and_switch,omit_top_3_relative_months,64,-0.00973853924124834,-0.03393254701287669,,
+recent,month_and_switch,two_largest_assets_in_cash,0,0.10445521116957335,0.06264178987972899,growth/gold,0.6891010448247664
+paper,month_and_switch_three_cut,base,0,0.1503172484023237,0.11970692910852754,,
+paper,month_and_switch_three_cut,omit_top_1pct_gs_days,29,0.08278523547632916,0.09080002326583102,,
+paper,month_and_switch_three_cut,omit_top_3_relative_months,63,0.12135805118832259,0.1171702998160382,,

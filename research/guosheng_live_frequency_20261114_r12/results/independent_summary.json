@@ -1,0 +1,9 @@
+{
+  "accounts": 78,
+  "account_days": 129753,
+  "orders": 101374,
+  "amount_accounts": 48,
+  "max_nav_error": 1.7276033759117126e-07,
+  "max_metric_error": 1.7763568394002505e-15,
+  "scope": "amount accounts independently reconstructed from zero positions and saved orders; actual accounts P&L/fees/metrics checked, not independent reconstruction from raw market and corporate actions"
+}

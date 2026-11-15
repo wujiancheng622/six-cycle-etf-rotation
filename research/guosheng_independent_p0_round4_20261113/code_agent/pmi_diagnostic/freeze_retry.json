@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-13T05:54:59.347392+00:00",
+  "post_main_diagnostic": true,
+  "main_48_results_known": true,
+  "diagnostic_nav_results_seen_before_freeze": false,
+  "sha256": {
+    "guosheng_six_regime_long_20261112\\data\\pmi_as_reported.csv": "330575caf42db8c0d154fd6d51c6dbb46093e946cf3648ffa0bcac4085f3a09f",
+    "guosheng_six_regime_long_20261112\\data\\pmi_tushare_vintage.csv": "310b2624a3d0fc7a6e1b9cc73246756e351d39d4991e7cc75c833d6b2e54ffa5",
+    "guosheng_six_regime_long_20261112\\data\\macro.parquet": "04b9e95d77ddacf2efaf41bf7940b502aec4ccfde73d2a59d65b8a69d28afaad",
+    "guosheng_six_regime_long_20261112\\data\\returns_gs.parquet": "a17c50be0280b561263e2e3673ff359a9118880f1bc14eb7422e33bb55c431f2",
+    "guosheng_independent_round2_20261113\\pit\\run_pit.py": "a67194ba48d773d6a528ea7e27062690bd6c07df5241a235af6022d7f8d6f199",
+    "guosheng_independent_p0_round4_20261113\\code_agent\\run_matrix.py": "a3c2672cc75863c716b83ce6fd71924317ee7f66bed794d6a4be9da3a2693ca8",
+    "guosheng_independent_p0_round4_20261113\\code_agent\\pmi_diagnostic\\protocol.json": "9b23bc07f02a8bbc57dc32e28cf7a103487684a88efb921a90598219ffafc867",
+    "guosheng_independent_p0_round4_20261113\\code_agent\\pmi_diagnostic\\run_pmi_retry.py": "a5b017e6590075b576a160ae7ecb718e426154d242909a782bd29ba0639f0e17"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "completed_accounts": 48,
+  "expected_accounts": 48,
+  "changed_inputs": [],
+  "protocol_sha256": "8c0e4961be68ad8c6ee304fb1473d92c62dfa664cc1f7c7391aaf82a83eb794e",
+  "script_sha256": "a3c2672cc75863c716b83ce6fd71924317ee7f66bed794d6a4be9da3a2693ca8",
+  "target_cache_policy": "case+start scoped; immutable targets reused only across costs; execution recalculated",
+  "macro_lag_columns": [
+    "lpr_1y",
+    "lpr_5y",
+    "rrr_B",
+    "rrr_S",
+    "market",
+    "money_score",
+    "money",
+    "credit",
+    "growth",
+    "credit_pulse",
+    "credit_published",
+    "growth_available",
+    "growth_votes",
+    "stage",
+    "stage_market"
+  ],
+  "macro_shift_exact": true,
+  "new_vintage_claim": false
+}

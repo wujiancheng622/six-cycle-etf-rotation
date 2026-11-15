@@ -1,0 +1,21 @@
+{
+  "id": "R13_H1_H2_fixed_R2_validation",
+  "scope": "Frozen hypothesis diagnostic before any new trade rule. No parameter search, no production or trading access.",
+  "source_protocol": "guosheng_data_expansion_review_20261115/国盛新增分析数据源整改方案_R2交叉评审修订稿.md",
+  "source_amendments": "guosheng_data_expansion_review_20261115/网页端第二轮修订条款原文.md",
+  "base_account": "guosheng_final_decision_20261114/results/accounts/monthly_2014-01-02_9bp",
+  "benchmark": "guosheng_final_decision_20261114/results/accounts/V12_2014-01-02_9bp",
+  "last_prices": "2026-11-12",
+  "sampling": "All original completed close-to-next-target-close intervals, latest completed end 2026-11-02. Keep monthly calendar grid and original targets. Quote-only window descriptive.",
+  "H1": {"field":"ppi_mp_p_yoy","difference_months":3,"units":"percentage points","reference_month":"latest truly published by known-date China EOD, then check vintage; never choose older month to improve archive coverage","target":"compound metals minus compound 30-year bond total returns, excluding target-date return","direction":1},
+  "H2": {"field":"pmi010500","moving_average":12,"ratio_lag":12,"difference_months":3,"warmup_months":27,"sign_rule":"positive -> +1; zero or negative -> -1; missing -> unknown","reference_month":"same as original 3-PMI composite","eligible":"current growth > 0, not carried stage","X":"1 if order sign=-1 else 0","target":"mean of individually compounded original selected assets minus mean of original unselected assets in frozen six-asset universe","direction":-1},
+  "model": {"estimator":"OLS, no regularization or interactions","control_order":["intercept","stage categorical 1..6 with 1 omitted","money","credit","growth","carried","H2 manufacturing vote","H2 nonmanufacturing vote","H2 private vote","prior 21-session relative total return"],"layers":["stage","stage_current_signs_and_carry_plus_H2_votes","all_previous_plus_price"],"rank":"greedy fixed order normalized-column SVD, tolerance 1e-10, drop exact redundancy only; retain fixed original-model columns in bootstrap and mark rank failure","X_added_last":true,"minimum_residual_df":1,"interpretation":"conditional historical association; unknown source versions explicitly exploratory, not causal or tradable OOS"},
+  "bootstrap": {"block_calendar_months":12,"circular":false,"paths":3000,"seed":20261115,"quantiles":[0.025,0.975],"resample":"full calendar grid, precomputed features and labels, retain eligibility; no redraw failed paths","name":"95% resampling percentile range, no guaranteed coverage; no p-values"},
+  "segments":[["2014-2019","2014-01-01","2019-12-31"],["2020-2022","2020-01-01","2022-12-31"],["2023-2025","2023-01-01","2025-12-31"],["2026","2026-01-01","2026-11-12"]],
+  "year_assignment":"target date, keep complete cross-year outcome; never crop at calendar year end",
+  "diagnostics":{"neighbors":[2,4],"publication_delay_china_sessions":[1,3],"H2_latest_month_auxiliary":true,"leave_event_out":"H1 consecutive target months sharing sign(X1), missing breaks; H2 consecutive monthly grid eligible growth>0 and X2=1; event definition fixed before data","support":"stage x current directions x carry, report overlap, residual X variance and rank; quote-only not multi-variable inferred"},
+  "data_evidence":{"primary":"official original monthly release values and dates where obtainable","vendor":"current Tushare snapshot separately classified exploratory","source_time":"China known-date EOD, date-only official page treated available at EOD","missing":"do not fill, downgrade full feature dependency chain","if_no_release_record":"no strict admission; exploratory assumed latest schedule explicitly separate","revision":"first-release chain is not a complete latest-vintage PIT database"},
+  "no_new_alpha_promises":true,
+  "gate":"If registered direction unsupported, weak support, or evidence too sparse, retain original strategy. No sign flip, winner stage, neighbor replacement or arbitrary trading overlay. Price-sharing may justify an explicit future rule card, never rename primary failure as success.",
+  "unchanged_core":["policy events","carry-stage mapping","monthly trading","63-day ERC","asset identities","capital and costs","cash and fill semantics"]
+}

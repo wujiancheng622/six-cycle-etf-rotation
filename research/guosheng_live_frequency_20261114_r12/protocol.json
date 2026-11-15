@@ -1,0 +1,19 @@
+{
+  "purpose": "当前冻结国盛月频版的实盘输入质量及固定周频/日频费用对照，不部署不下单",
+  "baseline": "guosheng_final_decision_20261114/study.py; current R6 merged macro, corrected PMI and SHFE metals",
+  "capital": 500000,
+  "frequency": {"monthly":"原月初","weekly":"ISO周首个可交易日；上一交易日数据；不搜索星期","daily":"每个交易日；上一交易日数据；每日重算篮子与63日ERC","month_and_switch":"原月初加篮子变化事件"},
+  "risk_days":63,
+  "slippage_bp":[9,20,50],
+  "commission_rate":0.00015,
+  "minimum_commission":5,
+  "amount_starts":["2014-01-02","2020-01-02"],
+  "actual_starts":["2025-06-04","2025-11-06"],
+  "end":"2026-11-12",
+  "cash":"卖款下一个交易日才可用于买入；日频每日按最新目标执行，不复用昨日过期目标",
+  "controls":"全部费用档比较同口径V12；长期另做严格FCF边界；长历史零费用仅作路径成本拖累诊断",
+  "statistics":"日历CAGR; sample std*sqrt252; include initial capital drawdown; annual one-way turnover=sum(notional/prior_nav)/2/years; normalized commission and slip separate",
+  "execution_scope":"长历史分数金额次收盘；近期实际开盘报价100份与1%滞后ADV；均非真实成交；每日监控不等于每日交易",
+  "data":"读取已归档输入；官方网站当前查询单列，不混入冻结回测",
+  "no_optimization":true
+}

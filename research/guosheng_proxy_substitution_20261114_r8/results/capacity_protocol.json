@@ -1,0 +1,7 @@
+{
+  "cap": 0.01,
+  "turnover_unit": "Tushare amount * 1000 RMB",
+  "signal": "unchanged monthly",
+  "execution": "same original two-day attempt; no intramonth reoptimization; unfilled remains until next scheduled rebalance",
+  "scope": "only substitute ETF legs; no claim to authenticate early other proxies"
+}

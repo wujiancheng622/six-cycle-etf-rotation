@@ -1,0 +1,68 @@
+{
+  "growth": {
+    "code": "159915.SZ",
+    "listing": "20111209",
+    "first_quote": "20140102",
+    "cash_events": 0,
+    "suspended_sessions": 1,
+    "omitted_covariance_dates": [
+      "20210208",
+      "20210209"
+    ],
+    "last": "20261112",
+    "prelisting_proxy_sessions": 0
+  },
+  "gold": {
+    "code": "518880.SH",
+    "listing": "20130729",
+    "first_quote": "20140102",
+    "cash_events": 0,
+    "suspended_sessions": 0,
+    "omitted_covariance_dates": [],
+    "last": "20261112",
+    "prelisting_proxy_sessions": 0
+  },
+  "metals": {
+    "code": "159980.SZ",
+    "listing": "20191224",
+    "first_quote": "20191224",
+    "cash_events": 0,
+    "suspended_sessions": 0,
+    "omitted_covariance_dates": [],
+    "last": "20261112",
+    "prelisting_proxy_sessions": 1449
+  },
+  "fcf": {
+    "code": "159201.SZ",
+    "listing": "20250227",
+    "first_quote": "20250227",
+    "cash_events": 0,
+    "suspended_sessions": 0,
+    "omitted_covariance_dates": [],
+    "last": "20261112",
+    "prelisting_proxy_sessions": 2701
+  },
+  "bond": {
+    "code": "511090.SH",
+    "listing": "20230613",
+    "first_quote": "20230613",
+    "cash_events": 5,
+    "suspended_sessions": 0,
+    "omitted_covariance_dates": [],
+    "last": "20261112",
+    "prelisting_proxy_sessions": 2289
+  },
+  "dividend": {
+    "code": "515100.SH",
+    "listing": "20200703",
+    "first_quote": "20200703",
+    "cash_events": 2,
+    "suspended_sessions": 0,
+    "omitted_covariance_dates": [],
+    "last": "20261112",
+    "prelisting_proxy_sessions": 1574
+  },
+  "earliest_economic_return": "2014-01-16",
+  "earliest_complete_etf_return": "2025-02-28",
+  "earliest_63_day_history": "2025-06-04"
+}

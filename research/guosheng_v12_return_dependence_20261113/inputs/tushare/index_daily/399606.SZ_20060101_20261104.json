@@ -1,0 +1,11 @@
+{
+  "endpoint": "index_daily",
+  "args": {
+    "start_date": "20060101",
+    "end_date": "20261104",
+    "ts_code": "399606.SZ"
+  },
+  "rows": 3988,
+  "sha256": "b8bcb4819ea7434c40a4f4b1a24e00975f54f43b7c1783d38be7c130fadb4ae1",
+  "retrieved": "2026-11-13T00:24:20.927825+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "question": "Incremental policy history completion: change policy signals only, not PMI history, asset proxies, or risk window",
+  "data_cutoff": "2026-11-12",
+  "main_start": "2014-01-02",
+  "paper_end": "2025-10-31",
+  "additional_start": "2020-01-02",
+  "capital_main": 500000,
+  "capital_bridge": 1000000,
+  "slippage_bp": [9,20],
+  "commission": 0.00015,
+  "minimum_commission": 5,
+  "risk_window": 63,
+  "main_schedule": "monthly; no optimization",
+  "control_schedule": "monthly plus basket switch; fixed diagnostic only",
+  "policies": "seven categories, one vote per category; most recent event under 90 calendar days; conflicting same-day events neutral",
+  "availability": "separate effective date, model available date, and evidence publication. Historical-event and conservative one-trading-day-lag scenarios are not a complete first-release reconstruction",
+  "fcf_control": "strict existing cutoff implementation, 2024-08-16 first eligible return; missing basket share stays in cash",
+  "benchmark": "unchanged frozen V12, same dates, capital and cost",
+  "keep_failures": true,
+  "no_trading_services": true
+}

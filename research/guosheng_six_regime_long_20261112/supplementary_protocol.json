@@ -1,0 +1,9 @@
+{
+  "recorded": "Before replay of the extended sample, after data discovery",
+  "additional_starts": ["2013-05-02 next natural month-end transition after full warmup", "2025-06-04 earliest ETF-only full warmup", "2025-07-01 exact prior comparison", "2026-05-07 after the public May 6 asset mapping"],
+  "data_vintage_test": "Use China Economic Net's historical non-manufacturing figures, independently spot-checked with contemporary CFLP. Compare Tushare's historical values under otherwise identical implementation.",
+  "latency_test": "Delay credit and all three PMI inputs by seven calendar days, leave liquidity inputs unchanged.",
+  "money_control": "Also repeat the prior market-rate-only control with exactly the same execution.",
+  "cost_threshold": "Candidate only, varying modeled one-way slippage while keeping V12 at 9 bp and leaving broker fee unchanged.",
+  "interpretation": "No sensitivity result is eligible to replace the candidate; conclusions must distinguish the original report date, the later source table, and the local freeze date."
+}

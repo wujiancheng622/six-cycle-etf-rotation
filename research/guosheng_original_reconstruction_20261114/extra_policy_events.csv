@@ -1,0 +1,73 @@
+category,effective_date,known_date,vote,evidence,source
+loan,2012-06-08,2012-06-08,1,贷款基准利率下调,https://wuhan.pbc.gov.cn/jinrongwendingju/146766/146772/3094028/2016063018064573445.pdf
+loan,2012-07-06,2012-07-06,1,贷款基准利率下调,https://wuhan.pbc.gov.cn/jinrongwendingju/146766/146772/3094028/2016063018064573445.pdf
+deposit,2012-06-08,2012-06-08,1,存款基准利率下调,https://wuhan.pbc.gov.cn/jinrongwendingju/146766/146772/3094028/2016063018064573445.pdf
+deposit,2012-07-06,2012-07-06,1,存款基准利率下调,https://wuhan.pbc.gov.cn/jinrongwendingju/146766/146772/3094028/2016063018064573445.pdf
+deposit,2014-11-22,2014-11-22,1,1年期存款基准利率下调至2.75%,https://xining.pbc.gov.cn/eportal/fileDir/image_public/UserFiles/chubanwu/upload/File/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E9%93%B6%E8%A1%8C%E5%B9%B4%E6%8A%A52014%EF%BC%8D%E6%9C%80%E7%BB%88%E5%AE%9A%E7%A8%BF.pdf
+reverse_repo,2015-01-22,2015-01-22,1,7天逆回购重启3.85%较上次下降,https://epaper.cs.com.cn/zgzqb/html/2015-02/11/nw.D110000zgzqb_20150211_3-A12.htm?div=-1
+reverse_repo,2015-02-10,2015-02-10,1,14天4.10%与21天4.40%逆回购同时下调,https://epaper.cs.com.cn/zgzqb/html/2015-02/11/nw.D110000zgzqb_20150211_3-A12.htm?div=-1
+deposit,2015-03-01,2015-03-01,1,1年期存款基准利率下调至2.50%,https://www.cnfin.com/upload-xh08/2016/0621/1466498431431.pdf
+reverse_repo,2015-03-03,2015-03-03,1,7天逆回购降至3.75%,https://www.cnfin.com/rmb-xh08/a/20151231/1594251.shtml
+reverse_repo,2015-03-17,2015-03-17,1,7天逆回购降至3.65%,https://www.cnfin.com/rmb-xh08/a/20151231/1594251.shtml
+reverse_repo,2015-03-24,2015-03-24,1,7天逆回购降至3.55%,https://www.cnfin.com/rmb-xh08/a/20151231/1594251.shtml
+reverse_repo,2015-04-07,2015-04-07,1,7天逆回购降至3.45%,https://www.cnfin.com/rmb-xh08/a/20151231/1594251.shtml
+reverse_repo,2015-04-14,2015-04-14,1,7天逆回购降至3.35%,https://www.cnfin.com/rmb-xh08/a/20151231/1594251.shtml
+deposit,2015-05-11,2015-05-11,1,1年期存款基准利率下调至2.25%,https://www.cnfin.com/upload-xh08/2016/0621/1466498431431.pdf
+reverse_repo,2015-06-25,2015-06-25,1,7天逆回购降至2.70%,https://www.cnfin.com/rmb-xh08/a/20151231/1594251.shtml
+deposit,2015-06-28,2015-06-28,1,1年期存款基准利率下调至2.00%,https://www.cnfin.com/upload-xh08/2016/0621/1466498431431.pdf
+reverse_repo,2015-06-30,2015-06-30,1,7天逆回购降至2.50%,https://www.cnfin.com/rmb-xh08/a/20151231/1594251.shtml
+deposit,2015-08-26,2015-08-26,1,1年期存款基准利率下调至1.75%,https://www.cnfin.com/upload-xh08/2016/0621/1466498431431.pdf
+reverse_repo,2015-08-27,2015-08-27,1,7天逆回购降至2.35%,https://www.cnfin.com/rmb-xh08/a/20151231/1594251.shtml
+deposit,2015-10-24,2015-10-24,1,1年期存款基准利率下调至1.50%,https://www.cnfin.com/upload-xh08/2016/0621/1466498431431.pdf
+reverse_repo,2015-10-27,2015-10-27,1,7天逆回购降至2.25%,https://www.cnfin.com/rmb-xh08/a/20151231/1594251.shtml
+slf,2015-11-20,2015-11-19,1,分支行隔夜和7天SLF降至2.75%及3.25%,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/2161441/07e374fc36eb4328a61ce40bc4bf5a92/2016020614180047455.pdf
+mlf,2015-12-01,2015-12-01,1,11月6月期降至3.25%且精确操作日未核实 按12月1日披露日起计,https://www.orient-fund.com/upload/pdf/2015-12-02-093423-dfcb%2812-02%29.pdf
+mlf,2016-01-19,2016-01-19,1,3月期MLF调低至2.75%,https://www.cs.com.cn/gppd/zqxw/201701/t20170125_5165515.html
+mlf,2016-01-21,2016-01-21,1,6月期MLF调低至3.00%,https://www.cnfin.com/rmb-xh08/a/20160219/1610182.shtml
+reverse_repo,2016-02-02,2016-02-02,1,14天逆回购由2.70%降至2.40%,https://www.yicai.com/news/100440249.html
+mlf,2016-02-19,2016-02-19,1,6月期及1年期MLF调低至2.85%及3.00%,https://www.cnfin.com/rmb-xh08/a/20160219/1610182.shtml
+reverse_repo,2016-09-13,2016-09-13,1,28天逆回购由2.60%降至2.55%,https://www.bankofchina.com/fimarkets/boud/201609/t20160914_7676857.html
+mlf,2017-01-24,2017-01-24,-1,6月期及1年期升至2.95%及3.10%,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/3066656/9f140965cb464e3bbd1904a84e5d7cde/2017021719463365852.pdf
+reverse_repo,2017-02-03,2017-02-03,-1,7天及14天和28天均上行10bp,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/3307990/4fb4583e076a4347bea80eee7da3dc92/2018021417311593282.pdf
+slf,2017-02-03,2017-02-03,-1,各期限SLF上调 7天升至3.35%,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/3066656/9f140965cb464e3bbd1904a84e5d7cde/2017021719463365852.pdf
+reverse_repo,2017-03-16,2017-03-16,-1,7天及14天和28天再次上行10bp,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/3307990/4fb4583e076a4347bea80eee7da3dc92/2018021417311593282.pdf
+slf,2017-03-16,2017-03-16,-1,7天SLF升至3.45%,https://pic.bankofchina.com/bocappd/rareport/201706/P020170628261955018964.pdf
+mlf,2017-03-16,2017-03-16,-1,MLF上调10bp 1年期升至3.20%,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/3307990/f0b7f194d7a64548be1fa3aafbd5afd2/2017051310260490469.pdf
+reverse_repo,2017-12-14,2017-12-14,-1,公开市场操作利率上行5bp,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/3307990/4fb4583e076a4347bea80eee7da3dc92/2018021417311593282.pdf
+slf,2017-12-14,2017-12-14,-1,年内第三次上调 各期限5bp,https://pdf.dfcfw.com/pdf/H3_AP201911151370792580_1.pdf?1573832953000.pdf=
+mlf,2017-12-14,2017-12-14,-1,1年期上调至3.25%,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/3307990/4fb4583e076a4347bea80eee7da3dc92/2018021417311593282.pdf
+reverse_repo,2017-12-18,2017-12-18,-1,14天逆回购上调至2.65%,https://www.yicai.com/news/100440249.html
+reverse_repo,2018-03-22,2018-03-22,-1,7天逆回购升至2.55%,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/3537682/5dad7896c1c945c5be61518cb4a06605/2018081021363898908.pdf
+slf,2018-03-22,2018-03-22,-1,一季度上调各期限5bp 原始日期见利率走廊图,https://crm.htsc.com.cn/doc/2019/10730101/64969cef-a806-4fbb-b78f-930ff8d6a2a3.pdf
+reverse_repo,2018-04-16,2018-04-16,-1,14天逆回购升至2.70%,https://www.cs.com.cn/xwzx/201804/t20180417_5777330.html
+mlf,2018-04-17,2018-04-17,-1,1年期上调至3.30%,https://finance.sina.com.cn/roll/2018-04-17/doc-ifyuwqfa2690147.shtml
+mlf,2019-11-05,2019-11-05,1,1年期下调5bp至3.25%,https://jrj.sh.gov.cn/cmsres/f6/f6bd46878a704fbca84ddbd9cab0f5d5/d878ed9fe264880de9851c1fcad0c5d0.pdf
+reverse_repo,2019-11-18,2019-11-18,1,7天逆回购下调5bp至2.50%,https://jr.jl.gov.cn/jrzx/zyjrxxzz/gj/202002/t20200219_337925.html
+reverse_repo,2019-12-18,2019-12-18,1,14天逆回购下调5bp至2.65%,https://www.chinamoney.com.cn/chinese/scggyhywgggksccz/20191218/1485128.html
+slf,2019-12-30,2019-12-30,1,各期限SLF下调5bp,https://jrj.sh.gov.cn/SCGK194/20200220/0031-158358.html
+reverse_repo,2020-02-03,2020-02-03,1,7天和14天逆回购均下调10bp,https://jrj.sh.gov.cn/cmsres/f6/f6bd46878a704fbca84ddbd9cab0f5d5/d878ed9fe264880de9851c1fcad0c5d0.pdf
+mlf,2020-02-17,2020-02-17,1,1年期下调10bp至3.15%,https://jrj.sh.gov.cn/cmsres/f6/f6bd46878a704fbca84ddbd9cab0f5d5/d878ed9fe264880de9851c1fcad0c5d0.pdf
+reverse_repo,2020-03-30,2020-03-30,1,7天逆回购下调20bp至2.20%,https://jrj.beijing.gov.cn/jrgzdt/202003/t20200331_1752800.html
+reserve_interest,2020-04-07,2020-04-03,1,超额存款准备金利率从0.72%降至0.35%,https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2025092212550684242/2020050922062289404.pdf
+slf,2020-04-10,2020-04-10,1,各期限SLF下调30bp,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/4021036/bf7154524a46409f866ef725fabee702/2020050922062289404.pdf
+mlf,2020-04-15,2020-04-15,1,1年期下调20bp至2.95%,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/4021036/bf7154524a46409f866ef725fabee702/2020050922062289404.pdf
+reverse_repo,2020-06-18,2020-06-18,1,14天逆回购下调20bp至2.35%,https://jrj.wuhan.gov.cn/ztzl_57/xyrd/yxy/202012/t20201225_1570250.shtml
+reverse_repo,2022-01-17,2022-01-17,1,7天逆回购由2.20%降至2.10%,https://ha.mof.gov.cn/zt/ysjg/ysgllt/202201/t20220125_3784649.htm
+mlf,2022-01-17,2022-01-17,1,1年期由2.95%降至2.85%,https://ha.mof.gov.cn/zt/ysjg/ysgllt/202201/t20220125_3784649.htm
+slf,2022-01-17,2022-01-17,1,常备借贷便利各期限利率下调,https://jrj.sh.gov.cn/DSJ196/20230227/9fccb08d7fca410fa8675cc12214d08d.html
+reverse_repo,2022-08-15,2022-08-15,1,7天逆回购降至2.00%,https://www.chinamoney.com.cn/chinese/scggyhywgggksccz/20220815/2436571.html
+mlf,2022-08-15,2022-08-15,1,1年期下调至2.75%,https://www.chinamoney.com.cn/chinese/scggyhywgggksccz/20220815/2436571.html
+slf,2022-08-15,2022-08-15,1,各期限SLF下调 7天降至3.00%,https://jrj.sh.gov.cn/DSJ196/20230227/9fccb08d7fca410fa8675cc12214d08d.html
+deposit,2022-09-15,2022-09-15,1,工商银行调整定期存款挂牌利率 1年期降至1.65%,https://www.icbc.com.cn/page/1146089225897320448.html
+deposit,2023-06-08,2023-06-08,1,工商银行2年和3年及5年定期降息 1年期不变,https://www.sh.icbc.com.cn/page/840146672788439040.html
+slf,2023-06-13,2023-06-13,1,常备借贷便利各期限利率下调,https://www.china-cba.net/Index/show/catid/33/id/43129.html
+slf,2023-08-15,2023-08-15,1,各期限SLF下调10bp 7天降至2.80%,https://www.thepaper.cn/newsDetail_forward_24237118
+deposit,2023-09-01,2023-09-01,1,工商银行1年及以上多档定存下调,https://www.icbc.com.cn/page/870673892740919296.html
+deposit,2023-12-22,2023-12-22,1,工商银行定存多期限下调 1年降至1.45%,https://paper.people.com.cn/rmrbhwb/images/2024-01/11/04/rmrbhwb2024011104.pdf
+slf,2024-07-22,2024-07-22,1,各期限SLF下调10bp 7天降至2.70%,https://jrj.jl.gov.cn/jrzx/jrdt/jgdt/202502/t20250214_3375260.html
+deposit,2024-07-25,2024-07-25,1,工商银行多档定存下调 1年降至1.35%,https://jrj.wuhan.gov.cn/ztzl_57/xyrd/yxy/202410/t20241018_2470256.shtml
+reverse_repo,2024-09-23,2024-09-23,1,14天逆回购利率降至1.85%,https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/5347949/afbfa5df25ee45889d916a2819b60a43/2024110815410752868.pdf
+slf,2024-09-27,2024-09-27,1,各期限SLF下调20bp 7天降至2.50%,https://jrj.jl.gov.cn/jrzx/jrdt/jgdt/202502/t20250214_3375260.html
+deposit,2024-10-18,2024-10-18,1,工商银行多档定存下调 1年降至1.10%,https://jrj.wuhan.gov.cn/ztzl_57/xyrd/yxy/202410/t20241018_2470256.shtml
+slf,2025-05-08,2025-05-07,1,按央行更新利率表 各期限下调10bp,https://www.yicai.com/news/102602576.html
+deposit,2025-05-20,2025-05-20,1,工商银行多档定存下调 1年降至0.95%,https://wap.icbc.com.cn/page/1098160857114513408.html

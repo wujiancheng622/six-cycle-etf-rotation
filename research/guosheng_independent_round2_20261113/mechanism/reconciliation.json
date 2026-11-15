@@ -1,0 +1,24 @@
+[
+  {
+    "cell": "M00",
+    "status": "ledger_equal",
+    "path": "D:\\src\\new_policy_test\\guosheng_frequency_cost_20261113\\runs\\actual_2025-11-06\\monthly_ledger.parquet",
+    "max_nav_error": 0.0
+  },
+  {
+    "cell": "B10",
+    "status": "ledger_equal",
+    "path": "D:\\src\\new_policy_test\\guosheng_frequency_cost_20261113\\runs\\actual_2025-11-06\\stage_change_ledger.parquet",
+    "max_nav_error": 0.0
+  },
+  {
+    "cell": "W01",
+    "status": "new_control_no_archive"
+  },
+  {
+    "cell": "BW11",
+    "status": "ledger_equal",
+    "path": "D:\\src\\new_policy_test\\guosheng_frequency_cost_20261113\\runs\\actual_2025-11-06\\daily_ledger.parquet",
+    "max_nav_error": 0.0
+  }
+]

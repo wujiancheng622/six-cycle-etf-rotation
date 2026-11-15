@@ -1,0 +1,18 @@
+{
+  "title": "固定早期 PMI 版本诊断；主48结果之后声明",
+  "main_results_seen": true,
+  "no_optimization": true,
+  "baseline": "pmi_as_reported.csv",
+  "alternative": "pmi_tushare_vintage.csv",
+  "only_change": "growth, growth_votes, growth_available recomputed from archived alternate source, stage and stage_market carried by unchanged mapping; money and credit unchanged",
+  "start": "2013-04-12",
+  "end": "2026-11-12",
+  "capital": 500000,
+  "cost_bps": [
+    9,
+    20
+  ],
+  "policy": "GS_ALL_ETF_eligible_equal, monthly, common 63 valid sessions, same amount execution",
+  "control": "Reuse frozen main GS_ALL_ETF_eligible_equal and V12_ETF_available at matching cost",
+  "limitations": "Not proof of current baseline lookahead; neither alternative is guaranteed full first-vintage; keep both results and failures; no preferred version chosen on results"
+}

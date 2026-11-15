@@ -1,0 +1,11 @@
+{
+  "guosheng_skill_attribution_20261114_r10\\protocol.json": "ec2372c64ec733acb425bfd161afb7137e95871d91658a133c4c21a2837685be",
+  "guosheng_skill_attribution_20261114_r10\\run_attribution.py": "a0dd2046e56c94428784675de01789a92e910f1515b0b3a4bb9849d816c37516",
+  "review_runs\\20261111_v12_vs_three_etf\\replay.py": "be96375d81dc16cda05de15368394f370ca016b3d5355f60bf9be5144e112376",
+  "guosheng_original_reconstruction_20261114\\run_original.py": "0bdb7db22219409c4d05c3645378d9c28dd72517ac2b1863c81e2efeb170030d",
+  "guosheng_policy_completion_20261114_r6\\v2\\events_used.csv": "4e037f7153890972f568fc219fb7629d53a3e7698c625a63234f241af2d5ad39",
+  "guosheng_six_regime_long_20261112\\data\\returns_gs.parquet": "a17c50be0280b561263e2e3673ff359a9118880f1bc14eb7422e33bb55c431f2",
+  "guosheng_six_regime_long_20261112\\data\\returns_v12.parquet": "4600f63042bbff81a50621456800fedeea187a8cf97f08e30c9e441f2c69ac99",
+  "guosheng_original_reconstruction_20261114\\results\\daily_signal.csv": "ce583318f86c5a9b64befc8bace82ff15816cdcdf57495472d1d9adad78b50a7",
+  "guosheng_original_reconstruction_20261114\\shfe_metals_index.csv": "83eb17a374f2100c7141993589a28845594f5b01813379a1c89b6687e4a328f5"
+}

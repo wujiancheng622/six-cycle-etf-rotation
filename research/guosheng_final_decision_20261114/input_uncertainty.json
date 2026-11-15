@@ -1,0 +1,10 @@
+{
+  "purpose": "Bound sensitivity to small revisions/rounding of input values without choosing a new parameter",
+  "registered_before_runs": true,
+  "seed": 20261114,
+  "scenarios": 20,
+  "credit_multiplicative_noise_sd": 0.005,
+  "each_pmi_point_noise_sd": 0.1,
+  "availability": "Keep the corrected historical publication dates; perturb only observed monthly values, recompute identical rolling formulas",
+  "interpretation": "Conditional measurement-error stresses, not measured vendor revisions or confidence bounds"
+}

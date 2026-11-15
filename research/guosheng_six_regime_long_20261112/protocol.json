@@ -1,0 +1,17 @@
+{
+  "recorded": "2026-11-12, before computing the extended sample",
+  "question": "Audit the same frozen GS_monthly as V12, establish earliest point-in-time proxy replay, compare all consecutive calendar blocks, and distinguish exposure, timing, and tail concentration.",
+  "base_protocol": "../guosheng_six_regime_20261112/protocol.json",
+  "candidates": ["2013-01-04", "2014-01-02", "2016-01-04", "2020-01-02", "2025-11-06"],
+  "earliest_rule": "At least 63 finite preceding all-six returns excluding non-one-day marks; first observable mapped macro state with monthly credit and three PMI series; V12 comparator warm and finite. If a dated input cannot be verified, begin with the next supported date. Pre-listing history remains economic proxy evidence. All observable dates are in Asia/Shanghai.",
+  "rules": "No changes to stage map, the two-or-three ETF subset, covariance lookback, benchmark, or order sizing. Main uses 9 bp one-way slippage; stress at 20 bp; broker fee from the prior frozen engine. Identical day ranges.",
+  "calendar_blocks": ["through 2016", "2017-2019", "2020-2022", "2023-2025", "2026 YTD"],
+  "windows_months": [12, 36, 60],
+  "fixed_stresses": ["2015-06-15/2015-09-30", "2018-01-29/2018-12-28", "2020-02-03/2020-03-31", "2022-01-04/2022-10-31", "2024-09-24/2024-10-11"],
+  "attribution": ["Exact additive daily log P&L by holding and expense", "Amounts on and before ETF availability separated", "Constant-weight mean exposure plus weight/return covariance", "Matched removal of highest strategy days/months and highest relative years/months; zero return for both on identical dates", "Cash replacement for each individual ETF and two largest contributors; no redistribution"],
+  "negative_controls": ["Monthly static six-asset ERC", "Same five distinct portfolios with 1 and 3 month lag", "Five rotations of the five distinct portfolio assignments including identity, no optimization"],
+  "uncertainty": "Paired calendar-year and contiguous phase observations; report sensitivity and dependence, no independently calibrated future outperformance probability.",
+  "end": "2026-11-12",
+  "actual": "Rerun 2025-11-06 start for actual ETF validation, never mix actual shares and proxy returns in the same account.",
+  "decision": "Compare CAGR, annualized volatility, maximum drawdown and Calmar; require stability and audit clearance before advancing beyond research."
+}

@@ -1,0 +1,4422 @@
+[
+  {
+    "id": "MM_3da6ffe0b30d",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "MM_a376b6a30ac0",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "MM_e2915a0ec080",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "MM_dcc9353d2b9d",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2020-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "MM_f2f6b68528cb",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2020-01-02",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "MM_73766e7f9315",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2020-01-02",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "MM_4ccf5cb3f61a",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-06-04",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "MM_8535ee22ad68",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-06-04",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "MM_145da3d3a678",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-06-04",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "MM_c49fbb473520",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "MM_f9daec52b489",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "MM_b24db949dbc4",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WW_b3ccb72b0099",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WW_1a0722fc6908",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WW_0a0cc0b597e7",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WW_280b97e11dd8",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2020-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WW_fd78a5012ef5",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2020-01-02",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WW_edad73681a50",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2020-01-02",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WW_de64d3c125c0",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-06-04",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WW_e4343e4eef50",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-06-04",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WW_c5db26a6f79e",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-06-04",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WW_f303e8d281e5",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WW_5e4dfdd3a647",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WW_428899ca7b65",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_7121ea006a1d",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_570bdc085017",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_dcb2d185b6e8",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_137de23d8169",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2020-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_eac3166e681f",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2020-01-02",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_399d70530c11",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2020-01-02",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_125da23af4a3",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-06-04",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_494034b5d2dd",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-06-04",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_1864e13ae9a4",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-06-04",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_d761afc48eb5",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_e77eb82b266d",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_4430da3fe195",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_66dc43c76cf4",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_6faf21d251c3",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_e667bc988c97",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_3ac0c908f6f4",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2020-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_cca33d911cf8",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2020-01-02",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_8a5d84932b50",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2020-01-02",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_01a76a4cf4a2",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-06-04",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_4dbd9b07d8f6",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-06-04",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_31ec55c085d5",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-06-04",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_1c8d2458bd5b",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_3d956ff3544e",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_ebd0a5fab660",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WM_9a4825ef07fb",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WM_761ace613b8e",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WM_bb018fda8b52",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WM_04927c67e2b3",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2020-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WM_52f2d3d93898",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2020-01-02",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WM_2d36c5b4a116",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2020-01-02",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WM_6832461b9731",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-06-04",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WM_5eada18f91d2",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-06-04",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WM_0b844ac6ca4c",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-06-04",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WM_b0250230cad0",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WM_9ea41e425b04",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "WM_be9afb4a8b03",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_band_7368849c67f9",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_band_16b42cd5d710",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_band_325d674ee551",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_band_7f7bd4c814b3",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2020-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_band_a217818ae054",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2020-01-02",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_band_6427010b6205",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2020-01-02",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_band_16d36cf361b3",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-06-04",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_band_759ea4ab7e64",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-06-04",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_band_34853a127f51",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-06-04",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_band_fa95f85bd9c1",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_band_3729809eb2e8",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DD_band_25d5a1f402c4",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_band_7eae951bdc4b",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_band_a325c3071550",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_band_ccdf76a142f6",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_band_6cbf636bd9ab",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2020-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_band_c9a62dc60d90",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2020-01-02",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_band_63860a8f2ebf",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2020-01-02",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_band_c928737274ea",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-06-04",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_band_46c11c419838",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-06-04",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_band_c00080b99a49",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-06-04",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_band_a88f568c3d91",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_band_2de6a86d55ab",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 20,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "DM_band_42e423501a3b",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 50,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "main"
+  },
+  {
+    "id": "MW_1714eac9515c",
+    "spec": {
+      "name": "MW",
+      "basket": "M",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "factorial"
+  },
+  {
+    "id": "MW_289b1e8db4bd",
+    "spec": {
+      "name": "MW",
+      "basket": "M",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "factorial"
+  },
+  {
+    "id": "MD_625cbd887b00",
+    "spec": {
+      "name": "MD",
+      "basket": "M",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "factorial"
+  },
+  {
+    "id": "MD_87c13f1b05da",
+    "spec": {
+      "name": "MD",
+      "basket": "M",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "factorial"
+  },
+  {
+    "id": "WD_2ae53f57cd79",
+    "spec": {
+      "name": "WD",
+      "basket": "W",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "factorial"
+  },
+  {
+    "id": "WD_b36a1f6192e9",
+    "spec": {
+      "name": "WD",
+      "basket": "W",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "factorial"
+  },
+  {
+    "id": "DW_93d57389c93d",
+    "spec": {
+      "name": "DW",
+      "basket": "D",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "factorial"
+  },
+  {
+    "id": "DW_05aaebdcae01",
+    "spec": {
+      "name": "DW",
+      "basket": "D",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "factorial"
+  },
+  {
+    "id": "DN_aab1f9696075",
+    "spec": {
+      "name": "DN",
+      "basket": "D",
+      "risk": "N",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "factorial"
+  },
+  {
+    "id": "DN_35486edb434d",
+    "spec": {
+      "name": "DN",
+      "basket": "D",
+      "risk": "N",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "factorial"
+  },
+  {
+    "id": "MM_5ddd78447d1e",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "MM_9e7b4c635ede",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "MW_3bf6aa819e82",
+    "spec": {
+      "name": "MW",
+      "basket": "M",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "MW_fcf1753a644b",
+    "spec": {
+      "name": "MW",
+      "basket": "M",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "MD_9d17436985b6",
+    "spec": {
+      "name": "MD",
+      "basket": "M",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "MD_c188ba2e054c",
+    "spec": {
+      "name": "MD",
+      "basket": "M",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "WM_0006ac7439a5",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "WM_6316789dc810",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "WW_6f7cc741021a",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "WW_0bc93b623d66",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "WD_07027a96fdb1",
+    "spec": {
+      "name": "WD",
+      "basket": "W",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "WD_0104c12ae958",
+    "spec": {
+      "name": "WD",
+      "basket": "W",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "DM_b2d1b394ac4d",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "DM_35c5a6db00f8",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "DW_3ce067241e82",
+    "spec": {
+      "name": "DW",
+      "basket": "D",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "DW_f3cf8ac39f6c",
+    "spec": {
+      "name": "DW",
+      "basket": "D",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "DD_e45514a82795",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "DD_97026e90c7d2",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "DN_380ea62d1928",
+    "spec": {
+      "name": "DN",
+      "basket": "D",
+      "risk": "N",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "DN_38425c7ddf02",
+    "spec": {
+      "name": "DN",
+      "basket": "D",
+      "risk": "N",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "DD_band_ef38856cd9d7",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "DD_band_a4a9f1feb6f3",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "DM_band_6682ed94dd83",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "DM_band_cd1ddfb72ff3",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 0,
+    "gross": true,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "gross"
+  },
+  {
+    "id": "MM_d1d91a1353d6",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "old_dividend",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "MM_2595bdc855d3",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "old_value",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "MM_422a2195280e",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "listed",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "MM_136f309fa1d6",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "normalized",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "WW_0d404662614e",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "old_dividend",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "WW_0f572665f44c",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "old_value",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "WW_744b116c7710",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "listed",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "WW_89b68457dabb",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "normalized",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "DD_2ed27c47661f",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "old_dividend",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "DD_dc21135723a0",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "old_value",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "DD_03fbbde09e2b",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "listed",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "DD_ffab6af45b05",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "normalized",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "DM_eaa02d57c1db",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "old_dividend",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "DM_ea49ac54dc68",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "old_value",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "DM_fff3aa3fcdfb",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "listed",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "DM_a06fc4533d5c",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "normalized",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "WM_967f642c94bb",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "old_dividend",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "WM_4d56363b6167",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "old_value",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "WM_ea9d7ead35a2",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "listed",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "WM_a777817f2b03",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "normalized",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "DD_band_22ca5ff67480",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "old_dividend",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "DD_band_4c0a358bdcea",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "old_value",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "DD_band_150ca7449f73",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "listed",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "DD_band_569779b48a12",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "normalized",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "DM_band_0656b93b5fb9",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "old_dividend",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "DM_band_0eaa435fe722",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "old_value",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "DM_band_bacf8819a6dd",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "listed",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "DM_band_38115db97689",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "normalized",
+    "lag": 0,
+    "reuse": false,
+    "role": "transfer"
+  },
+  {
+    "id": "MM_2a97766aa98e",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 56,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "MM_bc45ee82657d",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 70,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "MM_e4a8be4e2a1e",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 56,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "MM_fe41795099a7",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 70,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "WW_425ad5c50928",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 56,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "WW_64f8e1b4458c",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 70,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "WW_00b65b3a22f6",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 56,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "WW_c817465976e7",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 70,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "DD_0ccbd9445ddf",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 56,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "DD_0122c599ade0",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 70,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "DD_7f48a1aac1b0",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 56,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "DD_93d2dbf49afa",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 70,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "DM_ccbad529a944",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 56,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "DM_9a7ba494b860",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 70,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "DM_e7090c5d7f99",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 56,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "DM_34d86403aaae",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 70,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "WM_5b643db7c575",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 56,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "WM_537a9ff3d759",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 70,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "WM_ac3d86062970",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 56,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "WM_db6094f33c4a",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 70,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "DD_band_57c05be8b78e",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 56,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "DD_band_04a28d1b99c1",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 70,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "DD_band_96e016298688",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 56,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "DD_band_b82ef6fce3f2",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 70,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "DM_band_f0bae14e50b9",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 56,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "DM_band_892a405fa237",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 70,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "DM_band_78c8e942188d",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 56,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "DM_band_7a21b71c0c3b",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 70,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "risk_neighbor"
+  },
+  {
+    "id": "MM_059091efe3c0",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 1,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "month_neighbor"
+  },
+  {
+    "id": "MM_af0a6313d2c6",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 2,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "month_neighbor"
+  },
+  {
+    "id": "MM_85b9d2a64846",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 1,
+    "reuse": false,
+    "role": "release_delay"
+  },
+  {
+    "id": "MM_074ea0685278",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 3,
+    "reuse": false,
+    "role": "release_delay"
+  },
+  {
+    "id": "MM_5820b1b58ce9",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 1,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "month_neighbor"
+  },
+  {
+    "id": "MM_8ac606835722",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 2,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "month_neighbor"
+  },
+  {
+    "id": "MM_485c92b9b4e5",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 1,
+    "reuse": false,
+    "role": "release_delay"
+  },
+  {
+    "id": "MM_6076ea0cbc83",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 3,
+    "reuse": false,
+    "role": "release_delay"
+  },
+  {
+    "id": "DM_9e3c7d408dc3",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 1,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "month_neighbor"
+  },
+  {
+    "id": "DM_50f8bd4fa0aa",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 2,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "month_neighbor"
+  },
+  {
+    "id": "DM_24ce8c7843db",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 1,
+    "reuse": false,
+    "role": "release_delay"
+  },
+  {
+    "id": "DM_632964868711",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 3,
+    "reuse": false,
+    "role": "release_delay"
+  },
+  {
+    "id": "DM_adcc4cd47110",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 1,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "month_neighbor"
+  },
+  {
+    "id": "DM_45ff66c4d09f",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 2,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "month_neighbor"
+  },
+  {
+    "id": "DM_4e5632c10824",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 1,
+    "reuse": false,
+    "role": "release_delay"
+  },
+  {
+    "id": "DM_4a65777dae51",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 3,
+    "reuse": false,
+    "role": "release_delay"
+  },
+  {
+    "id": "WM_25e4f39e756a",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 1,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "month_neighbor"
+  },
+  {
+    "id": "WM_36fd51a3a3c0",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 2,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "month_neighbor"
+  },
+  {
+    "id": "WM_4d0310f8f4c8",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 1,
+    "reuse": false,
+    "role": "release_delay"
+  },
+  {
+    "id": "WM_ebaa51eb9613",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 3,
+    "reuse": false,
+    "role": "release_delay"
+  },
+  {
+    "id": "WM_89c53115d04c",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 1,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "month_neighbor"
+  },
+  {
+    "id": "WM_62907a351970",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 2,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "month_neighbor"
+  },
+  {
+    "id": "WM_d62ee9745814",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 1,
+    "reuse": false,
+    "role": "release_delay"
+  },
+  {
+    "id": "WM_e8d28a2d048b",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 3,
+    "reuse": false,
+    "role": "release_delay"
+  },
+  {
+    "id": "WW_ae819e7f8e7c",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 1
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "week_neighbor"
+  },
+  {
+    "id": "WW_b098de5ee39e",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 2
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "week_neighbor"
+  },
+  {
+    "id": "WW_36a4c1791f42",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 1
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "week_neighbor"
+  },
+  {
+    "id": "WW_781fb8d49b7d",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 2
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "week_neighbor"
+  },
+  {
+    "id": "WM_d48c9b30fadb",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 1
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "week_neighbor"
+  },
+  {
+    "id": "WM_9d72876f13d5",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 2
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "week_neighbor"
+  },
+  {
+    "id": "WM_6b8a707018ad",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 1
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "week_neighbor"
+  },
+  {
+    "id": "WM_4b9378b6dbcd",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 2
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "week_neighbor"
+  },
+  {
+    "id": "DD_band_ec01764e5344",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.03,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "band_neighbor"
+  },
+  {
+    "id": "DD_band_f32a6fe431a4",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.07,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "band_neighbor"
+  },
+  {
+    "id": "DD_band_ea9e202fb636",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.03,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "band_neighbor"
+  },
+  {
+    "id": "DD_band_ed9378dddb7e",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.07,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "band_neighbor"
+  },
+  {
+    "id": "DM_band_7de47d9d1926",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.03,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "band_neighbor"
+  },
+  {
+    "id": "DM_band_095f247e71a4",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.07,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "amount",
+    "start": "2014-01-02",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "band_neighbor"
+  },
+  {
+    "id": "DM_band_4b6f47ddff75",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.03,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "band_neighbor"
+  },
+  {
+    "id": "DM_band_db0b0dfbf674",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.07,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": false,
+    "role": "band_neighbor"
+  },
+  {
+    "id": "MM_707e53a4ce9f",
+    "spec": {
+      "name": "MM",
+      "basket": "M",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": true,
+    "role": "same_day_cash"
+  },
+  {
+    "id": "WW_6b2829bd373b",
+    "spec": {
+      "name": "WW",
+      "basket": "W",
+      "risk": "W",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": true,
+    "role": "same_day_cash"
+  },
+  {
+    "id": "DD_deb247e0ea4f",
+    "spec": {
+      "name": "DD",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": true,
+    "role": "same_day_cash"
+  },
+  {
+    "id": "DM_4a41beab3250",
+    "spec": {
+      "name": "DM",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": true,
+    "role": "same_day_cash"
+  },
+  {
+    "id": "WM_0f22d2d3675a",
+    "spec": {
+      "name": "WM",
+      "basket": "W",
+      "risk": "M",
+      "window": 63,
+      "band": 0.0,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": true,
+    "role": "same_day_cash"
+  },
+  {
+    "id": "DD_band_78ce80bdd3f6",
+    "spec": {
+      "name": "DD_band",
+      "basket": "D",
+      "risk": "D",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": true,
+    "role": "same_day_cash"
+  },
+  {
+    "id": "DM_band_dd7a6967464d",
+    "spec": {
+      "name": "DM_band",
+      "basket": "D",
+      "risk": "M",
+      "window": 63,
+      "band": 0.05,
+      "month_offset": 0,
+      "week_offset": 0
+    },
+    "mode": "actual",
+    "start": "2025-11-06",
+    "bp": 9,
+    "gross": false,
+    "frame": "base",
+    "lag": 0,
+    "reuse": true,
+    "role": "same_day_cash"
+  }
+]

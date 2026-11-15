@@ -1,0 +1,29 @@
+{
+  "id": "s-1b8a680e27af46dd",
+  "url": "https://www.fxbaogao.com/detail/5399157",
+  "variant": "",
+  "material_status": "needs_rules",
+  "research_status": "stopped",
+  "notes_chart26_replay_20261114": {
+    "frozen_protocol": "cbfbc21aa8724ab90feefe00ae1406ef72c78c34faed5cf9badd1c7c31802eb1",
+    "shared_screen_sha256": "7af931b4b03e3a2fe7ed7d757fed80ff765246892af8524a38998dd32974717e",
+    "benchmark": "V12 existing primary policy and same engine/cost cold starts. Comparison files document old six-cycle variants.",
+    "close_out": "guosheng_implied_cycle_20261114/国盛宏观偏离策略复现.md",
+    "models": "Weekly softmax with expanding monthly fits, chart26 fixed and trailing published outcomes as diagnostic.",
+    "source_limit": "Index and ETF local approximations are not the author model. 3/14 reported argmax dates match."
+  },
+  "evidence_paths": [
+    "hibor_fxbaogao_sources_20261114/两平台策略筛选.md",
+    "hibor_fxbaogao_sources_20261114/pdf/国盛-宏观偏离与市场隐含周期.pdf",
+    "hibor_fxbaogao_sources_20261114/data_probe.json",
+    "guosheng_implied_cycle_20261114/protocol.json",
+    "guosheng_implied_cycle_20261114/evidence/figure26_page-14.png",
+    "guosheng_implied_cycle_20261114/国盛宏观偏离策略复现.md",
+    "guosheng_implied_cycle_20261114/results/signal_checks.json",
+    "guosheng_implied_cycle_20261114/results/paper_example_check.csv",
+    "guosheng_implied_cycle_20261114/results/etf_market_checks.json",
+    "guosheng_implied_cycle_20261114/results/comparison.csv",
+    "guosheng_implied_cycle_20261114/results/same_basis_screen.csv",
+    "guosheng_implied_cycle_20261114/results/validation.json"
+  ]
+}

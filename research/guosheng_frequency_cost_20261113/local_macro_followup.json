@@ -1,0 +1,10 @@
+{
+  "registered": "After the 342 first-pass replays, before these additional replays",
+  "question": "Check the immediate neighborhood where first-pass PMI smoothing and funding lookbacks had wider gaps. This follow-up is retrospective.",
+  "neighbors": {
+    "pmi_smoothing_months": [11, 13],
+    "money_market_average_observations": [29, 31],
+    "money_market_comparison_calendar_days": [85, 95]
+  },
+  "evaluation": "Keep all results in both directions and never select a winner. Reuse four frequencies, four starts, 63-session covariance, 9bp per side, 1000000 RMB, and the original data boundary."
+}

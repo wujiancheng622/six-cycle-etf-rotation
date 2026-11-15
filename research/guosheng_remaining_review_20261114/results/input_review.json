@@ -1,0 +1,44 @@
+{
+  "days": 3126,
+  "unmatched_days": 916,
+  "reason_counts": {
+    "mapped": 2210,
+    "outside_six_states": 492,
+    "neutral_component": 424
+  },
+  "longest_unmatched": {
+    "start": "2014-01-03",
+    "end": "2014-09-12",
+    "sessions": 171,
+    "phases": "3",
+    "reason": "outside_six_states/neutral_component"
+  },
+  "monthly_targets": 155,
+  "monthly_targets_with_carried_phase": 46,
+  "basket_sizes": {
+    "2": 83,
+    "3": 72
+  },
+  "median_max_capital_weight": 0.5914226869990867,
+  "p95_max_capital_weight": 0.7895623670504694,
+  "peak_capital_weight": {
+    "date": "2015-12-02",
+    "asset": "gold",
+    "weight": 0.8536875254574662
+  },
+  "monthly_source_count": 251,
+  "monthly_source_latest": "2025-06-03",
+  "data_governance_micro_checks": true,
+  "denominator_positive_rescaling_changes_no_stage": true,
+  "two_asset_inverse_vol_equals_erc": true,
+  "unknown_policy_examples": {
+    "same_basket": [
+      "dividend/bond/gold"
+    ],
+    "different_baskets": [
+      "fcf/metals",
+      "growth/metals"
+    ]
+  },
+  "limitations": "Local source archive coverage only; unmatched states are an existing declared carry rule, not a newly proven bug. Governance examples are offline pure functions, not integrated trading logic."
+}

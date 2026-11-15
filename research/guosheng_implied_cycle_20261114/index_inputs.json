@@ -1,0 +1,440 @@
+[
+  {
+    "name": "stock_all_early",
+    "endpoint": "index_daily",
+    "params": {
+      "ts_code": "000985.CSI",
+      "start_date": "20100101",
+      "end_date": "20181231"
+    },
+    "retrieved_utc": "2026-11-14T08:32:54.811002+00:00",
+    "first": "20100104",
+    "last": "20181228",
+    "rows": 2187,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "close",
+      "pre_close"
+    ],
+    "sha256": "4a7eea90c68eb7a75c6182f9411be2c0b48e1d486f05c20c0580b88518410c17"
+  },
+  {
+    "name": "stock_all_late",
+    "endpoint": "index_daily",
+    "params": {
+      "ts_code": "000985.CSI",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:32:55.145792+00:00",
+    "first": "20190102",
+    "last": "20261112",
+    "rows": 1906,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "close",
+      "pre_close"
+    ],
+    "sha256": "c0782825bf53faf04970da09c96b32de97114e1559a868793cde8cede459f56d"
+  },
+  {
+    "name": "wind_all_early",
+    "endpoint": "index_daily",
+    "params": {
+      "ts_code": "881001.WI",
+      "start_date": "20100101",
+      "end_date": "20181231"
+    },
+    "retrieved_utc": "2026-11-14T08:32:55.476477+00:00",
+    "first": null,
+    "last": null,
+    "rows": 0,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "close",
+      "pre_close"
+    ],
+    "sha256": "078940feff7484ce6f64930df8079cf9784ceec30d51290767a94c432757f92d"
+  },
+  {
+    "name": "wind_all_late",
+    "endpoint": "index_daily",
+    "params": {
+      "ts_code": "881001.WI",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:32:55.795136+00:00",
+    "first": null,
+    "last": null,
+    "rows": 0,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "close",
+      "pre_close"
+    ],
+    "sha256": "078940feff7484ce6f64930df8079cf9784ceec30d51290767a94c432757f92d"
+  },
+  {
+    "name": "cni_growth_early",
+    "endpoint": "index_daily",
+    "params": {
+      "ts_code": "399370.SZ",
+      "start_date": "20100101",
+      "end_date": "20181231"
+    },
+    "retrieved_utc": "2026-11-14T08:32:56.176154+00:00",
+    "first": "20100104",
+    "last": "20181228",
+    "rows": 2187,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "close",
+      "pre_close"
+    ],
+    "sha256": "d387120d7982211bc672ecc75bdc8661275267d8632aae8e3b49c095e72b2e6b"
+  },
+  {
+    "name": "cni_growth_late",
+    "endpoint": "index_daily",
+    "params": {
+      "ts_code": "399370.SZ",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:32:56.718818+00:00",
+    "first": "20190102",
+    "last": "20261112",
+    "rows": 1906,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "close",
+      "pre_close"
+    ],
+    "sha256": "3128ba9bc575ed66f8573e716b4d9aaed7606ee666e916f807211a696500e430"
+  },
+  {
+    "name": "cni_value_early",
+    "endpoint": "index_daily",
+    "params": {
+      "ts_code": "399371.SZ",
+      "start_date": "20100101",
+      "end_date": "20181231"
+    },
+    "retrieved_utc": "2026-11-14T08:32:57.141135+00:00",
+    "first": "20100104",
+    "last": "20181228",
+    "rows": 2187,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "close",
+      "pre_close"
+    ],
+    "sha256": "940b7f903c0970e78fe878f3a1b93acefa42ea3b7f1b365e865e6fd7cfedee60"
+  },
+  {
+    "name": "cni_value_late",
+    "endpoint": "index_daily",
+    "params": {
+      "ts_code": "399371.SZ",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:32:57.506544+00:00",
+    "first": "20190102",
+    "last": "20261112",
+    "rows": 1906,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "close",
+      "pre_close"
+    ],
+    "sha256": "363279a222f9c28ecf4cd843f973083d48f057135535ed4d38ef3807626a9f6a"
+  },
+  {
+    "name": "bond_net_early",
+    "endpoint": "index_daily",
+    "params": {
+      "ts_code": "CBA00631.CS",
+      "start_date": "20100101",
+      "end_date": "20181231"
+    },
+    "retrieved_utc": "2026-11-14T08:32:57.895614+00:00",
+    "first": null,
+    "last": null,
+    "rows": 0,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "close",
+      "pre_close"
+    ],
+    "sha256": "078940feff7484ce6f64930df8079cf9784ceec30d51290767a94c432757f92d"
+  },
+  {
+    "name": "bond_net_late",
+    "endpoint": "index_daily",
+    "params": {
+      "ts_code": "CBA00631.CS",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:32:58.214425+00:00",
+    "first": null,
+    "last": null,
+    "rows": 0,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "close",
+      "pre_close"
+    ],
+    "sha256": "078940feff7484ce6f64930df8079cf9784ceec30d51290767a94c432757f92d"
+  },
+  {
+    "name": "bond_wealth_early",
+    "endpoint": "index_daily",
+    "params": {
+      "ts_code": "CBA00601.CS",
+      "start_date": "20100101",
+      "end_date": "20181231"
+    },
+    "retrieved_utc": "2026-11-14T08:32:58.634520+00:00",
+    "first": null,
+    "last": null,
+    "rows": 0,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "close",
+      "pre_close"
+    ],
+    "sha256": "078940feff7484ce6f64930df8079cf9784ceec30d51290767a94c432757f92d"
+  },
+  {
+    "name": "bond_wealth_late",
+    "endpoint": "index_daily",
+    "params": {
+      "ts_code": "CBA00601.CS",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:32:59.012859+00:00",
+    "first": null,
+    "last": null,
+    "rows": 0,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "close",
+      "pre_close"
+    ],
+    "sha256": "078940feff7484ce6f64930df8079cf9784ceec30d51290767a94c432757f92d"
+  },
+  {
+    "name": "bond_wealth_alt_early",
+    "endpoint": "index_daily",
+    "params": {
+      "ts_code": "CBA00651.CS",
+      "start_date": "20100101",
+      "end_date": "20181231"
+    },
+    "retrieved_utc": "2026-11-14T08:32:59.399363+00:00",
+    "first": null,
+    "last": null,
+    "rows": 0,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "close",
+      "pre_close"
+    ],
+    "sha256": "078940feff7484ce6f64930df8079cf9784ceec30d51290767a94c432757f92d"
+  },
+  {
+    "name": "bond_wealth_alt_late",
+    "endpoint": "index_daily",
+    "params": {
+      "ts_code": "CBA00651.CS",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:32:59.804075+00:00",
+    "first": null,
+    "last": null,
+    "rows": 0,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "close",
+      "pre_close"
+    ],
+    "sha256": "078940feff7484ce6f64930df8079cf9784ceec30d51290767a94c432757f92d"
+  },
+  {
+    "name": "nanhua_early",
+    "endpoint": "index_daily",
+    "params": {
+      "ts_code": "NHCI.NH",
+      "start_date": "20100101",
+      "end_date": "20181231"
+    },
+    "retrieved_utc": "2026-11-14T08:33:00.205047+00:00",
+    "first": "20100104",
+    "last": "20181228",
+    "rows": 2187,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "close",
+      "pre_close"
+    ],
+    "sha256": "5325ed67b64245e8c6b5403ea38f0a4151a1e3c6e70c99f732973f93651a92f1"
+  },
+  {
+    "name": "nanhua_late",
+    "endpoint": "index_daily",
+    "params": {
+      "ts_code": "NHCI.NH",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:33:00.721135+00:00",
+    "first": "20190102",
+    "last": "20261112",
+    "rows": 1906,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "close",
+      "pre_close"
+    ],
+    "sha256": "5b656b1502652251a923b176356c8c9f6d70b8c02211f46d0413b3e7f6227ba5"
+  },
+  {
+    "name": "equity_tr_early",
+    "endpoint": "index_daily",
+    "params": {
+      "ts_code": "H00906.CSI",
+      "start_date": "20100101",
+      "end_date": "20181231"
+    },
+    "retrieved_utc": "2026-11-14T08:33:01.097712+00:00",
+    "first": "20100104",
+    "last": "20181228",
+    "rows": 2187,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "close",
+      "pre_close"
+    ],
+    "sha256": "a9dc733facfca5e4251d2093b48395f845fd2d97dcc5fa56dc7dff0e99a145a2"
+  },
+  {
+    "name": "equity_tr_late",
+    "endpoint": "index_daily",
+    "params": {
+      "ts_code": "H00906.CSI",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:33:01.547267+00:00",
+    "first": "20190102",
+    "last": "20261112",
+    "rows": 1906,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "close",
+      "pre_close"
+    ],
+    "sha256": "e74e3bd3d0cdb8ce48f3d8843009666813e9bda1c77baa5d3a41685445a0ea71"
+  },
+  {
+    "name": "equity_price_early",
+    "endpoint": "index_daily",
+    "params": {
+      "ts_code": "000906.SH",
+      "start_date": "20100101",
+      "end_date": "20181231"
+    },
+    "retrieved_utc": "2026-11-14T08:33:01.984137+00:00",
+    "first": "20100104",
+    "last": "20181228",
+    "rows": 2187,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "close",
+      "pre_close"
+    ],
+    "sha256": "865ddd5ca3f726a8b643e1bc47119e0b70a0a75740a441742742808a87182d5e"
+  },
+  {
+    "name": "equity_price_late",
+    "endpoint": "index_daily",
+    "params": {
+      "ts_code": "000906.SH",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:33:02.380232+00:00",
+    "first": "20190102",
+    "last": "20261112",
+    "rows": 1906,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "close",
+      "pre_close"
+    ],
+    "sha256": "00db0cb249c1f0539631f73d5901cade8f622574deb44cfca0a386eda704d646"
+  },
+  {
+    "name": "gold_early",
+    "endpoint": "sge_daily",
+    "params": {
+      "ts_code": "Au99.99",
+      "start_date": "20100101",
+      "end_date": "20181231"
+    },
+    "retrieved_utc": "2026-11-14T08:33:02.721210+00:00",
+    "first": "20101018",
+    "last": "20181228",
+    "rows": 2000,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "close"
+    ],
+    "sha256": "1695f9381120ff6e194b047e2797dca68c76376f12394235327ce7c09abb8aa8"
+  },
+  {
+    "name": "gold_late",
+    "endpoint": "sge_daily",
+    "params": {
+      "ts_code": "Au99.99",
+      "start_date": "20190101",
+      "end_date": "20261112"
+    },
+    "retrieved_utc": "2026-11-14T08:33:03.123632+00:00",
+    "first": "20190102",
+    "last": "20261112",
+    "rows": 1906,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "close"
+    ],
+    "sha256": "4a13c9874d301f65e9262a358a71df840cce20756b4acb398d39617bb0df1498"
+  }
+]

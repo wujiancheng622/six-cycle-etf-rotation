@@ -1,0 +1,54 @@
+[
+  {
+    "url": "https://www.sdyanbao.com/detail/933398",
+    "variant": "2025_high_risk_six_regimes",
+    "title": "六周期框架下的多资产ETF配置",
+    "platform": "国盛证券原研报摘要与作者后续说明",
+    "author": "汪宜生、刘富兵",
+    "market": "跨资产ETF",
+    "family": "macro-regime-risk-parity",
+    "published_on": "2025-11-05",
+    "checked_on": "2026-11-12",
+    "material_status": "needs_rules",
+    "research_status": "not_started",
+    "source_version": "2025-11-05公开材料，2024年中期第5–6页，2026-05-06图表1与5",
+    "reopen_reason": "用户要求沿原策略复核并尝试本地实现",
+    "decision": "从央行公开材料补齐165个月信用数据，复算-29.03%和-24.18%锚点。完整24项货币政策工具、原权重窗口和频率仍未闭合；已另登记公开数据月频重建。",
+    "reported_performance": {
+      "annual_vol_pct": 11.3,
+      "cagr_pct": 23,
+      "max_drawdown_pct": 12,
+      "status": "研报回溯结果"
+    },
+    "evidence_paths": [
+      "guosheng_six_regime_20261112/README.md",
+      "guosheng_six_regime_20261112/protocol.json",
+      "guosheng_six_regime_20261112/data/pbc/credit_monthly.csv",
+      "guosheng_six_regime_20261112/comparison.csv",
+      "guosheng_six_regime_20261112/过拟合速检.md"
+    ]
+  },
+  {
+    "url": "https://www.sdyanbao.com/detail/933398",
+    "variant": "2025_high_risk_public_data_monthly_20261112",
+    "title": "国盛六周期多资产 ETF 公开数据月频重建",
+    "platform": "国盛证券研究；本地公开数据重建",
+    "author": "汪宜生、刘富兵（研究原文）",
+    "market": "跨资产ETF",
+    "family": "macro-regime-risk-parity",
+    "published_on": "2025-11-05",
+    "checked_on": "2026-11-12",
+    "material_status": "ready",
+    "research_status": "backtested",
+    "source_version": "复用国盛阶段映射，四项可得政策工具＋DR007、三 PMI、央行新增中长期贷款，固定63日风险平价，月初调仓",
+    "reopen_reason": "用户指定复核已登记国盛原策略",
+    "decision": "2016起代理22.50%年化/18.64%回撤，发表后247日真实ETF模拟19.99%/8.91%，同期V12为6.26%/8.22%。候选值得独立确认；未完整重现国盛24项政策工具，长段包含代理。",
+    "evidence_paths": [
+      "guosheng_six_regime_20261112/README.md",
+      "guosheng_six_regime_20261112/protocol.json",
+      "guosheng_six_regime_20261112/data/pbc/credit_monthly.csv",
+      "guosheng_six_regime_20261112/comparison.csv",
+      "guosheng_six_regime_20261112/过拟合速检.md"
+    ]
+  }
+]

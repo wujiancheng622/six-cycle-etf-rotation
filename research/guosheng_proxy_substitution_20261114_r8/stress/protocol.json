@@ -1,0 +1,12 @@
+{
+  "seed": 20261114,
+  "n": 100,
+  "block": 20,
+  "capital": 500000.0,
+  "start": "2014-01-02",
+  "end": "2026-11-12",
+  "commission": 0.00015,
+  "slip": 0.0009,
+  "note": "Mean and joint residual scenarios use observed later ETF-minus-proxy errors; no probability/confidence interval claim; no fitted correction adopted; original rules remain fixed.",
+  "GS_FCF_substitute": "Old value ETF permanent; all other parameters held"
+}

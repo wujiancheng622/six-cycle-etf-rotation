@@ -1,0 +1,56 @@
+{
+  "study": "Local sensitivity of the frozen Guosheng ETF macro rotation",
+  "registered": "2026-11-13 before variant replay",
+  "primary_question": "Does small feasible movement of rebalance timing, covariance lookback, or macro signal parameters leave a neighborhood of similar results?",
+  "strategies": "Frozen GS monthly six-asset map; fixed V12 contemporaneous comparator. Diagnose sensitivity and do not select a new winner.",
+  "end": "2026-11-12",
+  "starts": {
+    "amount": ["2014-01-02", "2020-01-02"],
+    "actual": ["2025-07-01", "2025-11-06"]
+  },
+  "account": "Reuse the audited shared engine, 1m RMB, commission 1.5bp minimum 5 RMB, modeled one-way slippage 9bp. Dates align at every start. Amount fills at close, actual ETF price proxy fills at next open.",
+  "actual_risk_history": "Use earlier real return history for each selected, already listed fund even before the common six-ETF price matrix. Values on and after the common return start must equal the original audited fund returns. No proxy is allowed in actual risk estimation. If a scheduled target cannot be estimated, record the entire scenario as unavailable for that start and the exact cause.",
+  "schedule": {
+    "ordinals_from_first": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "rule": "First through fifteenth trading day of every calendar month. If the whole month is shorter, clamp to its last session; never clamp to an incomplete terminal month. All accounts independently build their baseline portfolio on the shared start; subsequent months are scheduled.",
+    "secondary": ["last trading day of each completed month", "each Monday's first session of ISO week", "first session of each calendar quarter"],
+    "delayed_execution_only": [1, 2, 3, 5],
+    "delay_rule": "Freeze the original month-start target based on the previous trading day and execute the same target 1/2/3/5 exchange sessions later. Keep that portfolio through the month until the next scheduled target. Keep original two-step refill. Shared initial portfolio at account start.",
+    "diagnostic": "Schedules use calendar trading positions, not future asset prices. The last trading day comes from the exchange calendar. Different signal reading dates allow then-known new announcements."
+  },
+  "covariance_sessions": [21, 42, 50, 56, 60, 63, 66, 70, 84, 105, 126],
+  "joint_grid": {
+    "schedule_ordinals": [0, 1, 2, 3, 4, 7, 9, 14],
+    "covariance_sessions": [42, 56, 63, 70, 84, 126]
+  },
+  "macro_one_at_a_time": {
+    "credit_change_months": [1, 2, 3, 4, 5, 6],
+    "pmi_change_months": [1, 2, 3, 4, 5, 6],
+    "pmi_smoothing_months": [6, 9, 12, 15, 18],
+    "money_market_average_observations": [20, 25, 30, 35, 40],
+    "money_market_comparison_calendar_days": [60, 75, 90, 105, 120],
+    "policy_tool_expiry_calendar_days": [60, 75, 90, 105, 120],
+    "macro_release_lag_calendar_days": [1, 3, 7]
+  },
+  "local_macro_neighbors": {
+    "credit_change_months": [2, 4],
+    "pmi_change_months": [2, 4],
+    "pmi_smoothing_months": [9, 15],
+    "money_market_average_observations": [25, 35],
+    "money_market_comparison_calendar_days": [75, 105],
+    "policy_tool_expiry_calendar_days": [75, 105]
+  },
+  "stress": {
+    "slip_bps": 20,
+    "fixed_9bp_and_20bp_cases": ["base", "schedule D2", "schedule D4", "schedule D5", "schedule D6", "schedule D10", "risk 56", "risk 70", "credit 2 and 4", "PMI change 2 and 4", "PMI smoothing 9 and 15"],
+    "fcf_clean": "Strictly mask any 980092 returns before 2024-08-16 from risk estimation, as well as no allocation or P&L until a full trailing window. Equal initial cash reserve for the excluded component in original phase as in prior cutoff study. Include baseline, the fixed joint grid, and all credit/PMI one-parameter variants for the two amount starts. No other historical proxy changes.",
+    "without_best_year": "Report CAGR after excluding 2025 for each strategy on same days, with actual selected days and year count excluded."
+  },
+  "evaluation": {
+    "windows": ["2014–2016", "2017–2019", "2020–2022", "2023–2025", "2026 YTD", "2026-07-01 to end", "2026-05-07 to end"],
+    "calendar_anchor": "Compare continuous path subwindows with a previous-close reference, and same funded cold starts as separate context.",
+    "near_plateau": "For 0–4 trading days after month-start times 56/63/70 risk, each window's CAGR spread, medians, losses relative to baseline, maximum drawdown spread and pass rates. Apply the user's definition by reporting positive margin over V12 and drawdown within 5pp, plus a descriptive +3pp return-margin screen and note that +3pp is a diagnostic rather than an agreed mandate.",
+    "isolated_peak_diagnostic": "Relative to frozen center, report close-neighbor signed differences, whether both sides are below center where defined, and warn if adjacent realizable changes cause >3pp CAGR losses. For a parameter with center on date boundary, use previous month-end and one or two sessions after month-start as neighbors. Do not infer generalization from in-sample plateau or sharpness.",
+    "timing_attribution": "Trace common month target basket changes and paired monthly log excess. Report the short-sample terminal period and the largest calendar-month differences, along with whether a dated macro release was crossed."
+  }
+}

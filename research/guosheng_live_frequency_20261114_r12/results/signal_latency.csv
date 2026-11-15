@@ -1,0 +1,17 @@
+case,days,macro_basket_changes,stale_target_days,matched_transitions,mean_sessions_to_matching_target,max_sessions_to_matching_target
+amount_2014-01-02_9bp_monthly,3126,48,580,48,40.770833333333336,787
+amount_2014-01-02_9bp_weekly,3126,48,97,48,2.0208333333333335,4
+amount_2014-01-02_9bp_daily,3126,48,0,48,0.0,0
+amount_2014-01-02_9bp_month_and_switch,3126,48,0,48,0.0,0
+amount_2020-01-02_9bp_monthly,1662,26,317,26,35.38461538461539,438
+amount_2020-01-02_9bp_weekly,1662,26,53,26,2.0384615384615383,4
+amount_2020-01-02_9bp_daily,1662,26,0,26,0.0,0
+amount_2020-01-02_9bp_month_and_switch,1662,26,0,26,0.0,0
+actual_2025-06-04_9bp_monthly,352,8,86,8,10.75,21
+actual_2025-06-04_9bp_weekly,352,8,9,8,1.125,4
+actual_2025-06-04_9bp_daily,352,8,0,8,0.0,0
+actual_2025-06-04_9bp_month_and_switch,352,8,0,8,0.0,0
+actual_2025-11-06_9bp_monthly,247,6,54,6,9.0,20
+actual_2025-11-06_9bp_weekly,247,6,5,6,0.8333333333333334,2
+actual_2025-11-06_9bp_daily,247,6,0,6,0.0,0
+actual_2025-11-06_9bp_month_and_switch,247,6,0,6,0.0,0

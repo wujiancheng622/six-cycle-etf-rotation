@@ -1,0 +1,1372 @@
+{
+  "freeze": {
+    "frozen_utc": "2026-11-15T03:30:20.627301+00:00",
+    "hashes": {
+      "guosheng_h1_h2_validation_20261115_r13\\protocol.json": "fd90d7321c745082c961e684bf4a849860781751ded83a762b960b858c46752c",
+      "guosheng_data_expansion_review_20261115\\国盛新增分析数据源整改方案_R2交叉评审修订稿.md": "5c6526b8f0c31bd14e7c2205229757da8e653118ac9df6e9d10c980fb312d6a0",
+      "guosheng_data_expansion_review_20261115\\网页端第二轮修订条款原文.md": "586547503b4db4aadf2b617c8b7b983ed6ad8a426adbdd3b0bfb0cf627d75a9a",
+      "guosheng_data_expansion_review_20261115\\网页端第二轮评审逐项回应.md": "79e436044694e31e3ce0821c320940809859cbfccadb19bb0d53e22841572a19",
+      "guosheng_final_decision_20261114\\study.py": "813d4ea96ced5b3faf51edfc2c2c60ab0a13a331bb3a07f655ebcf22390e5175",
+      "guosheng_timing_attribution_20261115\\results\\month_detail.csv": "163f9a2aa6055a86bdc7df03b93411d0a7117d8d5be709496b47f23673de9cce",
+      "guosheng_timing_attribution_20261115\\results\\asset_month_detail.csv": "5a5fac4910b70f83912e8651bb9332c602d06e6f7834331e23edac960d8aefd6",
+      "guosheng_macro_auxiliary_20261115\\decision_date_credit.csv": "0261238ad77eeedc4f9c033be8e3a2885240ce320e77cdbf8a1788d8969fe402",
+      "guosheng_final_decision_20261114\\results\\accounts\\monthly_2014-01-02_9bp\\ledger.parquet": "119cd349ce0a177450e2390e0113746d02c25dde0fb9f670a65abccc41586ac2",
+      "guosheng_final_decision_20261114\\results\\accounts\\monthly_2014-01-02_9bp\\signals.parquet": "9978cafe45f873c86001b9bb8d7ae5fc3988395158b1cef795750d34561aeb4b",
+      "guosheng_final_decision_20261114\\results\\accounts\\monthly_2014-01-02_9bp\\meta.json": "df79c6a252d78646fee4dcfb53afc40de8b104fd14c79c15582aee3b2b848f48",
+      "guosheng_final_decision_20261114\\results\\accounts\\V12_2014-01-02_9bp\\ledger.parquet": "b4d897f9c74789ffb3631518098262e70880668de1657c7b8cd480d63546693b",
+      "guosheng_final_decision_20261114\\results\\accounts\\V12_2014-01-02_9bp\\signals.parquet": "cc9171fd6491b8494dff42f117885a1b1b6430fc8a12a84a555931fb7a780931",
+      "guosheng_final_decision_20261114\\results\\accounts\\V12_2014-01-02_9bp\\meta.json": "df79c6a252d78646fee4dcfb53afc40de8b104fd14c79c15582aee3b2b848f48"
+    },
+    "prior_status": "No new H1/H2 features or fitted results read in this run; prior strategy and existing credit diagnostics already known",
+    "no_other_models_guarantee": "Cannot certify experiments in uninspected outside work"
+  },
+  "verification": {
+    "checks": 165,
+    "all_passed": true,
+    "label_error": 9.43689570931383e-16,
+    "price_error": 9.71445146547012e-16,
+    "H2_manual_formula_targets": 154,
+    "baseline_accounts_modified": false,
+    "new_strategy_backtests": 0
+  },
+  "coverage": [
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "run": "base",
+      "all_intervals": 154,
+      "eligible": 154,
+      "available": 154,
+      "missing": 0,
+      "start": "2014-01-02",
+      "end": "2026-11-02",
+      "negative_order_count": null,
+      "positive_order_count": null
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "run": "quote",
+      "all_intervals": 16,
+      "eligible": 16,
+      "available": 16,
+      "missing": 0,
+      "start": "2025-07-01",
+      "end": "2026-11-02",
+      "negative_order_count": null,
+      "positive_order_count": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "run": "base",
+      "all_intervals": 154,
+      "eligible": 77,
+      "available": 77,
+      "missing": 0,
+      "start": "2014-01-02",
+      "end": "2026-11-02",
+      "negative_order_count": 9.0,
+      "positive_order_count": 68.0
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "run": "quote",
+      "all_intervals": 16,
+      "eligible": 9,
+      "available": 9,
+      "missing": 0,
+      "start": "2025-10-09",
+      "end": "2026-11-02",
+      "negative_order_count": 3.0,
+      "positive_order_count": 6.0
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "run": "base",
+      "all_intervals": 154,
+      "eligible": 154,
+      "available": 154,
+      "missing": 0,
+      "start": "2014-01-02",
+      "end": "2026-11-02",
+      "negative_order_count": null,
+      "positive_order_count": null
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "run": "quote",
+      "all_intervals": 16,
+      "eligible": 16,
+      "available": 16,
+      "missing": 0,
+      "start": "2025-07-01",
+      "end": "2026-11-02",
+      "negative_order_count": null,
+      "positive_order_count": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "run": "base",
+      "all_intervals": 154,
+      "eligible": 77,
+      "available": 77,
+      "missing": 0,
+      "start": "2014-01-02",
+      "end": "2026-11-02",
+      "negative_order_count": 9.0,
+      "positive_order_count": 68.0
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "run": "quote",
+      "all_intervals": 16,
+      "eligible": 9,
+      "available": 9,
+      "missing": 0,
+      "start": "2025-10-09",
+      "end": "2026-11-02",
+      "negative_order_count": 3.0,
+      "positive_order_count": 6.0
+    }
+  ],
+  "primary": [
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "layer": "stage",
+      "n": 154,
+      "status": "estimated",
+      "effect_pp": 0.084594394456,
+      "lower_pp": -0.454718435972,
+      "upper_pp": 0.489253106905,
+      "bootstrap_valid": 2995,
+      "df": 147,
+      "rank_z": 6,
+      "x_residual_fraction": 0.836375332064,
+      "delta_r2": 0.000690427921
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "layer": "macro",
+      "n": 154,
+      "status": "estimated",
+      "effect_pp": 0.008851447433,
+      "lower_pp": -0.511057787202,
+      "upper_pp": 0.475325051156,
+      "bootstrap_valid": 2970,
+      "df": 143,
+      "rank_z": 10,
+      "x_residual_fraction": 0.772075391221,
+      "delta_r2": 6.97786e-06
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "layer": "price",
+      "n": 154,
+      "status": "estimated",
+      "effect_pp": 0.018187352919,
+      "lower_pp": -0.478379470444,
+      "upper_pp": 0.501012794179,
+      "bootstrap_valid": 2970,
+      "df": 142,
+      "rank_z": 11,
+      "x_residual_fraction": 0.770909835689,
+      "delta_r2": 2.941552e-05
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "layer": "stage",
+      "n": 77,
+      "status": "estimated",
+      "effect_pp": 3.1232308431,
+      "lower_pp": -0.654586613508,
+      "upper_pp": 6.346900141984,
+      "bootstrap_valid": 2918,
+      "df": 72,
+      "rank_z": 4,
+      "x_residual_fraction": 0.945792044416,
+      "delta_r2": 0.031812856434
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "layer": "macro",
+      "n": 77,
+      "status": "estimated",
+      "effect_pp": 2.409635571945,
+      "lower_pp": -4.360619428171,
+      "upper_pp": 6.432786066078,
+      "bootstrap_valid": 2866,
+      "df": 66,
+      "rank_z": 10,
+      "x_residual_fraction": 0.786624972748,
+      "delta_r2": 0.015749591743
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "layer": "price",
+      "n": 77,
+      "status": "estimated",
+      "effect_pp": 2.41092451518,
+      "lower_pp": -4.397512830886,
+      "upper_pp": 7.033129457815,
+      "bootstrap_valid": 2866,
+      "df": 65,
+      "rank_z": 11,
+      "x_residual_fraction": 0.785020660557,
+      "delta_r2": 0.015734290068
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "layer": "stage",
+      "n": 154,
+      "status": "estimated",
+      "effect_pp": 0.08262789077,
+      "lower_pp": -0.455514428918,
+      "upper_pp": 0.484801715985,
+      "bootstrap_valid": 2995,
+      "df": 147,
+      "rank_z": 6,
+      "x_residual_fraction": 0.835962910045,
+      "delta_r2": 0.000658278066
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "layer": "macro",
+      "n": 154,
+      "status": "estimated",
+      "effect_pp": 0.007185770865,
+      "lower_pp": -0.512319179877,
+      "upper_pp": 0.470502675163,
+      "bootstrap_valid": 2970,
+      "df": 143,
+      "rank_z": 10,
+      "x_residual_fraction": 0.771984044719,
+      "delta_r2": 4.597525e-06
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "layer": "price",
+      "n": 154,
+      "status": "estimated",
+      "effect_pp": 0.016829524171,
+      "lower_pp": -0.480850433051,
+      "upper_pp": 0.50099377518,
+      "bootstrap_valid": 2970,
+      "df": 142,
+      "rank_z": 11,
+      "x_residual_fraction": 0.770740510663,
+      "delta_r2": 2.5177981e-05
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "layer": "stage",
+      "n": 77,
+      "status": "estimated",
+      "effect_pp": 3.1232308431,
+      "lower_pp": -0.654586613508,
+      "upper_pp": 6.346900141984,
+      "bootstrap_valid": 2918,
+      "df": 72,
+      "rank_z": 4,
+      "x_residual_fraction": 0.945792044416,
+      "delta_r2": 0.031812856434
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "layer": "macro",
+      "n": 77,
+      "status": "estimated",
+      "effect_pp": 2.409635571945,
+      "lower_pp": -4.360619428171,
+      "upper_pp": 6.432786066078,
+      "bootstrap_valid": 2866,
+      "df": 66,
+      "rank_z": 10,
+      "x_residual_fraction": 0.786624972748,
+      "delta_r2": 0.015749591743
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "layer": "price",
+      "n": 77,
+      "status": "estimated",
+      "effect_pp": 2.41092451518,
+      "lower_pp": -4.397512830886,
+      "upper_pp": 7.033129457815,
+      "bootstrap_valid": 2866,
+      "df": 65,
+      "rank_z": 11,
+      "x_residual_fraction": 0.785020660557,
+      "delta_r2": 0.015734290068
+    }
+  ],
+  "diagnostics": [
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "variant": "neighbor_2",
+      "n": 154,
+      "status": "estimated",
+      "effect_pp": -0.072095253519,
+      "baseline_same_dates_pp": 0.018187352919
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "variant": "neighbor_4",
+      "n": 154,
+      "status": "estimated",
+      "effect_pp": 0.086249896228,
+      "baseline_same_dates_pp": 0.018187352919
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "variant": "delay_1",
+      "n": 154,
+      "status": "estimated",
+      "effect_pp": 0.018187352919,
+      "baseline_same_dates_pp": 0.018187352919
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "variant": "delay_3",
+      "n": 154,
+      "status": "estimated",
+      "effect_pp": 0.018187352919,
+      "baseline_same_dates_pp": 0.018187352919
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "variant": "neighbor_2",
+      "n": 77,
+      "status": "estimated",
+      "effect_pp": -2.531228992393,
+      "baseline_same_dates_pp": 2.41092451518
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "variant": "neighbor_4",
+      "n": 77,
+      "status": "estimated",
+      "effect_pp": -1.297051277436,
+      "baseline_same_dates_pp": 2.41092451518
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "variant": "delay_1",
+      "n": 70,
+      "status": "estimated",
+      "effect_pp": 2.525118207939,
+      "baseline_same_dates_pp": 2.525118207939
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "variant": "delay_3",
+      "n": 70,
+      "status": "estimated",
+      "effect_pp": 2.525118207939,
+      "baseline_same_dates_pp": 2.525118207939
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "variant": "latest_month",
+      "n": 77,
+      "status": "estimated",
+      "effect_pp": 1.777626704615,
+      "baseline_same_dates_pp": 2.41092451518
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "variant": "neighbor_2",
+      "n": 154,
+      "status": "estimated",
+      "effect_pp": -0.076843639695,
+      "baseline_same_dates_pp": 0.016829524171
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "variant": "neighbor_4",
+      "n": 154,
+      "status": "estimated",
+      "effect_pp": 0.086665749462,
+      "baseline_same_dates_pp": 0.016829524171
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "variant": "delay_1",
+      "n": 154,
+      "status": "estimated",
+      "effect_pp": 0.016829524171,
+      "baseline_same_dates_pp": 0.016829524171
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "variant": "delay_3",
+      "n": 154,
+      "status": "estimated",
+      "effect_pp": 0.016829524171,
+      "baseline_same_dates_pp": 0.016829524171
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "variant": "neighbor_2",
+      "n": 77,
+      "status": "estimated",
+      "effect_pp": -2.531228992393,
+      "baseline_same_dates_pp": 2.41092451518
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "variant": "neighbor_4",
+      "n": 77,
+      "status": "estimated",
+      "effect_pp": -1.297051277436,
+      "baseline_same_dates_pp": 2.41092451518
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "variant": "delay_1",
+      "n": 70,
+      "status": "estimated",
+      "effect_pp": 2.525118207939,
+      "baseline_same_dates_pp": 2.525118207939
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "variant": "delay_3",
+      "n": 70,
+      "status": "estimated",
+      "effect_pp": 2.525118207939,
+      "baseline_same_dates_pp": 2.525118207939
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "variant": "latest_month",
+      "n": 77,
+      "status": "estimated",
+      "effect_pp": 1.777626704615,
+      "baseline_same_dates_pp": 2.41092451518
+    }
+  ],
+  "segments": [
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "segment": "2014-2019",
+      "n": 72,
+      "status": "estimated",
+      "effect_pp": -0.094352114966
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "segment": "2020-2022",
+      "n": 36,
+      "status": "estimated",
+      "effect_pp": -0.200060993627
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "segment": "2023-2025",
+      "n": 36,
+      "status": "estimated",
+      "effect_pp": 0.648349356744
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "segment": "2026",
+      "n": 10,
+      "status": "estimated",
+      "effect_pp": 2.153382685226
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "segment": "2014",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": 7.889976270219
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "segment": "2015",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": -8.806834618365
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "segment": "2016",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": 6.734071651049
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "segment": "2017",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": -1.053420075846
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "segment": "2018",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": 0.680193764522
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "segment": "2019",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": -0.057464257458
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "segment": "2020",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": -3.197855645436
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "segment": "2021",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": 0.229084331737
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "segment": "2022",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": 0.110985159205
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "segment": "2023",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": -3.696267768965
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "segment": "2024",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": 2.862709429767
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "segment": "2025",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": -0.009603410601
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "segment": "2026",
+      "n": 10,
+      "status": "estimated",
+      "effect_pp": 2.153382685226
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "segment": "2014-2019",
+      "n": 30,
+      "status": "estimated",
+      "effect_pp": -1.35643199767
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "segment": "2020-2022",
+      "n": 20,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "segment": "2023-2025",
+      "n": 21,
+      "status": "estimated",
+      "effect_pp": -11.085148202084
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "segment": "2026",
+      "n": 6,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "segment": "2014",
+      "n": 6,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "segment": "2015",
+      "n": 3,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "segment": "2016",
+      "n": 9,
+      "status": "estimated",
+      "effect_pp": 0.383292818381
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "segment": "2017",
+      "n": 12,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "segment": "2018",
+      "n": 0,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "segment": "2019",
+      "n": 0,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "segment": "2020",
+      "n": 9,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "segment": "2021",
+      "n": 8,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "segment": "2022",
+      "n": 3,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "segment": "2023",
+      "n": 10,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "segment": "2024",
+      "n": 5,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "segment": "2025",
+      "n": 6,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "segment": "2026",
+      "n": 6,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "segment": "2014-2019",
+      "n": 72,
+      "status": "estimated",
+      "effect_pp": -0.101170920114
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "segment": "2020-2022",
+      "n": 36,
+      "status": "estimated",
+      "effect_pp": -0.200060993627
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "segment": "2023-2025",
+      "n": 36,
+      "status": "estimated",
+      "effect_pp": 0.648349356744
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "segment": "2026",
+      "n": 10,
+      "status": "estimated",
+      "effect_pp": 2.153382685226
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "segment": "2014",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": 6.853686371638
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "segment": "2015",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": -9.678464744595
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "segment": "2016",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": 6.804397141283
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "segment": "2017",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": -1.053420075846
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "segment": "2018",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": 0.680193764522
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "segment": "2019",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": -0.057464257458
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "segment": "2020",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": -3.197855645436
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "segment": "2021",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": 0.229084331737
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "segment": "2022",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": 0.110985159205
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "segment": "2023",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": -3.696267768965
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "segment": "2024",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": 2.862709429767
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "segment": "2025",
+      "n": 12,
+      "status": "estimated",
+      "effect_pp": -0.009603410601
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "segment": "2026",
+      "n": 10,
+      "status": "estimated",
+      "effect_pp": 2.153382685226
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "segment": "2014-2019",
+      "n": 30,
+      "status": "estimated",
+      "effect_pp": -1.35643199767
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "segment": "2020-2022",
+      "n": 20,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "segment": "2023-2025",
+      "n": 21,
+      "status": "estimated",
+      "effect_pp": -11.085148202084
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "segment": "2026",
+      "n": 6,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "segment": "2014",
+      "n": 6,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "segment": "2015",
+      "n": 3,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "segment": "2016",
+      "n": 9,
+      "status": "estimated",
+      "effect_pp": 0.383292818381
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "segment": "2017",
+      "n": 12,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "segment": "2018",
+      "n": 0,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "segment": "2019",
+      "n": 0,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "segment": "2020",
+      "n": 9,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "segment": "2021",
+      "n": 8,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "segment": "2022",
+      "n": 3,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "segment": "2023",
+      "n": 10,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "segment": "2024",
+      "n": 5,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "segment": "2025",
+      "n": 6,
+      "status": "unidentified",
+      "effect_pp": null
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "segment": "2026",
+      "n": 6,
+      "status": "unidentified",
+      "effect_pp": null
+    }
+  ],
+  "baselines": [
+    {
+      "strategy": "monthly",
+      "start": "2014-01-02",
+      "end": "2026-11-12",
+      "capital": 500000,
+      "cagr": 0.220067905049,
+      "vol": 0.122164871374,
+      "mdd": 0.186137950782,
+      "new_trade_rule": false
+    },
+    {
+      "strategy": "V12",
+      "start": "2014-01-02",
+      "end": "2026-11-12",
+      "capital": 500000,
+      "cagr": 0.113922342114,
+      "vol": 0.097639629948,
+      "mdd": 0.139605685822,
+      "new_trade_rule": false
+    }
+  ],
+  "support": [
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "cells": 21,
+      "singleton_cells": 6,
+      "cells_with_variation": 14,
+      "observations_in_varying_cells": 146
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "cells": 21,
+      "singleton_cells": 6,
+      "cells_with_variation": 15,
+      "observations_in_varying_cells": 148
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "cells": 12,
+      "singleton_cells": 3,
+      "cells_with_variation": 5,
+      "observations_in_varying_cells": 51
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "cells": 12,
+      "singleton_cells": 3,
+      "cells_with_variation": 5,
+      "observations_in_varying_cells": 51
+    }
+  ],
+  "event_summary": [
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "events": 31,
+      "estimable": 31,
+      "min_effect_pp": -0.1432540479347852,
+      "max_effect_pp": 0.2793521297936003,
+      "same_as_registered": 21
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "events": 30,
+      "estimable": 30,
+      "min_effect_pp": -0.1448141853260746,
+      "max_effect_pp": 0.2773377153407002,
+      "same_as_registered": 20
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "events": 6,
+      "estimable": 6,
+      "min_effect_pp": -0.0174040271904074,
+      "max_effect_pp": 3.2244451840255346,
+      "same_as_registered": 1
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "events": 6,
+      "estimable": 6,
+      "min_effect_pp": -0.0174040271904074,
+      "max_effect_pp": 3.2244451840255346,
+      "same_as_registered": 1
+    }
+  ],
+  "weak_order_months": [
+    {
+      "date": "2014-10-08",
+      "end": "2014-11-03",
+      "phase": 4,
+      "money": 1.0,
+      "credit": -1.0,
+      "growth": 1.0,
+      "carried": 1,
+      "basket": "fcf/bond/metals",
+      "y2": 0.031460857924,
+      "manufacturing_vote": 1.0,
+      "original_pmi_month": "2014-08"
+    },
+    {
+      "date": "2014-11-03",
+      "end": "2014-12-01",
+      "phase": 4,
+      "money": 1.0,
+      "credit": -1.0,
+      "growth": 1.0,
+      "carried": 1,
+      "basket": "fcf/bond/metals",
+      "y2": -0.018515920649,
+      "manufacturing_vote": -1.0,
+      "original_pmi_month": "2014-09"
+    },
+    {
+      "date": "2015-03-02",
+      "end": "2015-04-01",
+      "phase": 2,
+      "money": 1.0,
+      "credit": 1.0,
+      "growth": 1.0,
+      "carried": 0,
+      "basket": "growth/metals",
+      "y2": 0.050558826614,
+      "manufacturing_vote": -1.0,
+      "original_pmi_month": "2015-01"
+    },
+    {
+      "date": "2015-04-01",
+      "end": "2015-05-04",
+      "phase": 2,
+      "money": 1.0,
+      "credit": 1.0,
+      "growth": 1.0,
+      "carried": 0,
+      "basket": "growth/metals",
+      "y2": 0.029154053387,
+      "manufacturing_vote": -1.0,
+      "original_pmi_month": "2015-02"
+    },
+    {
+      "date": "2016-04-01",
+      "end": "2016-05-03",
+      "phase": 6,
+      "money": 1.0,
+      "credit": -1.0,
+      "growth": 1.0,
+      "carried": 1,
+      "basket": "dividend/bond/gold",
+      "y2": 0.003134900842,
+      "manufacturing_vote": 1.0,
+      "original_pmi_month": "2016-02"
+    },
+    {
+      "date": "2024-04-01",
+      "end": "2024-05-06",
+      "phase": 4,
+      "money": 1.0,
+      "credit": -1.0,
+      "growth": 1.0,
+      "carried": 1,
+      "basket": "fcf/bond/metals",
+      "y2": 0.013346903001,
+      "manufacturing_vote": -1.0,
+      "original_pmi_month": "2024-02"
+    },
+    {
+      "date": "2026-05-06",
+      "end": "2026-06-01",
+      "phase": 2,
+      "money": 1.0,
+      "credit": 1.0,
+      "growth": 1.0,
+      "carried": 0,
+      "basket": "growth/metals",
+      "y2": 0.048638353535,
+      "manufacturing_vote": 1.0,
+      "original_pmi_month": "2026-04"
+    },
+    {
+      "date": "2026-06-01",
+      "end": "2026-07-01",
+      "phase": 2,
+      "money": 1.0,
+      "credit": -1.0,
+      "growth": 1.0,
+      "carried": 1,
+      "basket": "growth/metals",
+      "y2": 0.095346182326,
+      "manufacturing_vote": 1.0,
+      "original_pmi_month": "2026-04"
+    },
+    {
+      "date": "2026-09-01",
+      "end": "2026-10-08",
+      "phase": 4,
+      "money": -1.0,
+      "credit": -1.0,
+      "growth": 1.0,
+      "carried": 0,
+      "basket": "fcf/bond/metals",
+      "y2": 0.051247432008,
+      "manufacturing_vote": 1.0,
+      "original_pmi_month": "2026-07"
+    }
+  ],
+  "contributions": [
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "total": 0.00018187352918954888,
+      "most_positive": {
+        "date": "2016-11-01",
+        "rx": 1.1905838527708164,
+        "ry": 0.1789534909604234,
+        "numerator": 0.2130591367344483,
+        "beta_contribution": 0.000548278330758,
+        "hypothesis": "H1",
+        "evidence": "official",
+        "layer": "price"
+      },
+      "most_negative": {
+        "date": "2022-11-01",
+        "rx": -4.169502741274857,
+        "ry": 0.1004687104045665,
+        "numerator": -0.4189045634441899,
+        "beta_contribution": -0.0010779931727518,
+        "hypothesis": "H1",
+        "evidence": "official",
+        "layer": "price"
+      }
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "total": 0.00016829524171337734,
+      "most_positive": {
+        "date": "2016-11-01",
+        "rx": 1.1913455468409109,
+        "ry": 0.1789534909604234,
+        "numerator": 0.2131954445473356,
+        "beta_contribution": 0.0005488316609572,
+        "hypothesis": "H1",
+        "evidence": "vendor",
+        "layer": "price"
+      },
+      "most_negative": {
+        "date": "2022-11-01",
+        "rx": -4.169635500970052,
+        "ry": 0.1004687104045665,
+        "numerator": -0.4189179016395598,
+        "beta_contribution": -0.0010784255181892,
+        "hypothesis": "H1",
+        "evidence": "vendor",
+        "layer": "price"
+      }
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "total": 0.024109245151797756,
+      "most_positive": {
+        "date": "2026-06-01",
+        "rx": 0.9005311482018961,
+        "ry": 0.098693747701109,
+        "numerator": 0.0888767939376279,
+        "beta_contribution": 0.014244479876523,
+        "hypothesis": "H2",
+        "evidence": "official",
+        "layer": "price"
+      },
+      "most_negative": {
+        "date": "2014-11-03",
+        "rx": 0.4256158259702277,
+        "ry": -0.064528616103996,
+        "numerator": -0.027464400241818,
+        "beta_contribution": -0.0044017800286529,
+        "hypothesis": "H2",
+        "evidence": "official",
+        "layer": "price"
+      }
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "total": 0.024109245151797756,
+      "most_positive": {
+        "date": "2026-06-01",
+        "rx": 0.9005311482018961,
+        "ry": 0.098693747701109,
+        "numerator": 0.0888767939376279,
+        "beta_contribution": 0.014244479876523,
+        "hypothesis": "H2",
+        "evidence": "vendor",
+        "layer": "price"
+      },
+      "most_negative": {
+        "date": "2014-11-03",
+        "rx": 0.4256158259702277,
+        "ry": -0.064528616103996,
+        "numerator": -0.027464400241818,
+        "beta_contribution": -0.0044017800286529,
+        "hypothesis": "H2",
+        "evidence": "vendor",
+        "layer": "price"
+      }
+    }
+  ],
+  "source_comparison": [
+    {
+      "hypothesis": "H1",
+      "evidence": "official",
+      "n": 154,
+      "effect_pp": 0.018187352919
+    },
+    {
+      "hypothesis": "H1",
+      "evidence": "vendor",
+      "n": 154,
+      "effect_pp": 0.016829524171
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "official",
+      "n": 77,
+      "effect_pp": 2.41092451518
+    },
+    {
+      "hypothesis": "H2",
+      "evidence": "vendor",
+      "n": 77,
+      "effect_pp": 2.41092451518
+    }
+  ],
+  "scope": "No trade overlay, no new strategy backtest, no parameter selection. New information tests only; all legacy data/control assumptions retained."
+}

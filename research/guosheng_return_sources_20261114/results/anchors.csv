@@ -1,0 +1,15 @@
+strategy,asset,anchor,source,start,end,observations,annual
+GS,growth,whole,399606.SZ official ChiNext total return,2010-06-01,2026-11-04,3988.0,0.06746017046295921
+GS,metals,whole,2006-2012 futures proxy; 2013-2019 official SHFE index; thereafter 159980 adjusted NAV,2006-01-04,2026-11-04,5060.0,0.02151770749589943
+GS,bond,whole,ChinaBond CBA21801 wealth index,2011-01-04,2026-11-04,3957.0,0.06162911184035496
+V12,gold,whole,"Earlier audited V12 study, RMB spot/ETF for gold or QQQ/SPY with dividends and FX",2006-01,2026-11-04,,0.08988618224331435
+GS,gold,whole,"Earlier audited V12 study, RMB spot/ETF for gold or QQQ/SPY with dividends and FX",2006-01,2026-11-04,,0.08988618224331435
+V12,nasdaq,whole,"Earlier audited V12 study, RMB spot/ETF for gold or QQQ/SPY with dividends and FX",2006-01,2026-11-04,,0.1418977410514355
+V12,sp500,whole,"Earlier audited V12 study, RMB spot/ETF for gold or QQQ/SPY with dividends and FX",2006-01,2026-11-04,,0.09888932656893634
+GS,growth,pre2020,399606.SZ official ChiNext total return,2010-06-01,2019-12-31,2332.0,0.0721314066869153
+GS,metals,pre2020,2006-2012 futures proxy; 2013-2019 official SHFE index; thereafter 159980 adjusted NAV,2006-01-04,2019-12-31,3404.0,-0.01901779701146807
+GS,bond,pre2020,ChinaBond CBA21801 wealth index,2011-01-04,2019-12-31,2252.0,0.0524250559359807
+V12,gold,pre2020,"Earlier audited V12 study, RMB spot/ETF for gold or QQQ/SPY with dividends and FX",2006-01,2019-12-31,,0.06679600167759325
+GS,gold,pre2020,"Earlier audited V12 study, RMB spot/ETF for gold or QQQ/SPY with dividends and FX",2006-01,2019-12-31,,0.06679600167759325
+V12,nasdaq,pre2020,"Earlier audited V12 study, RMB spot/ETF for gold or QQQ/SPY with dividends and FX",2006-01,2019-12-31,,0.12148398191036569
+V12,sp500,pre2020,"Earlier audited V12 study, RMB spot/ETF for gold or QQQ/SPY with dividends and FX",2006-01,2019-12-31,,0.07918900838208831

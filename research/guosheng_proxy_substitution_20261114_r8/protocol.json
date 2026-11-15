@@ -1,0 +1,28 @@
+{
+  "id": "R8_fixed_substitution_and_proxy_audit",
+  "frozen_before_new_results": true,
+  "capital": 500000,
+  "slippage_bps": [9, 20],
+  "commission": 0.00015,
+  "min_commission": 5,
+  "signal_source": "guosheng_policy_completion_20261114_r6/v2/expanded_policy_only_signals.parquet",
+  "schedule": "month first session; prior session known data; next close fractional amount model; sale proceeds next session",
+  "risk_window": 63,
+  "main_start": "2014-01-02",
+  "alternative_start": "2020-01-02",
+  "paper_end": "2025-10-31",
+  "local_end": "2026-11-12",
+  "proxy_overlap_end": "2026-11-04",
+  "fallback_candidates_selected_without_new_performance": {
+    "510880.SH": "Old listed dividend ETF; cash-distribution value exposure, not exact FCF",
+    "510030.SH": "Old listed 180 value ETF; valuation style exposure, not exact FCF"
+  },
+  "fcf_alternatives": ["original_backfill", "cash_until_rule_history_63", "cash_until_actual_ETF_history_63", "510880_until_actual_ETF_history_63", "510030_until_actual_ETF_history_63", "510880_permanent", "510030_permanent"],
+  "fcf_rule_date": "2024-08-15",
+  "first_allowed_fcf_risk_observation": "2024-08-16",
+  "substitution_note": "Separate instrument columns; own 63-day risk history, no synthetic price splice. Explicit sale and next-session purchase on carrier change. These are retrospective predeclared diagnostics, not historical ex ante choices.",
+  "proxy_method": "Actual/proxy 2x2 risk-input vs P&L-input, same engine, fee and dates for both strategies. Per-asset overlap and full common overlap are separate. No substitution to cash when estimating tracking error.",
+  "error_transport": "Per-asset overlap mean log-residual transport, plus 100 fixed-seed 20261114 20-session joint residual block stresses per strategy. GS ordinary residuals exclude structural FCF rule-selection error; full-common recent residual covariance and per-asset mean estimated separately. Only proxy-origin early rows perturbed. Conditional scenarios, not confidence intervals. Keep every run and failure.",
+  "do_not_modify_parent_inputs": true,
+  "no_trade_service_access": true
+}

@@ -1,0 +1,82 @@
+{
+  "earliest_common_quote": "2020-01-17",
+  "assets": {
+    "515800.SH": {
+      "listed": "2019-12-16",
+      "first": "2019-12-16",
+      "last": "2026-11-12",
+      "days": 1674,
+      "distributions": 1,
+      "maximum_preclose_residual": 1.1102230246251565e-16,
+      "incompatible_open_and_limit": [],
+      "reference_mark_disagreements": {},
+      "first_usable_limit": "2019-12-16"
+    },
+    "511260.SH": {
+      "listed": "2017-08-24",
+      "first": "2019-01-02",
+      "last": "2026-11-12",
+      "days": 1906,
+      "distributions": 5,
+      "maximum_preclose_residual": 0.0004000000000132786,
+      "incompatible_open_and_limit": [],
+      "reference_mark_disagreements": {},
+      "first_usable_limit": "2019-06-26"
+    },
+    "159980.SZ": {
+      "listed": "2019-12-24",
+      "first": "2019-12-24",
+      "last": "2026-11-12",
+      "days": 1668,
+      "distributions": 0,
+      "maximum_preclose_residual": 0.0010000000000000009,
+      "incompatible_open_and_limit": [
+        "2020-10-29",
+        "2021-02-18"
+      ],
+      "reference_mark_disagreements": {},
+      "first_usable_limit": "2019-12-24"
+    },
+    "159981.SZ": {
+      "listed": "2020-01-17",
+      "first": "2020-01-17",
+      "last": "2026-11-12",
+      "days": 1651,
+      "distributions": 0,
+      "maximum_preclose_residual": 0.0020000000000000018,
+      "incompatible_open_and_limit": [
+        "2021-10-21"
+      ],
+      "reference_mark_disagreements": {
+        "2020-02-26": 0.0020000000000000018
+      },
+      "first_usable_limit": "2020-01-17"
+    },
+    "159985.SZ": {
+      "listed": "2019-12-05",
+      "first": "2019-12-05",
+      "last": "2026-11-12",
+      "days": 1681,
+      "distributions": 0,
+      "maximum_preclose_residual": 0.0020000000000000018,
+      "incompatible_open_and_limit": [],
+      "reference_mark_disagreements": {
+        "2020-02-26": 0.0020000000000000018
+      },
+      "first_usable_limit": "2019-12-05"
+    },
+    "518880.SH": {
+      "listed": "2013-07-29",
+      "first": "2019-01-02",
+      "last": "2026-11-12",
+      "days": 1906,
+      "distributions": 0,
+      "maximum_preclose_residual": 0.0,
+      "incompatible_open_and_limit": [],
+      "reference_mark_disagreements": {},
+      "first_usable_limit": "2019-01-02"
+    }
+  },
+  "negative_or_zero_quote_days": 0,
+  "raw_quote_limits_policy": "No fills where the venue band conflicts with the reported open or the reference mark cannot be reconciled. Unadjusted O/C marks are retained on the latter two dates absent any dated corporate action."
+}

@@ -1,0 +1,11 @@
+key,first_actual_return,source,rows_replaced,missing_quote_dates,excluded_one_day_risk_dates,conditional_stale_marks
+csi300,2013-01-07,\\wsl.localhost\Ubuntu-24.04\home\wjc\src\new_polict\data\ext14_raw\fund_daily_510300.SH.csv,1713,[],[],False
+csi1000,2016-11-07,\\wsl.localhost\Ubuntu-24.04\home\wjc\src\new_polict\data\ext14_raw\fund_daily_512100.SH.csv,783,[],[],False
+divlow,2019-01-21,\\wsl.localhost\Ubuntu-24.04\home\wjc\src\new_polict\data\ext14_raw\fund_daily_512890.SH.csv,243,[],[],False
+bond10,2017-08-25,\\wsl.localhost\Ubuntu-24.04\home\wjc\src\new_polict\data\ext14_raw\fund_daily_511260.SH.csv,585,['2018-08-17'],"['2018-08-17', '2018-08-20']",True
+gold,2013-07-30,\\wsl.localhost\Ubuntu-24.04\home\wjc\src\new_polict\data\ext14_raw\fund_daily_518880.SH.csv,1580,[],[],False
+metals,2019-12-25,\\wsl.localhost\Ubuntu-24.04\home\wjc\src\new_polict\data\ext14_raw\fund_daily_159980.SZ.csv,17,[],[],False
+energy,2020-01-20,\\wsl.localhost\Ubuntu-24.04\home\wjc\src\new_polict\data\ext14_raw\fund_daily_159981.SZ.csv,0,[],[],False
+soy,2019-12-06,\\wsl.localhost\Ubuntu-24.04\home\wjc\src\new_polict\data\ext14_raw\fund_daily_159985.SZ.csv,30,[],[],False
+nasdaq,2013-05-16,p75_long_period_comparison_v1/input/global/nasdaq_processed.csv; independently checked boundary,0,,,
+sp500,2014-01-16,p75_long_period_comparison_v1/input/global/sp500_processed.csv; independently checked boundary,0,,,

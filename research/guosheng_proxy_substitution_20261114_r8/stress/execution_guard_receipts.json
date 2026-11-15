@@ -1,0 +1,16 @@
+[
+  {
+    "date": "2014-05-05",
+    "requested_notional": 2.1952612222540826,
+    "fees": 5.001975735100029,
+    "cash_before": 2.88855517283082e-09,
+    "strategy": "GS_monthly"
+  },
+  {
+    "date": "2017-01-03",
+    "requested_notional": 3.467006719453276,
+    "fees": 5.003120306047508,
+    "cash_before": 6.184563972055912e-10,
+    "strategy": "GS_monthly"
+  }
+]

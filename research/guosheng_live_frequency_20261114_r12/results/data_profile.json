@@ -1,0 +1,119 @@
+{
+  "state_start": "2012-01-04 00:00:00",
+  "state_end": "2026-11-12 00:00:00",
+  "policy_events": 259,
+  "categories": [
+    {
+      "category": "deposit",
+      "rows": 32,
+      "last_usable": "2025-05-20 00:00:00"
+    },
+    {
+      "category": "loan",
+      "rows": 49,
+      "last_usable": "2025-05-20 00:00:00"
+    },
+    {
+      "category": "mlf",
+      "rows": 17,
+      "last_usable": "2024-09-25 00:00:00"
+    },
+    {
+      "category": "reserve",
+      "rows": 113,
+      "last_usable": "2025-05-15 00:00:00"
+    },
+    {
+      "category": "reserve_interest",
+      "rows": 1,
+      "last_usable": "2020-04-07 00:00:00"
+    },
+    {
+      "category": "reverse_repo",
+      "rows": 33,
+      "last_usable": "2025-05-08 00:00:00"
+    },
+    {
+      "category": "slf",
+      "rows": 14,
+      "last_usable": "2025-05-08 00:00:00"
+    }
+  ],
+  "source_status": {
+    "inherited_pending_source_check": 190,
+    "official_historical_levels_date_not_first_release": 45,
+    "vendor_snapshot_historical_not_primary": 13,
+    "original_rate_table": 7,
+    "bank_original_market_report": 1,
+    "official_monthly_event_confirmed_first_release_not_verified": 1,
+    "conservative_monthly_first_confirmed": 1,
+    "original_announcement": 1
+  },
+  "timestamp_missing": 251,
+  "return_missing": {
+    "growth": 0,
+    "gold": 0,
+    "metals": 0,
+    "fcf": 0,
+    "bond": 0,
+    "dividend": 0
+  },
+  "return_duplicate_dates": 0,
+  "pmi_last": [
+    {
+      "manufacturing": 49.8,
+      "nonmanufacturing": 49.0,
+      "nonmanufacturing_ts": NaN,
+      "private": 51.5,
+      "source_release_date": NaN,
+      "available": "2026-09-01 00:00:00",
+      "nonmanufacturing_source": NaN,
+      "private_source": "https://news.smm.cn/news/104089843",
+      "manufacturing_change": 0.0008387563024641,
+      "nonmanufacturing_change": -0.0042963998388297,
+      "private_change": 0.0088142605629932,
+      "votes": 1.0,
+      "direction": 1.0,
+      "verified_official_date": "2026-08-31",
+      "private_released_used": "2026-09-01",
+      "official_date_source": "https://www.stats.gov.cn/sj/zxfb/202608/t20260831_1965154.html"
+    },
+    {
+      "manufacturing": 50.1,
+      "nonmanufacturing": 50.2,
+      "nonmanufacturing_ts": NaN,
+      "private": 52.1,
+      "source_release_date": NaN,
+      "available": "2026-09-30 00:00:00",
+      "nonmanufacturing_source": NaN,
+      "private_source": "https://www.zaobao.com.sg/news/china/story20260930-9759111",
+      "manufacturing_change": 0.0006704096891964,
+      "nonmanufacturing_change": -0.0034705814474026,
+      "private_change": 0.0026100411343867,
+      "votes": 1.0,
+      "direction": 1.0,
+      "verified_official_date": "2026-09-30",
+      "private_released_used": "2026-09-30",
+      "official_date_source": "https://www.stats.gov.cn/sj/zxfb/202609/t20260930_1965449.html"
+    },
+    {
+      "manufacturing": 49.3,
+      "nonmanufacturing": 49.7,
+      "nonmanufacturing_ts": NaN,
+      "private": 52.0,
+      "source_release_date": NaN,
+      "available": "2026-11-02 00:00:00",
+      "nonmanufacturing_source": NaN,
+      "private_source": "https://finance.stockstar.com/IG2026110200008100.shtml",
+      "manufacturing_change": 0.0030190661267726,
+      "nonmanufacturing_change": -0.0023149766534803,
+      "private_change": 0.0015936001491909,
+      "votes": 1.0,
+      "direction": 1.0,
+      "verified_official_date": "2026-10-31",
+      "private_released_used": "2026-11-02",
+      "official_date_source": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html"
+    }
+  ],
+  "state_changes": 67
+}

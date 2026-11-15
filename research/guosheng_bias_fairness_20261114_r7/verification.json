@@ -1,0 +1,104 @@
+{
+  "scope": "Existing NAV metric remeasurement only; not a fresh raw-data rerun.",
+  "rows": [
+    {
+      "study": "metals_proxy",
+      "case": "expanded_policy_pmi",
+      "period": "paper",
+      "start": "2014-01-02",
+      "end": "2025-10-31",
+      "account_capital": 1000000,
+      "max_metric_error": 2.7755575615628914e-17,
+      "cagr": 0.21569390276137623,
+      "vol": 0.1106917717105295,
+      "mdd": 0.1863968442409032,
+      "total": 9.086127636444427,
+      "days": 2876
+    },
+    {
+      "study": "metals_proxy",
+      "case": "expanded_policy_pmi",
+      "period": "2015",
+      "start": "2015-01-05",
+      "end": "2015-12-31",
+      "account_capital": 1000000,
+      "max_metric_error": 8.326672684688674e-17,
+      "cagr": 0.23690468359132266,
+      "vol": 0.12168868449339798,
+      "mdd": 0.07148587666229989,
+      "total": 0.23672469612463076,
+      "days": 244
+    },
+    {
+      "study": "metals_proxy",
+      "case": "rebuilt_monthly",
+      "period": "paper",
+      "start": "2014-01-02",
+      "end": "2025-10-31",
+      "account_capital": 1000000,
+      "max_metric_error": 5.551115123125783e-17,
+      "cagr": 0.21185907606861165,
+      "vol": 0.11273129403463106,
+      "mdd": 0.18613060179929364,
+      "total": 8.716015320949323,
+      "days": 2876
+    },
+    {
+      "study": "metals_proxy",
+      "case": "rebuilt_monthly",
+      "period": "2015",
+      "start": "2015-01-05",
+      "end": "2015-12-31",
+      "account_capital": 1000000,
+      "max_metric_error": 5.551115123125783e-17,
+      "cagr": 0.29333415508011496,
+      "vol": 0.1365405376954288,
+      "mdd": 0.0714858191314246,
+      "total": 0.29310647085372854,
+      "days": 244
+    },
+    {
+      "study": "V12_earlier_actual",
+      "case": "V12_original",
+      "period": "full",
+      "start": "2014-07-16",
+      "end": "2026-11-12",
+      "account_capital": 500000,
+      "max_metric_error": 1.3322676295501878e-15,
+      "cagr": 0.1138867931501304,
+      "vol": 0.09889483599351218,
+      "mdd": 0.13962026088831425,
+      "total": 2.7799139669955464,
+      "days": 2996
+    },
+    {
+      "study": "V12_earlier_actual",
+      "case": "V12_earlier_actual",
+      "period": "full",
+      "start": "2014-07-16",
+      "end": "2026-11-12",
+      "account_capital": 500000,
+      "max_metric_error": 8.326672684688674e-17,
+      "cagr": 0.11339285876911909,
+      "vol": 0.0991436719572819,
+      "mdd": 0.14016529758370466,
+      "total": 2.7593014367178066,
+      "days": 2996
+    }
+  ],
+  "proxy_pair": {
+    "n": 1697,
+    "start": "2013-01-04",
+    "end": "2019-12-24",
+    "correlation": 0.8908605449375145,
+    "annualized_difference_vol": 0.06902949825870239,
+    "caveat": "Two prelisting proxies, not proxy versus actual ETF tracking error."
+  },
+  "hashes": {
+    "guosheng_original_reconstruction_20261114\\results\\daily_ledger.parquet": "1297000031a3c97c73da0538667c878ec75e871d735440fd4975662387924f04",
+    "guosheng_original_reconstruction_20261114\\results\\comparison.csv": "3dc596b0d918cdc7f5d85fb45d432e97f1fb8d77daa90ecbee03ca267a2f859e",
+    "guosheng_original_reconstruction_20261114\\results\\metals_proxy_comparison.csv": "5f183c35aa8b95824628b23ff5d1026c47a5200e215f338642b313582971963a",
+    "guosheng_independent_round2_20261113\\pit\\results\\daily_nav.csv": "2ab447b8558e2fa5b361d89880e2d6df952dcf9a61f7e0c1a052abd3dd4379d8",
+    "guosheng_independent_round2_20261113\\pit\\results\\summary.csv": "941645d5ffe71b0a69238714c1fb5b318892eba096daa8121b2a28b163600ce1"
+  }
+}

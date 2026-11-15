@@ -1,0 +1,23 @@
+{
+  "delay_calendar_days": [
+    1,
+    3
+  ],
+  "policies": [
+    "monthly",
+    "weekly",
+    "daily"
+  ],
+  "scopes": [
+    [
+      "amount",
+      "2014-01-02"
+    ],
+    [
+      "actual",
+      "2025-11-06"
+    ]
+  ],
+  "bp": 9,
+  "note": "Diagnostic only: shift whole macro package availability; original previous-trading-day information cutoff and fills unchanged. Not empirical error distribution."
+}

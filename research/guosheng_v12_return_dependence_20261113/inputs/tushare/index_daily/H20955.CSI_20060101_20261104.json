@@ -1,0 +1,11 @@
+{
+  "endpoint": "index_daily",
+  "args": {
+    "start_date": "20060101",
+    "end_date": "20261104",
+    "ts_code": "H20955.CSI"
+  },
+  "rows": 5060,
+  "sha256": "f25de2ac09e5eeaf63b05b30e41732f8f3a87a29c754b0a1c8ec210adcaf9ebb",
+  "retrieved": "2026-11-13T00:24:21.809827+00:00"
+}

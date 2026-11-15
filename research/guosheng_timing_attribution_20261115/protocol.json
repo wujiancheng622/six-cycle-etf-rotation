@@ -1,0 +1,11 @@
+{
+  "objective": "Explain the existing monthly Guosheng strategy and test competing asset-drift, price-following and macro-selection explanations without changing the strategy",
+  "primary": "Frozen 2014-01-02 to 2026-11-12 pure monthly reconstruction, 500000 CNY, 1.5bp min5 commission and 9bp slippage each side",
+  "context": ["2013-04-12 longer restart under same frozen version", "2025-06-04 real-ETF quote-model restart", "2014 permanent old-value ETF instead of FCF, with existing 1% capacity"],
+  "contribution": "Daily asset PnL divided by prior NAV, fees separated; log-linked to exactly reproduce the net NAV path. Split buy-and-hold exposure vs realized weight/return covariance on daily amount ledger.",
+  "selection": "Use saved target membership, point-in-time prior 21 session return ending at receipt known date, subsequent close-to-close return from target day close to next scheduled target day close, complete intervals only. Exclude incomplete first target month for 2013 and quote restarts. Initial position is not an entry event. This diagnostic deliberately omits same-day moves and actual cash/fees.",
+  "comparisons": "All six assets, selected and omitted future returns, upside participation and downside avoidance, entry and exit cohorts, same-time newly-entered versus dropped return, retrospective average target weights versus contemporaneous target weights, crude same-size top prior-21-session price-momentum comparison. Monthly episode clustering and all calendar periods reported; no selection of horizon or best case.",
+  "uncertainty": "Paired circular monthly block bootstrap, 12 months, 3000 samples seed 20261115. Descriptive conditional interval for selected-minus-omitted and switch-relative returns; no independent sample or Bayesian likelihood asserted.",
+  "parameters": "Reuse every earlier one-at-a-time macro, risk and execution neighbor; compare same-month target membership and do not promote winners. Reuse prior fixed mapping negative controls.",
+  "validation": "Check exact PnL linkage, target dates/eligibility, monthly endpoint non-overlap, selected set matches phase when eligible, all periods and scenarios retained."
+}

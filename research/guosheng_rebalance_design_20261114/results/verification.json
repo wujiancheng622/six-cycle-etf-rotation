@@ -1,0 +1,22 @@
+{
+  "micro": {
+    "clock_semantics": true,
+    "same_basket_phase_change_not_triggered": true,
+    "future_suffix_invariance_architectures": 12,
+    "erc_hand_calculation": true
+  },
+  "books": {
+    "accounts": 221,
+    "metric_checks": 15786,
+    "max_nav_error": 3.725290298461914e-09,
+    "buffered_signals_exactly_equal_pairs": 8
+  },
+  "sha256": {
+    "analyze_design.py": "d91487b3f94cf3fb8cb80ba606c78c5c55171aaa6ebdf1a4ab58d9f1068d15a8",
+    "plot_design.py": "f732fa46b44181a21f5c90af7cde42039931039a0a71dd144482b91352223939",
+    "rebalance_study.py": "6b72714d87c9cc4df8dddae530cb80af9016d0d23062f506bb38f8127ae1b914",
+    "verify_design.py": "2bf21caa6dbaac34101f22244ea4bd948d52bee46e6efc57e9270d466eb1f59a",
+    "protocol.json": "440c1b4f2d706f1b5d43c43da0bce4975adefc1b2910b00311e33a8946620b9e",
+    "plan.json": "7d707ad337905876f1a4b6bb3ffea305dcd8ae7230e4f4b20fbb3b2cd2d4bb68"
+  }
+}

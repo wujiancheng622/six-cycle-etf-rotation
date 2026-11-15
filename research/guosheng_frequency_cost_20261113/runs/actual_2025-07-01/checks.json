@@ -1,0 +1,13 @@
+{
+  "mode": "actual",
+  "start": "2025-07-01",
+  "attempted": 86,
+  "completed": 86,
+  "archive_reconciled": [
+    "V12",
+    "monthly"
+  ],
+  "max_account_error": 6.984919309616089e-10,
+  "unavailable": [],
+  "protocol_sha256": "7b80aeab7c314800642b2d77f7482deeb4970d471a38315cc0c31e710e2c9da5"
+}

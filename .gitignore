@@ -1,0 +1,11 @@
+__pycache__/
+.venv/
+.env
+.env.*
+/inputs/
+/runs/
+*.parquet
+*.pdf
+*.zip
+/research/guosheng_aux_validation_20261115/cn_ppi.csv
+/research/guosheng_aux_validation_20261115/cn_pmi.csv

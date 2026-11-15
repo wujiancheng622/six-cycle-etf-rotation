@@ -1,0 +1,27 @@
+{
+  "mode": "amount",
+  "start": "2014-01-02",
+  "attempts": 174,
+  "completed": 174,
+  "unavailable": [],
+  "original_matched": [
+    "V12",
+    "D1_r63"
+  ],
+  "max_book_residual": 3.725290298461914e-09,
+  "inputs_sha256": {
+    "guosheng_parameter_robustness_20261113/protocol.json": "008b0dd67fd1c9a8652b6f6ca4309a08f08ea17285164592d641af435fb8d9a4",
+    "guosheng_six_regime_20261112/protocol.json": "d911899aba06a8e09dcf731050ac0dc3700988a80e5344f0cc790b10b99e77f4",
+    "guosheng_six_regime_long_20261112/protocol.json": "f90c1cb24aa09aee7a46deadf20142284163e48be149e8367831b2fb7c4f968e",
+    "guosheng_six_regime_long_20261112/coverage.json": "5b76210bfc02aed92a7f459d9e91c8c1b275c8709df57494329cac4e04981664",
+    "guosheng_six_regime_long_20261112/data/returns_gs.parquet": "a17c50be0280b561263e2e3673ff359a9118880f1bc14eb7422e33bb55c431f2",
+    "guosheng_six_regime_long_20261112/data/returns_v12.parquet": "4600f63042bbff81a50621456800fedeea187a8cf97f08e30c9e441f2c69ac99",
+    "guosheng_six_regime_long_20261112/data/macro.parquet": "04b9e95d77ddacf2efaf41bf7940b502aec4ccfde73d2a59d65b8a69d28afaad",
+    "guosheng_six_regime_long_20261112/data/pmi_as_reported.csv": "330575caf42db8c0d154fd6d51c6dbb46093e946cf3648ffa0bcac4085f3a09f",
+    "guosheng_six_regime_long_20261112/data/credit_monthly.csv": "253fa296642697c74f9990cafa5e80d2a36318fe7586246fa6ccda81ad358918",
+    "review_runs/20261111_v12_vs_three_etf/replay.py": "be96375d81dc16cda05de15368394f370ca016b3d5355f60bf9be5144e112376",
+    "guosheng_parameter_robustness_20261113/sweep.py": "035d5c1f6db1d040fd4f692a68237995fc6bc3177391737a7d83e3f96ef1f8de",
+    "guosheng_parameter_robustness_20261113/study_inputs.py": "e161eac5c77edcbd23ca3d76e003ba95037ca0b9fd5cc6c6c4052f3c48389b0c"
+  },
+  "macro_default_exact": true
+}

@@ -1,0 +1,7 @@
+{
+  "utc": "2026-11-13T05:54:00Z",
+  "stage": "preflight: before any diagnostic account result",
+  "error": "pd.testing.assert_series_equal: reconstructed stage float64 vs source nullable Int64",
+  "retained": "Original run_pmi.py and freeze.json remain unchanged",
+  "repair": "Only disable dtype-equality in baseline reconstruction assertions; retain value/index checks and use freeze_retry.json. No trading-rule or return change."
+}

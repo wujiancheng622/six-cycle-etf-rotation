@@ -1,0 +1,103 @@
+{
+  "targets": 44817,
+  "source_fingerprints": 220,
+  "held_target_delays": [
+    {
+      "mode": "actual",
+      "start": "2025-07-01",
+      "delay": 1,
+      "targets_verified": 17
+    },
+    {
+      "mode": "actual",
+      "start": "2025-07-01",
+      "delay": 2,
+      "targets_verified": 17
+    },
+    {
+      "mode": "actual",
+      "start": "2025-07-01",
+      "delay": 3,
+      "targets_verified": 17
+    },
+    {
+      "mode": "actual",
+      "start": "2025-07-01",
+      "delay": 5,
+      "targets_verified": 17
+    },
+    {
+      "mode": "actual",
+      "start": "2025-11-06",
+      "delay": 1,
+      "targets_verified": 13
+    },
+    {
+      "mode": "actual",
+      "start": "2025-11-06",
+      "delay": 2,
+      "targets_verified": 13
+    },
+    {
+      "mode": "actual",
+      "start": "2025-11-06",
+      "delay": 3,
+      "targets_verified": 13
+    },
+    {
+      "mode": "actual",
+      "start": "2025-11-06",
+      "delay": 5,
+      "targets_verified": 13
+    },
+    {
+      "mode": "amount",
+      "start": "2014-01-02",
+      "delay": 1,
+      "targets_verified": 155
+    },
+    {
+      "mode": "amount",
+      "start": "2014-01-02",
+      "delay": 2,
+      "targets_verified": 155
+    },
+    {
+      "mode": "amount",
+      "start": "2014-01-02",
+      "delay": 3,
+      "targets_verified": 155
+    },
+    {
+      "mode": "amount",
+      "start": "2014-01-02",
+      "delay": 5,
+      "targets_verified": 155
+    },
+    {
+      "mode": "amount",
+      "start": "2020-01-02",
+      "delay": 1,
+      "targets_verified": 83
+    },
+    {
+      "mode": "amount",
+      "start": "2020-01-02",
+      "delay": 2,
+      "targets_verified": 83
+    },
+    {
+      "mode": "amount",
+      "start": "2020-01-02",
+      "delay": 3,
+      "targets_verified": 83
+    },
+    {
+      "mode": "amount",
+      "start": "2020-01-02",
+      "delay": 5,
+      "targets_verified": 83
+    }
+  ],
+  "all_dates_and_comparisons_aligned": true
+}

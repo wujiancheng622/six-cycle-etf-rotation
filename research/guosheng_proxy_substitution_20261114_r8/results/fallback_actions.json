@@ -1,0 +1,18 @@
+[
+  {
+    "code": "510880.SH",
+    "dividend_events": 13,
+    "suspension_days": 0,
+    "split_date": null,
+    "first_market_reaction": null,
+    "max_abs_return": 0.1000755287009063
+  },
+  {
+    "code": "510030.SH",
+    "dividend_events": 0,
+    "suspension_days": 10,
+    "split_date": "2021-06-18",
+    "first_market_reaction": "2021-06-21",
+    "max_abs_return": 0.0998925886143931
+  }
+]

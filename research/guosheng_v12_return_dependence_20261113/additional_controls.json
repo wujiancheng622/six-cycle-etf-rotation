@@ -1,0 +1,6 @@
+{
+  "added_before_first_outcome_run": true,
+  "upside_haircut": "Only replace asset return drifts exceeding the longest observed anchor, leave underperforming assets unchanged. Compare the symmetric central sensitivity as the main scenario.",
+  "shared_carriers": "Repeat V12 with gold and metals also at comparable fixed premium marks wherever these fund NAVs exist. Apply the same metals anchor used for GS in the whole-history comparison. The primary V12 test keeps the two-QDII treatment from the original V12 analysis.",
+  "actual_reference": "Check the frozen actual-quote ledger ending on the same cutoff and report separately to avoid confusing next-open execution with economic close marks."
+}

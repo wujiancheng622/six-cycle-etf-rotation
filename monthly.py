@@ -103,7 +103,8 @@ class Policy:
         self.excluded = risk.attrs.get("excluded_risk_dates", {})
         self.pending, self.previous_basket, self.last = None, None, -2
         self.receipts = []
-        self.scheduled = calendar_targets(returns.index, f"D{case.read_offset + 1}", case.delay)
+        clock = "W" if case.schedule == "weekly" else f"D{case.read_offset + 1}"
+        self.scheduled = calendar_targets(returns.index, clock, case.delay)
         self.first_month = None
 
     def targets(self, day, known, i, nav):
@@ -114,9 +115,9 @@ class Policy:
         if pd.isna(phase):
             return None, None
         requested = tuple(self.mapping[int(phase)])
-        monthly = day in self.scheduled and day[:7] != self.first_month
         switched = self.case.schedule in ("month_and_switch", "switch_only") and requested != self.previous_basket
-        regular = monthly and self.case.schedule != "switch_only"
+        regular = (day in self.scheduled and self.case.schedule != "switch_only"
+                   and (self.case.schedule == "weekly" or day[:7] != self.first_month))
         if self.pending is None or regular or switched:
             if regular:
                 _, macro_day = self.scheduled[day]
@@ -258,7 +259,9 @@ def metrics(account, lo=None, hi=END):
                 targets=len(account.signals.loc[account.signals.date.between(l.index[0], l.index[-1])]))
 
 
-def run(input_dir, start=START, end=END):
+def run(input_dir, start=START, end=END, *, schedule="monthly"):
+    if schedule not in ("monthly", "weekly"):
+        raise ValueError("Select the frozen monthly or weekly schedule")
     returns = pd.read_parquet(input_dir / 'returns.parquet').loc[:end, list(KEYS)]
     returns.attrs['excluded_risk_dates'] = json.loads((input_dir / 'risk_exclusions.json').read_text(encoding='utf-8'))
     state = pd.read_parquet(input_dir / 'state.parquet')
@@ -268,18 +271,18 @@ def run(input_dir, start=START, end=END):
         raise ValueError('Start must be an indexed session with at least 63 preceding sessions')
     if not np.isfinite(returns.loc[start:].to_numpy()).all():
         raise ValueError('Replay returns contain missing or non-finite values')
-    policy = Policy(returns, returns, state, Case())
-    return economic('monthly', returns, policy, start)
+    policy = Policy(returns, returns, state, Case(schedule=schedule))
+    return economic(schedule, returns, policy, start)
 
 
-def main():
-    parser = argparse.ArgumentParser(description=__doc__)
+def main(schedule="monthly"):
+    parser = argparse.ArgumentParser(description=f"Offline Guosheng {schedule} replay")
     parser.add_argument('--inputs', required=True, type=Path)
     parser.add_argument('--output', required=True, type=Path)
     parser.add_argument('--start', default=START)
     parser.add_argument('--end', default=END)
     args = parser.parse_args()
-    account = run(args.inputs, args.start, args.end)
+    account = run(args.inputs, args.start, args.end, schedule=schedule)
     args.output.mkdir(parents=True, exist_ok=True)
     for field in ('ledger', 'weights', 'pnl', 'trades', 'signals'):
         getattr(account, field).to_parquet(args.output / f'{field}.parquet')

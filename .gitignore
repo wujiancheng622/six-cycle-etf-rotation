@@ -4,6 +4,8 @@ __pycache__/
 .env.*
 /inputs/
 /runs/
+/runtime/
+/logs/
 *.parquet
 *.pdf
 *.zip
